@@ -1,0 +1,142 @@
+make  all-recursive
+make[1]: Entering directory '/sources/kbd-2.0.1'
+Making all in src
+make[2]: Entering directory '/sources/kbd-2.0.1/src'
+Making all in vlock
+make[3]: Entering directory '/sources/kbd-2.0.1/src/vlock'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/kbd-2.0.1/src/vlock'
+Making all in libkeymap
+make[3]: Entering directory '/sources/kbd-2.0.1/src/libkeymap'
+make  all-am
+make[4]: Entering directory '/sources/kbd-2.0.1/src/libkeymap'
+  CC     findfile.lo
+  CC     kernel.lo
+  CC     array.lo
+  CC     common.lo
+  CC     dump.lo
+  CC     kmap.lo
+  CC     summary.lo
+  CC     loadkeys.lo
+  CC     parser.lo
+  CC     analyze.lo
+  CC     modifiers.lo
+  CC     ksyms.lo
+  CCLD   libkeymap.la
+make[4]: Leaving directory '/sources/kbd-2.0.1/src/libkeymap'
+make[3]: Leaving directory '/sources/kbd-2.0.1/src/libkeymap'
+make[3]: Entering directory '/sources/kbd-2.0.1/src'
+  CC     getfd.o
+  CC     utf8.o
+  CC     psffontop.o
+  CC     xmalloc.o
+  CC     kdmapop.o
+  CC     loadunimap.o
+  CC     kdfontop.o
+  CC     mapscrn-mapscrn.o
+  CC     loadunimap-loadunimap.o
+  CC     dumpkeys.o
+  CC     loadkeys.o
+  CC     showkey.o
+  CC     setfont.o
+  CC     mapscrn.o
+  CC     showconsolefont.o
+  CC     setleds.o
+  CC     setmetamode.o
+  CC     kbd_mode.o
+  CC     psfxtable.o
+  CC     fgconsole.o
+  CC     kbdrate.o
+  CC     chvt.o
+  CC     deallocvt.o
+  CC     openvt.o
+  CC     kbdinfo.o
+  CC     setvtrgb.o
+  CC     getkeycodes.o
+  CC     setkeycodes.o
+  AR     libcommon.a
+  AR     libfont.a
+  CCLD   mapscrn
+  CCLD   loadunimap
+  CCLD   dumpkeys
+  CCLD   loadkeys
+  CCLD   showkey
+  CCLD   setfont
+  CCLD   showconsolefont
+  CCLD   setleds
+  CCLD   kbd_mode
+  CCLD   setmetamode
+  CCLD   psfxtable
+  CCLD   fgconsole
+  CCLD   kbdrate
+  CCLD   chvt
+  CCLD   deallocvt
+  CCLD   openvt
+  CCLD   kbdinfo
+  CCLD   setvtrgb
+  CCLD   getkeycodes
+  CCLD   setkeycodes
+make[3]: Leaving directory '/sources/kbd-2.0.1/src'
+make[2]: Leaving directory '/sources/kbd-2.0.1/src'
+Making all in data
+make[2]: Entering directory '/sources/kbd-2.0.1/data'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/kbd-2.0.1/data'
+Making all in po
+make[2]: Entering directory '/sources/kbd-2.0.1/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/kbd-2.0.1/po'
+Making all in tests
+make[2]: Entering directory '/sources/kbd-2.0.1/tests'
+  CC     libkeymap-dumpkeys.o
+  CC     libkeymap-bkeymap.o
+  CC     libkeymap-mktable.o
+  CC     libkeymap-showmaps.o
+  CC     libkeymap-init.o
+  CC     libkeymap-kmap.o
+  CC     libkeymap-keys.o
+  CC     libkeymap-parse.o
+  CC     libkeymap-charset.o
+  CCLD   libkeymap-dumpkeys
+  CCLD   libkeymap-mktable
+  CCLD   libkeymap-bkeymap
+  CCLD   libkeymap-showmaps
+  CCLD   libkeymap-init
+  CCLD   libkeymap-kmap
+  CCLD   libkeymap-keys
+  CCLD   libkeymap-parse
+  CCLD   libkeymap-charset
+make[2]: Leaving directory '/sources/kbd-2.0.1/tests'
+Making all in docs
+make[2]: Entering directory '/sources/kbd-2.0.1/docs'
+Making all in man
+make[3]: Entering directory '/sources/kbd-2.0.1/docs/man'
+Making all in man1
+make[4]: Entering directory '/sources/kbd-2.0.1/docs/man/man1'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/kbd-2.0.1/docs/man/man1'
+Making all in man5
+make[4]: Entering directory '/sources/kbd-2.0.1/docs/man/man5'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/kbd-2.0.1/docs/man/man5'
+Making all in man8
+make[4]: Entering directory '/sources/kbd-2.0.1/docs/man/man8'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/kbd-2.0.1/docs/man/man8'
+make[4]: Entering directory '/sources/kbd-2.0.1/docs/man'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/kbd-2.0.1/docs/man'
+make[3]: Leaving directory '/sources/kbd-2.0.1/docs/man'
+Making all in reference
+make[3]: Entering directory '/sources/kbd-2.0.1/docs/reference'
+make[4]: Entering directory '/sources/kbd-2.0.1/docs/reference'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/kbd-2.0.1/docs/reference'
+make[3]: Leaving directory '/sources/kbd-2.0.1/docs/reference'
+make[3]: Entering directory '/sources/kbd-2.0.1/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/kbd-2.0.1/docs'
+make[2]: Leaving directory '/sources/kbd-2.0.1/docs'
+make[2]: Entering directory '/sources/kbd-2.0.1'
+make[2]: Leaving directory '/sources/kbd-2.0.1'
+make[1]: Leaving directory '/sources/kbd-2.0.1'

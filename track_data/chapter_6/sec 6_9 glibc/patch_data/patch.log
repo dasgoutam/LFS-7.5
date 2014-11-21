@@ -1,0 +1,6 @@
+patching file Makeconfig
+Hunk #1 succeeded at 259 (offset 9 lines).
+patching file nscd/nscd.h
+patching file nss/db-Makefile
+patching file sysdeps/generic/paths.h
+patching file sysdeps/unix/sysv/linux/paths.h

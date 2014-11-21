@@ -1,0 +1,14 @@
+cp-a-selinux.sh: skipped test: this system lacks SELinux support
+cp-mv-enotsup-xattr.sh: skipped test: failed to create ext2 file system
+capability.sh: skipped test: configured without libcap support
+fiemap_capable_: python missing: assuming not fiemap capable
+sparse-fiemap.sh: skipped test: current file system has insufficient FIEMAP support
+skip-seek-past-dev.sh: skipped test: failed to determine size of /dev/sda13
+problematic-chars.sh: skipped test: failed to create ext2 file system
+bind-mount-dir-cycle.sh: skipped test: This test requires mount with a working --bind option.
+capability.sh: skipped test: configured without libcap support
+chcon.sh: skipped test: this system lacks SELinux support
+selinux.sh: skipped test: this system lacks SELinux support
+writable-under-readonly.sh: skipped test: temporarily disabled
+one-file-system.sh: skipped test: This test requires mount with a working --bind option.
+read-only.sh: skipped test: failed to create ext2 file system

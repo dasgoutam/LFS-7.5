@@ -1,0 +1,83 @@
+make  all-recursive
+make[1]: Entering directory '/sources/gdbm-1.11'
+Making all in po
+make[2]: Entering directory '/sources/gdbm-1.11/po'
+make[2]: Leaving directory '/sources/gdbm-1.11/po'
+Making all in src
+make[2]: Entering directory '/sources/gdbm-1.11/src'
+  CC       err.o
+  CC       parseopt.o
+  CC       progname.o
+  CC       mem.o
+  CC       gdbmclose.lo
+  CC       gdbmcount.lo
+  CC       gdbmdelete.lo
+  CC       gdbmdump.lo
+  CC       gdbmerrno.lo
+  CC       gdbmexists.lo
+  CC       gdbmexp.lo
+  CC       gdbmfdesc.lo
+  CC       gdbmfetch.lo
+  CC       gdbmload.lo
+  CC       gdbmopen.lo
+  CC       gdbmimp.lo
+  CC       gdbmreorg.lo
+  CC       gdbmseq.lo
+  CC       gdbmsetopt.lo
+  CC       gdbmstore.lo
+  CC       gdbmsync.lo
+  CC       base64.lo
+  CC       bucket.lo
+  CC       falloc.lo
+  CC       findkey.lo
+  CC       fullio.lo
+  CC       hash.lo
+  CC       lock.lo
+  CC       mmap.lo
+  CC       update.lo
+  CC       version.lo
+  CC       datconv.o
+  CC       gram.o
+  CC       lex.o
+  CC       gdbmtool.o
+  CC       var.o
+  CC       util.o
+  CC       gdbm_load.o
+  CC       gdbm_dump.o
+  AR       libgdbmapp.a
+  CCLD     libgdbm.la
+  CCLD     gdbm_load
+  CCLD     gdbm_dump
+  CCLD     gdbmtool
+make[2]: Leaving directory '/sources/gdbm-1.11/src'
+Making all in doc
+make[2]: Entering directory '/sources/gdbm-1.11/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/gdbm-1.11/doc'
+Making all in compat
+make[2]: Entering directory '/sources/gdbm-1.11/compat'
+  CC       dbminit.lo
+  CC       fetch.lo
+  CC       delete.lo
+  CC       store.lo
+  CC       seq.lo
+  CC       close.lo
+  CC       dbmopen.lo
+  CC       dbmdelete.lo
+  CC       dbmerr.lo
+  CC       dbmstore.lo
+  CC       dbmfetch.lo
+  CC       dbmseq.lo
+  CC       dbmclose.lo
+  CC       dbmdirfno.lo
+  CC       dbmpagfno.lo
+  CC       dbmrdonly.lo
+  CCLD     libgdbm_compat.la
+make[2]: Leaving directory '/sources/gdbm-1.11/compat'
+Making all in tests
+make[2]: Entering directory '/sources/gdbm-1.11/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/gdbm-1.11/tests'
+make[2]: Entering directory '/sources/gdbm-1.11'
+make[2]: Leaving directory '/sources/gdbm-1.11'
+make[1]: Leaving directory '/sources/gdbm-1.11'

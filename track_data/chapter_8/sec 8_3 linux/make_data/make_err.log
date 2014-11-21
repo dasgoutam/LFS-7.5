@@ -1,0 +1,6 @@
+arch/x86/kernel/head_32.S: Assembler messages:
+arch/x86/kernel/head_32.S:65: Warning: shift count out of range (32 is not between 0 and 31)
+arch/x86/realmode/rm/reboot.S: Assembler messages:
+arch/x86/realmode/rm/reboot.S:155: Warning: shift count out of range (32 is not between 0 and 31)
+arch/x86/realmode/rm/reboot.S:155: Warning: shift count out of range (40 is not between 0 and 31)
+arch/x86/realmode/rm/reboot.S:155: Warning: shift count out of range (32 is not between 0 and 31)

@@ -1,0 +1,91 @@
+make  all-recursive
+make[1]: Entering directory '/sources/patch-2.7.1'
+Making all in lib
+make[2]: Entering directory '/sources/patch-2.7.1/lib'
+  GEN    alloca.h
+  GEN    configmake.h
+  GEN    c++defs.h
+  GEN    arg-nonnull.h
+  GEN    warn-on-use.h
+  GEN    sys/types.h
+  GEN    fcntl.h
+  GEN    signal.h
+  GEN    dirent.h
+  GEN    stdio.h
+  GEN    stdlib.h
+  GEN    string.h
+  GEN    sys/stat.h
+  GEN    sys/time.h
+  GEN    time.h
+  GEN    unistd.h
+  GEN    wchar.h
+  GEN    wctype.h
+make  all-am
+make[3]: Entering directory '/sources/patch-2.7.1/lib'
+  CC     backupfile.o
+  CC     c-ctype.o
+  CC     argmatch.o
+  CC     c-strcasecmp.o
+  CC     c-strncasecmp.o
+  CC     opendir-safer.o
+  CC     dirname.o
+  CC     basename.o
+  CC     dirname-lgpl.o
+  CC     basename-lgpl.o
+  CC     stripslash.o
+  CC     exitfail.o
+  CC     full-write.o
+  CC     fd-hook.o
+  CC     gettime.o
+  CC     hash.o
+  CC     gl_list.o
+  CC     gl_linked_list.o
+  CC     localcharset.o
+  CC     malloca.o
+  CC     parse-datetime.o
+  CC     progname.o
+  CC     quotearg.o
+  CC     safe-write.o
+  CC     stat-time.o
+  CC     tempname.o
+  CC     timespec.o
+  CC     dup-safer.o
+  CC     fd-safer.o
+  CC     pipe-safer.o
+  CC     verror.o
+  CC     utimens.o
+  CC     xmalloc.o
+  CC     xalloc-die.o
+  CC     gl_xlist.o
+  CC     xsize.o
+  CC     xstrndup.o
+  CC     xvasprintf.o
+  CC     xasprintf.o
+  CC     asnprintf.o
+  CC     fcntl.o
+  CC     printf-args.o
+  CC     printf-parse.o
+  CC     vasnprintf.o
+  GEN    charset.alias
+  GEN    ref-add.sed
+  GEN    ref-del.sed
+  AR     libpatch.a
+make[3]: Leaving directory '/sources/patch-2.7.1/lib'
+make[2]: Leaving directory '/sources/patch-2.7.1/lib'
+Making all in src
+make[2]: Entering directory '/sources/patch-2.7.1/src'
+  CC     inp.o
+  CC     pch.o
+  CC     patch.o
+  CC     util.o
+  CC     version.o
+  CC     merge.o
+  CCLD   patch
+make[2]: Leaving directory '/sources/patch-2.7.1/src'
+Making all in tests
+make[2]: Entering directory '/sources/patch-2.7.1/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/patch-2.7.1/tests'
+make[2]: Entering directory '/sources/patch-2.7.1'
+make[2]: Leaving directory '/sources/patch-2.7.1'
+make[1]: Leaving directory '/sources/patch-2.7.1'

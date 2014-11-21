@@ -1,0 +1,18 @@
+number.c: In function '_bc_rec_mul':
+number.c:767:14: warning: variable 'v0len' set but not used [-Wunused-but-set-variable]
+   int u0len, v0len;
+              ^
+number.c:767:7: warning: variable 'u0len' set but not used [-Wunused-but-set-variable]
+   int u0len, v0len;
+       ^
+main.c: In function 'open_new_file':
+main.c:295:12: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+       char tmp;
+            ^
+scan.c:1800:17: warning: 'yyunput' defined but not used [-Wunused-function]
+     static void yyunput (int c, register char * yy_bp )
+                 ^
+storage.c: In function 'process_params':
+storage.c:1003:11: warning: variable 'n_temp' set but not used [-Wunused-but-set-variable]
+   bc_num *n_temp;
+           ^

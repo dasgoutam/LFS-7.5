@@ -1,0 +1,9 @@
+cd doc && make TEXMF=/usr/share/texmf install-tex
+make[1]: Entering directory '/sources/texinfo-5.2/doc'
+test -n "/usr/share/texmf" || (echo "TEXMF must be set." >&2; exit 1)
+/bin/sh /sources/texinfo-5.2/build-aux/install-sh -d /usr/share/texmf/tex/texinfo /usr/share/texmf/tex/generic/epsf
+/usr/bin/install -c -m 644 ./texinfo.tex /usr/share/texmf/tex/texinfo/texinfo.tex
+/usr/bin/install -c -m 644 ./epsf.tex /usr/share/texmf/tex/generic/epsf/epsf.tex
+for f in txi-cs.tex txi-de.tex txi-en.tex txi-es.tex txi-fr.tex txi-hu.tex txi-is.tex txi-it.tex txi-nb.tex txi-nl.tex txi-nn.tex txi-pl.tex txi-pt.tex txi-ru.tex txi-sr.tex txi-tr.tex txi-uk.tex; do \
+  /usr/bin/install -c -m 644 ./$f /usr/share/texmf/tex/texinfo/$f; done
+make[1]: Leaving directory '/sources/texinfo-5.2/doc'

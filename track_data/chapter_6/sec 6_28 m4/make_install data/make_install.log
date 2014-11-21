@@ -1,0 +1,91 @@
+make  install-recursive
+make[1]: Entering directory '/sources/m4-1.4.17'
+Making install in .
+make[2]: Entering directory '/sources/m4-1.4.17'
+make[3]: Entering directory '/sources/m4-1.4.17'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/m4-1.4.17'
+make[2]: Leaving directory '/sources/m4-1.4.17'
+Making install in examples
+make[2]: Entering directory '/sources/m4-1.4.17/examples'
+make[3]: Entering directory '/sources/m4-1.4.17/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/m4-1.4.17/examples'
+make[2]: Leaving directory '/sources/m4-1.4.17/examples'
+Making install in lib
+make[2]: Entering directory '/sources/m4-1.4.17/lib'
+make  install-am
+make[3]: Entering directory '/sources/m4-1.4.17/lib'
+make[4]: Entering directory '/sources/m4-1.4.17/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /sources/m4-1.4.17/build-aux/install-sh -d /usr/lib ; \
+fi ; \
+if test -f /usr/lib/charset.alias; then \
+  sed -f ref-add.sed /usr/lib/charset.alias > /usr/lib/charset.tmp ; \
+  /usr/bin/install -c -m 644 /usr/lib/charset.tmp /usr/lib/charset.alias ; \
+  rm -f /usr/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /usr/lib/charset.tmp ; \
+    /usr/bin/install -c -m 644 /usr/lib/charset.tmp /usr/lib/charset.alias ; \
+    rm -f /usr/lib/charset.tmp ; \
+  fi ; \
+fi
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/m4-1.4.17/lib'
+make[3]: Leaving directory '/sources/m4-1.4.17/lib'
+make[2]: Leaving directory '/sources/m4-1.4.17/lib'
+Making install in src
+make[2]: Entering directory '/sources/m4-1.4.17/src'
+make[3]: Entering directory '/sources/m4-1.4.17/src'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c m4 '/usr/bin'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/m4-1.4.17/src'
+make[2]: Leaving directory '/sources/m4-1.4.17/src'
+Making install in doc
+make[2]: Entering directory '/sources/m4-1.4.17/doc'
+make[3]: Entering directory '/sources/m4-1.4.17/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./m4.info ./m4.info-1 ./m4.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/m4.info'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ./m4.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/m4-1.4.17/doc'
+make[2]: Leaving directory '/sources/m4-1.4.17/doc'
+Making install in checks
+make[2]: Entering directory '/sources/m4-1.4.17/checks'
+make[3]: Entering directory '/sources/m4-1.4.17/checks'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/m4-1.4.17/checks'
+make[2]: Leaving directory '/sources/m4-1.4.17/checks'
+Making install in tests
+make[2]: Entering directory '/sources/m4-1.4.17/tests'
+make  install-recursive
+make[3]: Entering directory '/sources/m4-1.4.17/tests'
+Making install in .
+make[4]: Entering directory '/sources/m4-1.4.17/tests'
+make[5]: Entering directory '/sources/m4-1.4.17/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/m4-1.4.17/tests'
+make[4]: Leaving directory '/sources/m4-1.4.17/tests'
+make[3]: Leaving directory '/sources/m4-1.4.17/tests'
+make[2]: Leaving directory '/sources/m4-1.4.17/tests'
+make[1]: Leaving directory '/sources/m4-1.4.17'

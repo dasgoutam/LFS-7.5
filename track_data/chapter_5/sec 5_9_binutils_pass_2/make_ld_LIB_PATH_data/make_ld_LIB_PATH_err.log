@@ -1,0 +1,9 @@
+In file included from ../../binutils-2.24/ld/ldlex-wrapper.c:26:0:
+ldlex.c: In function 'yy_scan_buffer':
+ldlex.c:3822:41: warning: declaration of 'base' shadows a global declaration [-Wshadow]
+In file included from ldlex.l:31:0,
+                 from ../../binutils-2.24/ld/ldlex-wrapper.c:26:
+../../binutils-2.24/ld/ldlang.h:478:20: warning: shadowed declaration is here [-Wshadow]
+ extern etree_type *base;
+                    ^
+

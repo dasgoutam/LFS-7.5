@@ -1,0 +1,118 @@
+aclocal-install-fail: skipped test: cannot drop directory write permissions
+amhello-cross-compile: skipped test: required program 'i586-mingw32msvc-gcc' not available
+ar-lib5a: skipped test: Microsoft 'lib' utility not available
+compile4: skipped test: Microsoft C compiler 'cl' not available
+compile5: skipped test: target OS is not MinGW
+cscope3: skipped test: required program 'cscope' not available
+destdir: skipped test: cannot drop directory write permissions
+dist-tarZ: skipped test: cannot find a working 'compress' program
+dist-shar: skipped test: required program 'shar' not available
+dist-readonly: skipped test: cannot drop file write permissions
+distcheck-override-infodir: skipped test: TeX is required, but it wasn't found by configure
+distcheck-pr10470: skipped test: system is able to remove "in use" directories
+fort2: skipped test: GNU Fortran compiler unavailable
+fort4: skipped test: GNU Fortran 77 compiler unavailable
+fort5: skipped test: GNU Fortran 77 compiler unavailable
+gcj4: skipped test: GNU Java compiler unavailable
+gcj6: skipped test: GNU Java compiler unavailable
+gettext-macros: skipped test: couldn't find or get gettext macros
+install2: skipped test: cannot drop file read permissions
+instsh3: skipped test: cannot drop file write permissions
+instdir-java: skipped test: Sun Java compiler not available
+instdir-lisp: skipped test: required program 'emacs' not available
+instdir-python: skipped test: python interpreter not available
+instdir-texi: skipped test: TeX is required, but it wasn't found by configure
+instfail-java: skipped test: Sun Java compiler not available
+instfail: skipped test: cannot drop file read permissions
+instfail-info: skipped test: cannot drop file read permissions
+instmany: skipped test: cannot drop file read permissions
+instmany-python: skipped test: python interpreter not available
+instmany-mans: skipped test: cannot drop file read permissions
+java: skipped test: Sun Java compiler not available
+instfail-libtool: skipped test: cannot drop file read permissions
+java-check: skipped test: Sun Java compiler not available
+java-clean: skipped test: Sun Java compiler not available
+java-compile-install: skipped test: Sun Java compiler not available
+java-compile-run-flat: skipped test: Sun Java interpreter not found
+java-compile-run-nested: skipped test: Sun Java interpreter not found
+java-empty-classpath: skipped test: Sun Java compiler not available
+java-extra: skipped test: Sun Java compiler not available
+java-nobase: skipped test: Sun Java compiler not available
+java-noinst: skipped test: Sun Java compiler not available
+java-rebuild: skipped test: Sun Java compiler not available
+java-uninstall: skipped test: Sun Java compiler not available
+lex-lib-external: skipped test: no system-wide lex library found
+lisp3: skipped test: required program 'emacs' not available
+lisp4: skipped test: required program 'emacs' not available
+lisp5: skipped test: required program 'emacs' not available
+lisp6: skipped test: required program 'emacs' not available
+lisp8: skipped test: required program 'emacs' not available
+lisp-loadpath: skipped test: required program 'emacs' not available
+lisp-subdir: skipped test: required program 'emacs' not available
+lisp-subdir2: skipped test: required program 'emacs' not available
+lisp-subdir-mix: skipped test: required program 'emacs' not available
+lispdry: skipped test: required program 'emacs' not available
+lisp-pr11806: skipped test: required program 'emacs' not available
+man6: skipped test: required program 'help2man' not available
+nobase-python: skipped test: python interpreter not available
+parallel-tests-unreadable: skipped test: you can still read unreadable files
+parallel-tests-log-compiler-example: skipped test: python interpreter not available
+test-trs-recover2: skipped test: you can still read unreadable files
+py-compile-basic: skipped test: python interpreter not available
+py-compile-basedir: skipped test: python interpreter not available
+py-compile-destdir: skipped test: python interpreter not available
+py-compile-option-terminate: skipped test: python interpreter not available
+python3: skipped test: python interpreter not available
+python10: skipped test: python interpreter not available
+python12: skipped test: python interpreter not available
+python-am-path-iftrue: skipped test: python interpreter not available
+python-too-old: skipped test: python interpreter not available
+python-vars: skipped test: python interpreter not available
+python-virtualenv: skipped test: python interpreter not available
+python-pr10995: skipped test: python interpreter not available
+silent-f77: skipped test: no Fortran 77 compiler available
+silent-f90: skipped test: no Fortran compiler available
+silent-many-languages: skipped test: no Fortran compiler available
+silent-texi: skipped test: TeX is required, but it wasn't found by configure
+subdir-cond-gettext: skipped test: required program 'gettext' not available
+tap-driver-stderr: skipped test: cannot drop file write permissions
+tagsub: skipped test: required program 'etags' not available
+tags-pr12372: skipped test: required program 'etags' not available
+txinfo-builddir: skipped test: TeX is required, but it wasn't found by configure
+txinfo-clean: skipped test: TeX is required, but it wasn't found by configure
+txinfo-info-in-srcdir: skipped test: TeX is required, but it wasn't found by configure
+txinfo-include: skipped test: TeX is required, but it wasn't found by configure
+txinfo-many-output-formats: skipped test: TeX is required, but it wasn't found by configure
+txinfo-many-output-formats-vpath: skipped test: TeX is required, but it wasn't found by configure
+txinfo-no-clutter: skipped test: TeX is required, but it wasn't found by configure
+txinfo-override-texinfo-tex: skipped test: TeX is required, but it wasn't found by configure
+txinfo-subdir-pr343: skipped test: TeX is required, but it wasn't found by configure
+txinfo-vtexi4: skipped test: TeX is required, but it wasn't found by configure
+txinfo-without-info-suffix: skipped test: TeX is required, but it wasn't found by configure
+txinfo23: skipped test: TeX is required, but it wasn't found by configure
+txinfo24: skipped test: TeX is required, but it wasn't found by configure
+txinfo25: skipped test: TeX is required, but it wasn't found by configure
+txinfo28: skipped test: TeX is required, but it wasn't found by configure
+uninstall-fail: skipped test: can delete files from unwritable directories
+version7: skipped test: TeX is required, but it wasn't found by configure
+compile5-w: skipped test: target OS is not MinGW
+tap-driver-stderr-w: skipped test: cannot drop file write permissions
+compile4-w: skipped test: Microsoft C compiler 'cl' not available
+instsh3-w: skipped test: cannot drop file write permissions
+parallel-tests-html: skipped test: no proper rst2html program found
+parallel-tests-html-recursive: skipped test: no proper rst2html program found
+gettext-basics: skipped test: required program 'gettext' not available
+gettext-config-rpath: skipped test: required program 'gettext' not available
+gettext-external-pr338: skipped test: required program 'gettext' not available
+gettext-intl-subdir: skipped test: required program 'gettext' not available
+gettext-pr381: skipped test: required program 'gettext' not available
+vala-headers: skipped test: required program 'valac' not available
+vala-libs: skipped test: required program 'valac' not available
+vala-mix: skipped test: required program 'valac' not available
+vala-mix2: skipped test: required program 'valac' not available
+vala-non-recursive-setup: skipped test: required program 'valac' not available
+vala-parallel: skipped test: required program 'valac' not available
+vala-per-target-flags: skipped test: required program 'valac' not available
+vala-recursive-setup: skipped test: required program 'valac' not available
+vala-vapi: skipped test: required program 'valac' not available
+vala-vpath: skipped test: required program 'valac' not available

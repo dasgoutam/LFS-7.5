@@ -1,0 +1,1679 @@
+make: Entering directory `/mnt/lfs/sources/gettext-0.18.3.2/gettext-tools/gnulib-lib'
+rm -f alloca.h-t alloca.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./alloca.in.h; \
+	} > alloca.h-t && \
+	mv -f alloca.h-t alloca.h
+rm -f configmake.h-t && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  echo '#define PREFIX "/tools"'; \
+	  echo '#define EXEC_PREFIX "/tools"'; \
+	  echo '#define BINDIR "/tools/bin"'; \
+	  echo '#define SBINDIR "/tools/sbin"'; \
+	  echo '#define LIBEXECDIR "/tools/libexec"'; \
+	  echo '#define DATAROOTDIR "/tools/share"'; \
+	  echo '#define DATADIR "/tools/share"'; \
+	  echo '#define SYSCONFDIR "/tools/etc"'; \
+	  echo '#define SHAREDSTATEDIR "/tools/com"'; \
+	  echo '#define LOCALSTATEDIR "/tools/var"'; \
+	  echo '#define INCLUDEDIR "/tools/include"'; \
+	  echo '#define OLDINCLUDEDIR "/usr/include"'; \
+	  echo '#define DOCDIR "/tools/share/doc/gettext"'; \
+	  echo '#define INFODIR "/tools/share/info"'; \
+	  echo '#define HTMLDIR "/tools/share/doc/gettext"'; \
+	  echo '#define DVIDIR "/tools/share/doc/gettext"'; \
+	  echo '#define PDFDIR "/tools/share/doc/gettext"'; \
+	  echo '#define PSDIR "/tools/share/doc/gettext"'; \
+	  echo '#define LIBDIR "/tools/lib"'; \
+	  echo '#define LISPDIR "/tools/share/emacs/site-lisp"'; \
+	  echo '#define LOCALEDIR "/tools/share/locale"'; \
+	  echo '#define MANDIR "/tools/share/man"'; \
+	  echo '#define MANEXT ""'; \
+	  echo '#define PKGDATADIR "/tools/share/gettext"'; \
+	  echo '#define PKGINCLUDEDIR "/tools/include/gettext-tools"'; \
+	  echo '#define PKGLIBDIR "/tools/lib/gettext-tools"'; \
+	  echo '#define PKGLIBEXECDIR "/tools/libexec/gettext-tools"'; \
+	} | sed '/""/d' > configmake.h-t && \
+	mv -f configmake.h-t configmake.h
+rm -f c++defs.h-t c++defs.h && \
+	sed -n -e '/_GL_CXXDEFS/,$p' \
+	  < ../../build-aux/snippet/c++defs.h \
+	  > c++defs.h-t && \
+	mv c++defs.h-t c++defs.h
+rm -f arg-nonnull.h-t arg-nonnull.h && \
+	sed -n -e '/GL_ARG_NONNULL/,$p' \
+	  < ../../build-aux/snippet/arg-nonnull.h \
+	  > arg-nonnull.h-t && \
+	mv arg-nonnull.h-t arg-nonnull.h
+rm -f warn-on-use.h-t warn-on-use.h && \
+	sed -n -e '/^.ifndef/,$p' \
+	  < ../../build-aux/snippet/warn-on-use.h \
+	  > warn-on-use.h-t && \
+	mv warn-on-use.h-t warn-on-use.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./glib.in.h; \
+	} > glib.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./glibconfig.in.h; \
+	} > glibconfig.h-t
+test -d glib || /tools/bin/mkdir -p glib
+mv -f glib.h-t glib.h
+mv -f glibconfig.h-t glibconfig.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./glib/ghash.in.h; \
+	} > glib/ghash.h-t
+test -d glib || /tools/bin/mkdir -p glib
+test -d glib || /tools/bin/mkdir -p glib
+test -d glib || /tools/bin/mkdir -p glib
+mv -f glib/ghash.h-t glib/ghash.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./glib/glist.in.h; \
+	} > glib/glist.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./glib/gprimes.in.h; \
+	} > glib/gprimes.h-t
+test -d glib || /tools/bin/mkdir -p glib
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./glib/gstrfuncs.in.h; \
+	} > glib/gstrfuncs.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./glib/gstring.in.h; \
+	} > glib/gstring.h-t
+mv -f glib/gstrfuncs.h-t glib/gstrfuncs.h
+mv -f glib/glist.h-t glib/glist.h
+test -d glib || /tools/bin/mkdir -p glib
+mv -f glib/gstring.h-t glib/gstring.h
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f glib/gprimes.h-t glib/gprimes.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./glib/gtypes.in.h; \
+	} > glib/gtypes.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/DOCBparser.in.h; \
+	} > libxml/DOCBparser.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/HTMLparser.in.h; \
+	} > libxml/HTMLparser.h-t
+mv -f glib/gtypes.h-t glib/gtypes.h
+mv -f libxml/DOCBparser.h-t libxml/DOCBparser.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/HTMLtree.in.h; \
+	} > libxml/HTMLtree.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/HTMLparser.h-t libxml/HTMLparser.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/SAX2.in.h; \
+	} > libxml/SAX2.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/HTMLtree.h-t libxml/HTMLtree.h
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/SAX.in.h; \
+	} > libxml/SAX.h-t
+mv -f libxml/SAX2.h-t libxml/SAX2.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/c14n.in.h; \
+	} > libxml/c14n.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/catalog.in.h; \
+	} > libxml/catalog.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/SAX.h-t libxml/SAX.h
+mv -f libxml/c14n.h-t libxml/c14n.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/chvalid.in.h; \
+	} > libxml/chvalid.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/catalog.h-t libxml/catalog.h
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/debugXML.in.h; \
+	} > libxml/debugXML.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/chvalid.h-t libxml/chvalid.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/dict.in.h; \
+	} > libxml/dict.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/encoding.in.h; \
+	} > libxml/encoding.h-t
+mv -f libxml/debugXML.h-t libxml/debugXML.h
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/dict.h-t libxml/dict.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/entities.in.h; \
+	} > libxml/entities.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/encoding.h-t libxml/encoding.h
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/globals.in.h; \
+	} > libxml/globals.h-t
+mv -f libxml/entities.h-t libxml/entities.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/hash.in.h; \
+	} > libxml/hash.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/list.in.h; \
+	} > libxml/list.h-t
+mv -f libxml/globals.h-t libxml/globals.h
+mv -f libxml/hash.h-t libxml/hash.h
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/list.h-t libxml/list.h
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/nanoftp.in.h; \
+	} > libxml/nanoftp.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/nanohttp.in.h; \
+	} > libxml/nanohttp.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/parser.in.h; \
+	} > libxml/parser.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/parserInternals.in.h; \
+	} > libxml/parserInternals.h-t
+mv -f libxml/nanohttp.h-t libxml/nanohttp.h
+mv -f libxml/nanoftp.h-t libxml/nanoftp.h
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/parser.h-t libxml/parser.h
+mv -f libxml/parserInternals.h-t libxml/parserInternals.h
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/pattern.in.h; \
+	} > libxml/pattern.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/relaxng.in.h; \
+	} > libxml/relaxng.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/schemasInternals.in.h; \
+	} > libxml/schemasInternals.h-t
+mv -f libxml/pattern.h-t libxml/pattern.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/schematron.in.h; \
+	} > libxml/schematron.h-t
+mv -f libxml/relaxng.h-t libxml/relaxng.h
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/schemasInternals.h-t libxml/schemasInternals.h
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/schematron.h-t libxml/schematron.h
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/threads.in.h; \
+	} > libxml/threads.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/tree.in.h; \
+	} > libxml/tree.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/uri.in.h; \
+	} > libxml/uri.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/valid.in.h; \
+	} > libxml/valid.h-t
+mv -f libxml/threads.h-t libxml/threads.h
+mv -f libxml/tree.h-t libxml/tree.h
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/uri.h-t libxml/uri.h
+mv -f libxml/valid.h-t libxml/valid.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xinclude.in.h; \
+	} > libxml/xinclude.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xlink.in.h; \
+	} > libxml/xlink.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/xinclude.h-t libxml/xinclude.h
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/xlink.h-t libxml/xlink.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlIO.in.h; \
+	} > libxml/xmlIO.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlautomata.in.h; \
+	} > libxml/xmlautomata.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlerror.in.h; \
+	} > libxml/xmlerror.h-t
+mv -f libxml/xmlIO.h-t libxml/xmlIO.h
+mv -f libxml/xmlautomata.h-t libxml/xmlautomata.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlexports.in.h; \
+	} > libxml/xmlexports.h-t
+mv -f libxml/xmlerror.h-t libxml/xmlerror.h
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/xmlexports.h-t libxml/xmlexports.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlmemory.in.h; \
+	} > libxml/xmlmemory.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlmodule.in.h; \
+	} > libxml/xmlmodule.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlreader.in.h; \
+	} > libxml/xmlreader.h-t
+mv -f libxml/xmlmemory.h-t libxml/xmlmemory.h
+mv -f libxml/xmlmodule.h-t libxml/xmlmodule.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlregexp.in.h; \
+	} > libxml/xmlregexp.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/xmlreader.h-t libxml/xmlreader.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlsave.in.h; \
+	} > libxml/xmlsave.h-t
+mv -f libxml/xmlregexp.h-t libxml/xmlregexp.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlschemas.in.h; \
+	} > libxml/xmlschemas.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/xmlsave.h-t libxml/xmlsave.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlschemastypes.in.h; \
+	} > libxml/xmlschemastypes.h-t
+mv -f libxml/xmlschemas.h-t libxml/xmlschemas.h
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlstring.in.h; \
+	} > libxml/xmlstring.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlunicode.in.h; \
+	} > libxml/xmlunicode.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlversion.in.h; \
+	} > libxml/xmlversion.h-t
+mv -f libxml/xmlschemastypes.h-t libxml/xmlschemastypes.h
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/xmlunicode.h-t libxml/xmlunicode.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xmlwriter.in.h; \
+	} > libxml/xmlwriter.h-t
+mv -f libxml/xmlversion.h-t libxml/xmlversion.h
+mv -f libxml/xmlstring.h-t libxml/xmlstring.h
+test -d libxml || /tools/bin/mkdir -p libxml
+test -d libxml || /tools/bin/mkdir -p libxml
+mv -f libxml/xmlwriter.h-t libxml/xmlwriter.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xpath.in.h; \
+	} > libxml/xpath.h-t
+test -d libxml || /tools/bin/mkdir -p libxml
+rm -f locale.h-t locale.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_LOCALE_H''@|<locale.h>|g' \
+	      -e 's/@''GNULIB_LOCALECONV''@/IN_GETTEXT_TOOLS_LIBGREP/g' \
+	      -e 's/@''GNULIB_SETLOCALE''@/1/g' \
+	      -e 's/@''GNULIB_DUPLOCALE''@/0/g' \
+	      -e 's|@''HAVE_DUPLOCALE''@|1|g' \
+	      -e 's|@''HAVE_XLOCALE_H''@|1|g' \
+	      -e 's|@''REPLACE_LOCALECONV''@|0|g' \
+	      -e 's|@''REPLACE_SETLOCALE''@|0|g' \
+	      -e 's|@''REPLACE_DUPLOCALE''@|0|g' \
+	      -e 's|@''REPLACE_STRUCT_LCONV''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./locale.in.h; \
+	} > locale.h-t && \
+	mv locale.h-t locale.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xpathInternals.in.h; \
+	} > libxml/xpathInternals.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./libxml/xpointer.in.h; \
+	} > libxml/xpointer.h-t
+mv -f libxml/xpath.h-t libxml/xpath.h
+mv -f libxml/xpathInternals.h-t libxml/xpathInternals.h
+rm -f signal.h-t signal.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_SIGNAL_H''@|<signal.h>|g' \
+	      -e 's|@''GNULIB_PTHREAD_SIGMASK''@|0|g' \
+	      -e 's|@''GNULIB_RAISE''@|1|g' \
+	      -e 's/@''GNULIB_SIGNAL_H_SIGPIPE''@/1/g' \
+	      -e 's/@''GNULIB_SIGPROCMASK''@/1/g' \
+	      -e 's/@''GNULIB_SIGACTION''@/1/g' \
+	      -e 's|@''HAVE_POSIX_SIGNALBLOCKING''@|1|g' \
+	      -e 's|@''HAVE_PTHREAD_SIGMASK''@|1|g' \
+	      -e 's|@''HAVE_RAISE''@|1|g' \
+	      -e 's|@''HAVE_SIGSET_T''@|1|g' \
+	      -e 's|@''HAVE_SIGINFO_T''@|1|g' \
+	      -e 's|@''HAVE_SIGACTION''@|1|g' \
+	      -e 's|@''HAVE_STRUCT_SIGACTION_SA_SIGACTION''@|1|g' \
+	      -e 's|@''HAVE_TYPE_VOLATILE_SIG_ATOMIC_T''@|1|g' \
+	      -e 's|@''HAVE_SIGHANDLER_T''@|1|g' \
+	      -e 's|@''REPLACE_PTHREAD_SIGMASK''@|0|g' \
+	      -e 's|@''REPLACE_RAISE''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./signal.in.h; \
+	} > signal.h-t && \
+	mv signal.h-t signal.h
+mv -f libxml/xpointer.h-t libxml/xpointer.h
+rm -f unused-parameter.h-t unused-parameter.h && \
+	sed -n -e '/GL_UNUSED_PARAMETER/,$p' \
+	  < ../../build-aux/snippet/unused-parameter.h \
+	  > unused-parameter.h-t && \
+	mv unused-parameter.h-t unused-parameter.h
+rm -f spawn.h-t spawn.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''HAVE_SPAWN_H''@|1|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_SPAWN_H''@|<spawn.h>|g' \
+	      -e 's/@''GNULIB_POSIX_SPAWN''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNP''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWN_FILE_ACTIONS_INIT''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWN_FILE_ACTIONS_ADDCLOSE''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWN_FILE_ACTIONS_ADDDUP2''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWN_FILE_ACTIONS_ADDOPEN''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWN_FILE_ACTIONS_DESTROY''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_INIT''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_GETFLAGS''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_SETFLAGS''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_GETPGROUP''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_SETPGROUP''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_GETSCHEDPARAM''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_SETSCHEDPARAM''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_GETSCHEDPOLICY''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_SETSCHEDPOLICY''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_GETSIGDEFAULT''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_SETSIGDEFAULT''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_GETSIGMASK''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_SETSIGMASK''@/1/g' \
+	      -e 's/@''GNULIB_POSIX_SPAWNATTR_DESTROY''@/1/g' \
+	      -e 's|@''HAVE_POSIX_SPAWN''@|1|g' \
+	      -e 's|@''HAVE_POSIX_SPAWNATTR_T''@|1|g' \
+	      -e 's|@''HAVE_POSIX_SPAWN_FILE_ACTIONS_T''@|1|g' \
+	      -e 's|@''REPLACE_POSIX_SPAWN''@|0|g' \
+	      -e 's|@''REPLACE_POSIX_SPAWN_FILE_ACTIONS_ADDCLOSE''@|0|g' \
+	      -e 's|@''REPLACE_POSIX_SPAWN_FILE_ACTIONS_ADDDUP2''@|0|g' \
+	      -e 's|@''REPLACE_POSIX_SPAWN_FILE_ACTIONS_ADDOPEN''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./spawn.in.h; \
+	} > spawn.h-t && \
+	mv spawn.h-t spawn.h
+rm -f stdio.h-t stdio.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_STDIO_H''@|<stdio.h>|g' \
+	      -e 's/@''GNULIB_DPRINTF''@/0/g' \
+	      -e 's/@''GNULIB_FCLOSE''@/0/g' \
+	      -e 's/@''GNULIB_FDOPEN''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_FFLUSH''@/0/g' \
+	      -e 's/@''GNULIB_FGETC''@/1/g' \
+	      -e 's/@''GNULIB_FGETS''@/1/g' \
+	      -e 's/@''GNULIB_FOPEN''@/1/g' \
+	      -e 's/@''GNULIB_FPRINTF''@/1/g' \
+	      -e 's/@''GNULIB_FPRINTF_POSIX''@/0/g' \
+	      -e 's/@''GNULIB_FPURGE''@/0/g' \
+	      -e 's/@''GNULIB_FPUTC''@/1/g' \
+	      -e 's/@''GNULIB_FPUTS''@/1/g' \
+	      -e 's/@''GNULIB_FREAD''@/1/g' \
+	      -e 's/@''GNULIB_FREOPEN''@/0/g' \
+	      -e 's/@''GNULIB_FSCANF''@/1/g' \
+	      -e 's/@''GNULIB_FSEEK''@/0/g' \
+	      -e 's/@''GNULIB_FSEEKO''@/0/g' \
+	      -e 's/@''GNULIB_FTELL''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_FTELLO''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_FWRITE''@/1/g' \
+	      -e 's/@''GNULIB_GETC''@/1/g' \
+	      -e 's/@''GNULIB_GETCHAR''@/1/g' \
+	      -e 's/@''GNULIB_GETDELIM''@/1/g' \
+	      -e 's/@''GNULIB_GETLINE''@/1/g' \
+	      -e 's/@''GNULIB_OBSTACK_PRINTF''@/0/g' \
+	      -e 's/@''GNULIB_OBSTACK_PRINTF_POSIX''@/0/g' \
+	      -e 's/@''GNULIB_PCLOSE''@/0/g' \
+	      -e 's/@''GNULIB_PERROR''@/0/g' \
+	      -e 's/@''GNULIB_POPEN''@/0/g' \
+	      -e 's/@''GNULIB_PRINTF''@/1/g' \
+	      -e 's/@''GNULIB_PRINTF_POSIX''@/0/g' \
+	      -e 's/@''GNULIB_PUTC''@/1/g' \
+	      -e 's/@''GNULIB_PUTCHAR''@/1/g' \
+	      -e 's/@''GNULIB_PUTS''@/1/g' \
+	      -e 's/@''GNULIB_REMOVE''@/0/g' \
+	      -e 's/@''GNULIB_RENAME''@/0/g' \
+	      -e 's/@''GNULIB_RENAMEAT''@/0/g' \
+	      -e 's/@''GNULIB_SCANF''@/1/g' \
+	      -e 's/@''GNULIB_SNPRINTF''@/1/g' \
+	      -e 's/@''GNULIB_SPRINTF_POSIX''@/0/g' \
+	      -e 's/@''GNULIB_STDIO_H_NONBLOCKING''@/0/g' \
+	      -e 's/@''GNULIB_STDIO_H_SIGPIPE''@/1/g' \
+	      -e 's/@''GNULIB_TMPFILE''@/0/g' \
+	      -e 's/@''GNULIB_VASPRINTF''@/1/g' \
+	      -e 's/@''GNULIB_VDPRINTF''@/0/g' \
+	      -e 's/@''GNULIB_VFPRINTF''@/1/g' \
+	      -e 's/@''GNULIB_VFPRINTF_POSIX''@/0/g' \
+	      -e 's/@''GNULIB_VFSCANF''@/0/g' \
+	      -e 's/@''GNULIB_VSCANF''@/0/g' \
+	      -e 's/@''GNULIB_VPRINTF''@/1/g' \
+	      -e 's/@''GNULIB_VPRINTF_POSIX''@/0/g' \
+	      -e 's/@''GNULIB_VSNPRINTF''@/1/g' \
+	      -e 's/@''GNULIB_VSPRINTF_POSIX''@/0/g' \
+	      < ./stdio.in.h | \
+	  sed -e 's|@''HAVE_DECL_FPURGE''@|1|g' \
+	      -e 's|@''HAVE_DECL_FSEEKO''@|1|g' \
+	      -e 's|@''HAVE_DECL_FTELLO''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETDELIM''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLINE''@|1|g' \
+	      -e 's|@''HAVE_DECL_OBSTACK_PRINTF''@|1|g' \
+	      -e 's|@''HAVE_DECL_SNPRINTF''@|1|g' \
+	      -e 's|@''HAVE_DECL_VSNPRINTF''@|1|g' \
+	      -e 's|@''HAVE_DPRINTF''@|1|g' \
+	      -e 's|@''HAVE_FSEEKO''@|1|g' \
+	      -e 's|@''HAVE_FTELLO''@|1|g' \
+	      -e 's|@''HAVE_PCLOSE''@|1|g' \
+	      -e 's|@''HAVE_POPEN''@|1|g' \
+	      -e 's|@''HAVE_RENAMEAT''@|1|g' \
+	      -e 's|@''HAVE_VASPRINTF''@|1|g' \
+	      -e 's|@''HAVE_VDPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_DPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_FCLOSE''@|0|g' \
+	      -e 's|@''REPLACE_FDOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FFLUSH''@|0|g' \
+	      -e 's|@''REPLACE_FOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_FPURGE''@|0|g' \
+	      -e 's|@''REPLACE_FREOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FSEEK''@|0|g' \
+	      -e 's|@''REPLACE_FSEEKO''@|0|g' \
+	      -e 's|@''REPLACE_FTELL''@|0|g' \
+	      -e 's|@''REPLACE_FTELLO''@|0|g' \
+	      -e 's|@''REPLACE_GETDELIM''@|0|g' \
+	      -e 's|@''REPLACE_GETLINE''@|0|g' \
+	      -e 's|@''REPLACE_OBSTACK_PRINTF''@|0|g' \
+	      -e 's|@''REPLACE_PERROR''@|0|g' \
+	      -e 's|@''REPLACE_POPEN''@|0|g' \
+	      -e 's|@''REPLACE_PRINTF''@|0|g' \
+	      -e 's|@''REPLACE_REMOVE''@|0|g' \
+	      -e 's|@''REPLACE_RENAME''@|0|g' \
+	      -e 's|@''REPLACE_RENAMEAT''@|0|g' \
+	      -e 's|@''REPLACE_SNPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_SPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_STDIO_READ_FUNCS''@|0|g' \
+	      -e 's|@''REPLACE_STDIO_WRITE_FUNCS''@|0|g' \
+	      -e 's|@''REPLACE_TMPFILE''@|0|g' \
+	      -e 's|@''REPLACE_VASPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VDPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VFPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VSNPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VSPRINTF''@|0|g' \
+	      -e 's|@''ASM_SYMBOL_PREFIX''@|""|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+	} > stdio.h-t && \
+	mv stdio.h-t stdio.h
+rm -f stdlib.h-t stdlib.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_STDLIB_H''@|<stdlib.h>|g' \
+	      -e 's/@''GNULIB__EXIT''@/0/g' \
+	      -e 's/@''GNULIB_ATOLL''@/0/g' \
+	      -e 's/@''GNULIB_CALLOC_POSIX''@/0/g' \
+	      -e 's/@''GNULIB_CANONICALIZE_FILE_NAME''@/1/g' \
+	      -e 's/@''GNULIB_GETLOADAVG''@/0/g' \
+	      -e 's/@''GNULIB_GETSUBOPT''@/0/g' \
+	      -e 's/@''GNULIB_GRANTPT''@/0/g' \
+	      -e 's/@''GNULIB_MALLOC_POSIX''@/1/g' \
+	      -e 's/@''GNULIB_MBTOWC''@/(IN_GETTEXT_TOOLS_GNULIB_TESTS || IN_GETTEXT_TOOLS_LIBGREP)/g' \
+	      -e 's/@''GNULIB_MKDTEMP''@/1/g' \
+	      -e 's/@''GNULIB_MKOSTEMP''@/0/g' \
+	      -e 's/@''GNULIB_MKOSTEMPS''@/0/g' \
+	      -e 's/@''GNULIB_MKSTEMP''@/0/g' \
+	      -e 's/@''GNULIB_MKSTEMPS''@/0/g' \
+	      -e 's/@''GNULIB_POSIX_OPENPT''@/0/g' \
+	      -e 's/@''GNULIB_PTSNAME''@/0/g' \
+	      -e 's/@''GNULIB_PTSNAME_R''@/0/g' \
+	      -e 's/@''GNULIB_PUTENV''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_RANDOM''@/0/g' \
+	      -e 's/@''GNULIB_RANDOM_R''@/0/g' \
+	      -e 's/@''GNULIB_REALLOC_POSIX''@/1/g' \
+	      -e 's/@''GNULIB_REALPATH''@/1/g' \
+	      -e 's/@''GNULIB_RPMATCH''@/0/g' \
+	      -e 's/@''GNULIB_SECURE_GETENV''@/1/g' \
+	      -e 's/@''GNULIB_SETENV''@/1/g' \
+	      -e 's/@''GNULIB_STRTOD''@/0/g' \
+	      -e 's/@''GNULIB_STRTOLL''@/0/g' \
+	      -e 's/@''GNULIB_STRTOULL''@/0/g' \
+	      -e 's/@''GNULIB_SYSTEM_POSIX''@/0/g' \
+	      -e 's/@''GNULIB_UNLOCKPT''@/0/g' \
+	      -e 's/@''GNULIB_UNSETENV''@/1/g' \
+	      -e 's/@''GNULIB_WCTOMB''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      < ./stdlib.in.h | \
+	  sed -e 's|@''HAVE__EXIT''@|1|g' \
+	      -e 's|@''HAVE_ATOLL''@|1|g' \
+	      -e 's|@''HAVE_CANONICALIZE_FILE_NAME''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLOADAVG''@|1|g' \
+	      -e 's|@''HAVE_GETSUBOPT''@|1|g' \
+	      -e 's|@''HAVE_GRANTPT''@|1|g' \
+	      -e 's|@''HAVE_MKDTEMP''@|1|g' \
+	      -e 's|@''HAVE_MKOSTEMP''@|1|g' \
+	      -e 's|@''HAVE_MKOSTEMPS''@|1|g' \
+	      -e 's|@''HAVE_MKSTEMP''@|1|g' \
+	      -e 's|@''HAVE_MKSTEMPS''@|1|g' \
+	      -e 's|@''HAVE_POSIX_OPENPT''@|1|g' \
+	      -e 's|@''HAVE_PTSNAME''@|1|g' \
+	      -e 's|@''HAVE_PTSNAME_R''@|1|g' \
+	      -e 's|@''HAVE_RANDOM''@|1|g' \
+	      -e 's|@''HAVE_RANDOM_H''@|1|g' \
+	      -e 's|@''HAVE_RANDOM_R''@|1|g' \
+	      -e 's|@''HAVE_REALPATH''@|1|g' \
+	      -e 's|@''HAVE_RPMATCH''@|1|g' \
+	      -e 's|@''HAVE_SECURE_GETENV''@|1|g' \
+	      -e 's|@''HAVE_DECL_SETENV''@|1|g' \
+	      -e 's|@''HAVE_STRTOD''@|1|g' \
+	      -e 's|@''HAVE_STRTOLL''@|1|g' \
+	      -e 's|@''HAVE_STRTOULL''@|1|g' \
+	      -e 's|@''HAVE_STRUCT_RANDOM_DATA''@|1|g' \
+	      -e 's|@''HAVE_SYS_LOADAVG_H''@|0|g' \
+	      -e 's|@''HAVE_UNLOCKPT''@|1|g' \
+	      -e 's|@''HAVE_DECL_UNSETENV''@|1|g' \
+	      -e 's|@''REPLACE_CALLOC''@|0|g' \
+	      -e 's|@''REPLACE_CANONICALIZE_FILE_NAME''@|0|g' \
+	      -e 's|@''REPLACE_MALLOC''@|0|g' \
+	      -e 's|@''REPLACE_MBTOWC''@|0|g' \
+	      -e 's|@''REPLACE_MKSTEMP''@|0|g' \
+	      -e 's|@''REPLACE_PTSNAME''@|0|g' \
+	      -e 's|@''REPLACE_PTSNAME_R''@|0|g' \
+	      -e 's|@''REPLACE_PUTENV''@|0|g' \
+	      -e 's|@''REPLACE_RANDOM_R''@|0|g' \
+	      -e 's|@''REPLACE_REALLOC''@|0|g' \
+	      -e 's|@''REPLACE_REALPATH''@|0|g' \
+	      -e 's|@''REPLACE_SETENV''@|0|g' \
+	      -e 's|@''REPLACE_STRTOD''@|0|g' \
+	      -e 's|@''REPLACE_UNSETENV''@|0|g' \
+	      -e 's|@''REPLACE_WCTOMB''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _Noreturn/r ../../build-aux/snippet/_Noreturn.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+	} > stdlib.h-t && \
+	mv stdlib.h-t stdlib.h
+rm -f string.h-t string.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_STRING_H''@|<string.h>|g' \
+	      -e 's/@''GNULIB_FFSL''@/0/g' \
+	      -e 's/@''GNULIB_FFSLL''@/0/g' \
+	      -e 's/@''GNULIB_MBSLEN''@/1/g' \
+	      -e 's/@''GNULIB_MBSNLEN''@/0/g' \
+	      -e 's/@''GNULIB_MBSCHR''@/0/g' \
+	      -e 's/@''GNULIB_MBSRCHR''@/0/g' \
+	      -e 's/@''GNULIB_MBSSTR''@/1/g' \
+	      -e 's/@''GNULIB_MBSCASECMP''@/0/g' \
+	      -e 's/@''GNULIB_MBSNCASECMP''@/0/g' \
+	      -e 's/@''GNULIB_MBSPCASECMP''@/0/g' \
+	      -e 's/@''GNULIB_MBSCASESTR''@/0/g' \
+	      -e 's/@''GNULIB_MBSCSPN''@/0/g' \
+	      -e 's/@''GNULIB_MBSPBRK''@/0/g' \
+	      -e 's/@''GNULIB_MBSSPN''@/0/g' \
+	      -e 's/@''GNULIB_MBSSEP''@/0/g' \
+	      -e 's/@''GNULIB_MBSTOK_R''@/0/g' \
+	      -e 's/@''GNULIB_MEMCHR''@/1/g' \
+	      -e 's/@''GNULIB_MEMMEM''@/0/g' \
+	      -e 's/@''GNULIB_MEMPCPY''@/0/g' \
+	      -e 's/@''GNULIB_MEMRCHR''@/0/g' \
+	      -e 's/@''GNULIB_RAWMEMCHR''@/1/g' \
+	      -e 's/@''GNULIB_STPCPY''@/1/g' \
+	      -e 's/@''GNULIB_STPNCPY''@/1/g' \
+	      -e 's/@''GNULIB_STRCHRNUL''@/1/g' \
+	      -e 's/@''GNULIB_STRDUP''@/0/g' \
+	      -e 's/@''GNULIB_STRNCAT''@/0/g' \
+	      -e 's/@''GNULIB_STRNDUP''@/0/g' \
+	      -e 's/@''GNULIB_STRNLEN''@/1/g' \
+	      -e 's/@''GNULIB_STRPBRK''@/1/g' \
+	      -e 's/@''GNULIB_STRSEP''@/0/g' \
+	      -e 's/@''GNULIB_STRSTR''@/1/g' \
+	      -e 's/@''GNULIB_STRCASESTR''@/0/g' \
+	      -e 's/@''GNULIB_STRTOK_R''@/0/g' \
+	      -e 's/@''GNULIB_STRERROR''@/1/g' \
+	      -e 's/@''GNULIB_STRERROR_R''@/0/g' \
+	      -e 's/@''GNULIB_STRSIGNAL''@/0/g' \
+	      -e 's/@''GNULIB_STRVERSCMP''@/0/g' \
+	      < ./string.in.h | \
+	  sed -e 's|@''HAVE_FFSL''@|1|g' \
+	      -e 's|@''HAVE_FFSLL''@|1|g' \
+	      -e 's|@''HAVE_MBSLEN''@|0|g' \
+	      -e 's|@''HAVE_MEMCHR''@|1|g' \
+	      -e 's|@''HAVE_DECL_MEMMEM''@|1|g' \
+	      -e 's|@''HAVE_MEMPCPY''@|1|g' \
+	      -e 's|@''HAVE_DECL_MEMRCHR''@|1|g' \
+	      -e 's|@''HAVE_RAWMEMCHR''@|1|g' \
+	      -e 's|@''HAVE_STPCPY''@|1|g' \
+	      -e 's|@''HAVE_STPNCPY''@|1|g' \
+	      -e 's|@''HAVE_STRCHRNUL''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRDUP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNDUP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNLEN''@|1|g' \
+	      -e 's|@''HAVE_STRPBRK''@|1|g' \
+	      -e 's|@''HAVE_STRSEP''@|1|g' \
+	      -e 's|@''HAVE_STRCASESTR''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRTOK_R''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRERROR_R''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRSIGNAL''@|1|g' \
+	      -e 's|@''HAVE_STRVERSCMP''@|1|g' \
+	      -e 's|@''REPLACE_STPNCPY''@|0|g' \
+	      -e 's|@''REPLACE_MEMCHR''@|0|g' \
+	      -e 's|@''REPLACE_MEMMEM''@|0|g' \
+	      -e 's|@''REPLACE_STRCASESTR''@|0|g' \
+	      -e 's|@''REPLACE_STRCHRNUL''@|0|g' \
+	      -e 's|@''REPLACE_STRDUP''@|0|g' \
+	      -e 's|@''REPLACE_STRSTR''@|0|g' \
+	      -e 's|@''REPLACE_STRERROR''@|0|g' \
+	      -e 's|@''REPLACE_STRERROR_R''@|0|g' \
+	      -e 's|@''REPLACE_STRNCAT''@|0|g' \
+	      -e 's|@''REPLACE_STRNDUP''@|0|g' \
+	      -e 's|@''REPLACE_STRNLEN''@|0|g' \
+	      -e 's|@''REPLACE_STRSIGNAL''@|0|g' \
+	      -e 's|@''REPLACE_STRTOK_R''@|0|g' \
+	      -e 's|@''UNDEFINE_STRTOK_R''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+	      < ./string.in.h; \
+	} > string.h-t && \
+	mv string.h-t string.h
+/tools/bin/mkdir -p sys
+rm -f sys/select.h-t sys/select.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_SYS_SELECT_H''@|<sys/select.h>|g' \
+	      -e 's|@''HAVE_SYS_SELECT_H''@|1|g' \
+	      -e 's/@''GNULIB_PSELECT''@/0/g' \
+	      -e 's/@''GNULIB_SELECT''@/0/g' \
+	      -e 's|@''HAVE_WINSOCK2_H''@|0|g' \
+	      -e 's|@''HAVE_PSELECT''@|1|g' \
+	      -e 's|@''REPLACE_PSELECT''@|0|g' \
+	      -e 's|@''REPLACE_SELECT''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./sys_select.in.h; \
+	} > sys/select.h-t && \
+	mv sys/select.h-t sys/select.h
+/tools/bin/mkdir -p sys
+rm -f sys/stat.h-t sys/stat.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_SYS_STAT_H''@|<sys/stat.h>|g' \
+	      -e 's|@''WINDOWS_64_BIT_ST_SIZE''@|0|g' \
+	      -e 's/@''GNULIB_FCHMODAT''@/0/g' \
+	      -e 's/@''GNULIB_FSTAT''@/1/g' \
+	      -e 's/@''GNULIB_FSTATAT''@/0/g' \
+	      -e 's/@''GNULIB_FUTIMENS''@/0/g' \
+	      -e 's/@''GNULIB_LCHMOD''@/0/g' \
+	      -e 's/@''GNULIB_LSTAT''@/1/g' \
+	      -e 's/@''GNULIB_MKDIRAT''@/0/g' \
+	      -e 's/@''GNULIB_MKFIFO''@/0/g' \
+	      -e 's/@''GNULIB_MKFIFOAT''@/0/g' \
+	      -e 's/@''GNULIB_MKNOD''@/0/g' \
+	      -e 's/@''GNULIB_MKNODAT''@/0/g' \
+	      -e 's/@''GNULIB_STAT''@/1/g' \
+	      -e 's/@''GNULIB_UTIMENSAT''@/0/g' \
+	      -e 's|@''HAVE_FCHMODAT''@|1|g' \
+	      -e 's|@''HAVE_FSTATAT''@|1|g' \
+	      -e 's|@''HAVE_FUTIMENS''@|1|g' \
+	      -e 's|@''HAVE_LCHMOD''@|1|g' \
+	      -e 's|@''HAVE_LSTAT''@|1|g' \
+	      -e 's|@''HAVE_MKDIRAT''@|1|g' \
+	      -e 's|@''HAVE_MKFIFO''@|1|g' \
+	      -e 's|@''HAVE_MKFIFOAT''@|1|g' \
+	      -e 's|@''HAVE_MKNOD''@|1|g' \
+	      -e 's|@''HAVE_MKNODAT''@|1|g' \
+	      -e 's|@''HAVE_UTIMENSAT''@|1|g' \
+	      -e 's|@''REPLACE_FSTAT''@|0|g' \
+	      -e 's|@''REPLACE_FSTATAT''@|0|g' \
+	      -e 's|@''REPLACE_FUTIMENS''@|0|g' \
+	      -e 's|@''REPLACE_LSTAT''@|0|g' \
+	      -e 's|@''REPLACE_MKDIR''@|0|g' \
+	      -e 's|@''REPLACE_MKFIFO''@|0|g' \
+	      -e 's|@''REPLACE_MKNOD''@|0|g' \
+	      -e 's|@''REPLACE_STAT''@|0|g' \
+	      -e 's|@''REPLACE_UTIMENSAT''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./sys_stat.in.h; \
+	} > sys/stat.h-t && \
+	mv sys/stat.h-t sys/stat.h
+/tools/bin/mkdir -p sys
+rm -f sys/time.h-t sys/time.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's/@''HAVE_SYS_TIME_H''@/1/g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_SYS_TIME_H''@|<sys/time.h>|g' \
+	      -e 's/@''GNULIB_GETTIMEOFDAY''@/1/g' \
+	      -e 's|@''HAVE_WINSOCK2_H''@|0|g' \
+	      -e 's/@''HAVE_GETTIMEOFDAY''@/1/g' \
+	      -e 's/@''HAVE_STRUCT_TIMEVAL''@/1/g' \
+	      -e 's/@''REPLACE_GETTIMEOFDAY''@/0/g' \
+	      -e 's/@''REPLACE_STRUCT_TIMEVAL''@/0/g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./sys_time.in.h; \
+	} > sys/time.h-t && \
+	mv sys/time.h-t sys/time.h
+/tools/bin/mkdir -p sys
+rm -f sys/types.h-t sys/types.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_SYS_TYPES_H''@|<sys/types.h>|g' \
+	      -e 's|@''WINDOWS_64_BIT_OFF_T''@|0|g' \
+	      < ./sys_types.in.h; \
+	} > sys/types.h-t && \
+	mv sys/types.h-t sys/types.h
+/tools/bin/mkdir -p sys
+rm -f sys/wait.h-t sys/wait.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_SYS_WAIT_H''@|<sys/wait.h>|g' \
+	      -e 's/@''GNULIB_WAITPID''@/1/g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./sys_wait.in.h; \
+	} > sys/wait.h-t && \
+	mv sys/wait.h-t sys/wait.h
+rm -f time.h-t time.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_TIME_H''@|<time.h>|g' \
+	      -e 's/@''GNULIB_MKTIME''@/0/g' \
+	      -e 's/@''GNULIB_NANOSLEEP''@/0/g' \
+	      -e 's/@''GNULIB_STRPTIME''@/0/g' \
+	      -e 's/@''GNULIB_TIMEGM''@/0/g' \
+	      -e 's/@''GNULIB_TIME_R''@/0/g' \
+	      -e 's|@''HAVE_DECL_LOCALTIME_R''@|1|g' \
+	      -e 's|@''HAVE_NANOSLEEP''@|1|g' \
+	      -e 's|@''HAVE_STRPTIME''@|1|g' \
+	      -e 's|@''HAVE_TIMEGM''@|1|g' \
+	      -e 's|@''REPLACE_LOCALTIME_R''@|GNULIB_PORTCHECK|g' \
+	      -e 's|@''REPLACE_MKTIME''@|GNULIB_PORTCHECK|g' \
+	      -e 's|@''REPLACE_NANOSLEEP''@|GNULIB_PORTCHECK|g' \
+	      -e 's|@''REPLACE_TIMEGM''@|GNULIB_PORTCHECK|g' \
+	      -e 's|@''PTHREAD_H_DEFINES_STRUCT_TIMESPEC''@|0|g' \
+	      -e 's|@''SYS_TIME_H_DEFINES_STRUCT_TIMESPEC''@|0|g' \
+	      -e 's|@''TIME_H_DEFINES_STRUCT_TIMESPEC''@|1|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./time.in.h; \
+	} > time.h-t && \
+	mv time.h-t time.h
+rm -f uniconv.h-t uniconv.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./uniconv.in.h; \
+	} > uniconv.h-t && \
+	mv -f uniconv.h-t uniconv.h
+rm -f unilbrk.h-t unilbrk.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./unilbrk.in.h; \
+	} > unilbrk.h-t && \
+	mv -f unilbrk.h-t unilbrk.h
+rm -f uniname.h-t uniname.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./uniname.in.h; \
+	} > uniname.h-t && \
+	mv -f uniname.h-t uniname.h
+rm -f unistd.h-t unistd.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''HAVE_UNISTD_H''@|1|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_UNISTD_H''@|<unistd.h>|g' \
+	      -e 's|@''WINDOWS_64_BIT_OFF_T''@|0|g' \
+	      -e 's/@''GNULIB_CHDIR''@/0/g' \
+	      -e 's/@''GNULIB_CHOWN''@/0/g' \
+	      -e 's/@''GNULIB_CLOSE''@/1/g' \
+	      -e 's/@''GNULIB_DUP''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_DUP2''@/1/g' \
+	      -e 's/@''GNULIB_DUP3''@/0/g' \
+	      -e 's/@''GNULIB_ENVIRON''@/1/g' \
+	      -e 's/@''GNULIB_EUIDACCESS''@/0/g' \
+	      -e 's/@''GNULIB_FACCESSAT''@/0/g' \
+	      -e 's/@''GNULIB_FCHDIR''@/0/g' \
+	      -e 's/@''GNULIB_FCHOWNAT''@/0/g' \
+	      -e 's/@''GNULIB_FDATASYNC''@/0/g' \
+	      -e 's/@''GNULIB_FSYNC''@/0/g' \
+	      -e 's/@''GNULIB_FTRUNCATE''@/0/g' \
+	      -e 's/@''GNULIB_GETCWD''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_GETDOMAINNAME''@/0/g' \
+	      -e 's/@''GNULIB_GETDTABLESIZE''@/1/g' \
+	      -e 's/@''GNULIB_GETGROUPS''@/0/g' \
+	      -e 's/@''GNULIB_GETHOSTNAME''@/0/g' \
+	      -e 's/@''GNULIB_GETLOGIN''@/0/g' \
+	      -e 's/@''GNULIB_GETLOGIN_R''@/0/g' \
+	      -e 's/@''GNULIB_GETPAGESIZE''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_GETUSERSHELL''@/0/g' \
+	      -e 's/@''GNULIB_GROUP_MEMBER''@/0/g' \
+	      -e 's/@''GNULIB_ISATTY''@/0/g' \
+	      -e 's/@''GNULIB_LCHOWN''@/0/g' \
+	      -e 's/@''GNULIB_LINK''@/0/g' \
+	      -e 's/@''GNULIB_LINKAT''@/0/g' \
+	      -e 's/@''GNULIB_LSEEK''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_PIPE''@/0/g' \
+	      -e 's/@''GNULIB_PIPE2''@/1/g' \
+	      -e 's/@''GNULIB_PREAD''@/0/g' \
+	      -e 's/@''GNULIB_PWRITE''@/0/g' \
+	      -e 's/@''GNULIB_READ''@/1/g' \
+	      -e 's/@''GNULIB_READLINK''@/1/g' \
+	      -e 's/@''GNULIB_READLINKAT''@/0/g' \
+	      -e 's/@''GNULIB_RMDIR''@/1/g' \
+	      -e 's/@''GNULIB_SETHOSTNAME''@/0/g' \
+	      -e 's/@''GNULIB_SLEEP''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_SYMLINK''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_SYMLINKAT''@/0/g' \
+	      -e 's/@''GNULIB_TTYNAME_R''@/0/g' \
+	      -e 's/@''GNULIB_UNISTD_H_GETOPT''@/0/g' \
+	      -e 's/@''GNULIB_UNISTD_H_NONBLOCKING''@/0/g' \
+	      -e 's/@''GNULIB_UNISTD_H_SIGPIPE''@/1/g' \
+	      -e 's/@''GNULIB_UNLINK''@/0/g' \
+	      -e 's/@''GNULIB_UNLINKAT''@/0/g' \
+	      -e 's/@''GNULIB_USLEEP''@/0/g' \
+	      -e 's/@''GNULIB_WRITE''@/1/g' \
+	      < ./unistd.in.h | \
+	  sed -e 's|@''HAVE_CHOWN''@|1|g' \
+	      -e 's|@''HAVE_DUP2''@|1|g' \
+	      -e 's|@''HAVE_DUP3''@|1|g' \
+	      -e 's|@''HAVE_EUIDACCESS''@|1|g' \
+	      -e 's|@''HAVE_FACCESSAT''@|1|g' \
+	      -e 's|@''HAVE_FCHDIR''@|1|g' \
+	      -e 's|@''HAVE_FCHOWNAT''@|1|g' \
+	      -e 's|@''HAVE_FDATASYNC''@|1|g' \
+	      -e 's|@''HAVE_FSYNC''@|1|g' \
+	      -e 's|@''HAVE_FTRUNCATE''@|1|g' \
+	      -e 's|@''HAVE_GETDTABLESIZE''@|1|g' \
+	      -e 's|@''HAVE_GETGROUPS''@|1|g' \
+	      -e 's|@''HAVE_GETHOSTNAME''@|1|g' \
+	      -e 's|@''HAVE_GETLOGIN''@|1|g' \
+	      -e 's|@''HAVE_GETPAGESIZE''@|1|g' \
+	      -e 's|@''HAVE_GROUP_MEMBER''@|1|g' \
+	      -e 's|@''HAVE_LCHOWN''@|1|g' \
+	      -e 's|@''HAVE_LINK''@|1|g' \
+	      -e 's|@''HAVE_LINKAT''@|1|g' \
+	      -e 's|@''HAVE_PIPE''@|1|g' \
+	      -e 's|@''HAVE_PIPE2''@|1|g' \
+	      -e 's|@''HAVE_PREAD''@|1|g' \
+	      -e 's|@''HAVE_PWRITE''@|1|g' \
+	      -e 's|@''HAVE_READLINK''@|1|g' \
+	      -e 's|@''HAVE_READLINKAT''@|1|g' \
+	      -e 's|@''HAVE_SETHOSTNAME''@|1|g' \
+	      -e 's|@''HAVE_SLEEP''@|1|g' \
+	      -e 's|@''HAVE_SYMLINK''@|1|g' \
+	      -e 's|@''HAVE_SYMLINKAT''@|1|g' \
+	      -e 's|@''HAVE_UNLINKAT''@|1|g' \
+	      -e 's|@''HAVE_USLEEP''@|1|g' \
+	      -e 's|@''HAVE_DECL_ENVIRON''@|1|g' \
+	      -e 's|@''HAVE_DECL_FCHDIR''@|1|g' \
+	      -e 's|@''HAVE_DECL_FDATASYNC''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETDOMAINNAME''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLOGIN_R''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETPAGESIZE''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETUSERSHELL''@|1|g' \
+	      -e 's|@''HAVE_DECL_SETHOSTNAME''@|1|g' \
+	      -e 's|@''HAVE_DECL_TTYNAME_R''@|1|g' \
+	      -e 's|@''HAVE_OS_H''@|0|g' \
+	      -e 's|@''HAVE_SYS_PARAM_H''@|0|g' \
+	  | \
+	  sed -e 's|@''REPLACE_CHOWN''@|0|g' \
+	      -e 's|@''REPLACE_CLOSE''@|0|g' \
+	      -e 's|@''REPLACE_DUP''@|0|g' \
+	      -e 's|@''REPLACE_DUP2''@|0|g' \
+	      -e 's|@''REPLACE_FCHOWNAT''@|0|g' \
+	      -e 's|@''REPLACE_FTRUNCATE''@|0|g' \
+	      -e 's|@''REPLACE_GETCWD''@|0|g' \
+	      -e 's|@''REPLACE_GETDOMAINNAME''@|0|g' \
+	      -e 's|@''REPLACE_GETLOGIN_R''@|0|g' \
+	      -e 's|@''REPLACE_GETGROUPS''@|0|g' \
+	      -e 's|@''REPLACE_GETPAGESIZE''@|0|g' \
+	      -e 's|@''REPLACE_ISATTY''@|0|g' \
+	      -e 's|@''REPLACE_LCHOWN''@|0|g' \
+	      -e 's|@''REPLACE_LINK''@|0|g' \
+	      -e 's|@''REPLACE_LINKAT''@|0|g' \
+	      -e 's|@''REPLACE_LSEEK''@|0|g' \
+	      -e 's|@''REPLACE_PREAD''@|0|g' \
+	      -e 's|@''REPLACE_PWRITE''@|0|g' \
+	      -e 's|@''REPLACE_READ''@|0|g' \
+	      -e 's|@''REPLACE_READLINK''@|0|g' \
+	      -e 's|@''REPLACE_RMDIR''@|0|g' \
+	      -e 's|@''REPLACE_SLEEP''@|0|g' \
+	      -e 's|@''REPLACE_SYMLINK''@|0|g' \
+	      -e 's|@''REPLACE_TTYNAME_R''@|0|g' \
+	      -e 's|@''REPLACE_UNLINK''@|0|g' \
+	      -e 's|@''REPLACE_UNLINKAT''@|0|g' \
+	      -e 's|@''REPLACE_USLEEP''@|0|g' \
+	      -e 's|@''REPLACE_WRITE''@|0|g' \
+	      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H''@|0|g' \
+	      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+	} > unistd.h-t && \
+	mv unistd.h-t unistd.h
+rm -f unistr.h-t unistr.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./unistr.in.h; \
+	} > unistr.h-t && \
+	mv -f unistr.h-t unistr.h
+rm -f unitypes.h-t unitypes.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./unitypes.in.h; \
+	} > unitypes.h-t && \
+	mv -f unitypes.h-t unitypes.h
+rm -f uniwidth.h-t uniwidth.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat ./uniwidth.in.h; \
+	} > uniwidth.h-t && \
+	mv -f uniwidth.h-t uniwidth.h
+rm -f wchar.h-t wchar.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''HAVE_FEATURES_H''@|1|g' \
+	      -e 's|@''NEXT_WCHAR_H''@|<wchar.h>|g' \
+	      -e 's|@''HAVE_WCHAR_H''@|1|g' \
+	      -e 's/@''GNULIB_BTOWC''@/(IN_GETTEXT_TOOLS_GNULIB_TESTS || IN_GETTEXT_TOOLS_LIBGREP)/g' \
+	      -e 's/@''GNULIB_WCTOB''@/IN_GETTEXT_TOOLS_GNULIB_TESTS/g' \
+	      -e 's/@''GNULIB_MBSINIT''@/1/g' \
+	      -e 's/@''GNULIB_MBRTOWC''@/1/g' \
+	      -e 's/@''GNULIB_MBRLEN''@/IN_GETTEXT_TOOLS_LIBGREP/g' \
+	      -e 's/@''GNULIB_MBSRTOWCS''@/1/g' \
+	      -e 's/@''GNULIB_MBSNRTOWCS''@/0/g' \
+	      -e 's/@''GNULIB_WCRTOMB''@/(IN_GETTEXT_TOOLS_GNULIB_TESTS || IN_GETTEXT_TOOLS_LIBGREP)/g' \
+	      -e 's/@''GNULIB_WCSRTOMBS''@/0/g' \
+	      -e 's/@''GNULIB_WCSNRTOMBS''@/0/g' \
+	      -e 's/@''GNULIB_WCWIDTH''@/1/g' \
+	      -e 's/@''GNULIB_WMEMCHR''@/0/g' \
+	      -e 's/@''GNULIB_WMEMCMP''@/0/g' \
+	      -e 's/@''GNULIB_WMEMCPY''@/0/g' \
+	      -e 's/@''GNULIB_WMEMMOVE''@/0/g' \
+	      -e 's/@''GNULIB_WMEMSET''@/0/g' \
+	      -e 's/@''GNULIB_WCSLEN''@/0/g' \
+	      -e 's/@''GNULIB_WCSNLEN''@/0/g' \
+	      -e 's/@''GNULIB_WCSCPY''@/0/g' \
+	      -e 's/@''GNULIB_WCPCPY''@/0/g' \
+	      -e 's/@''GNULIB_WCSNCPY''@/0/g' \
+	      -e 's/@''GNULIB_WCPNCPY''@/0/g' \
+	      -e 's/@''GNULIB_WCSCAT''@/0/g' \
+	      -e 's/@''GNULIB_WCSNCAT''@/0/g' \
+	      -e 's/@''GNULIB_WCSCMP''@/0/g' \
+	      -e 's/@''GNULIB_WCSNCMP''@/0/g' \
+	      -e 's/@''GNULIB_WCSCASECMP''@/0/g' \
+	      -e 's/@''GNULIB_WCSNCASECMP''@/0/g' \
+	      -e 's/@''GNULIB_WCSCOLL''@/0/g' \
+	      -e 's/@''GNULIB_WCSXFRM''@/0/g' \
+	      -e 's/@''GNULIB_WCSDUP''@/0/g' \
+	      -e 's/@''GNULIB_WCSCHR''@/0/g' \
+	      -e 's/@''GNULIB_WCSRCHR''@/0/g' \
+	      -e 's/@''GNULIB_WCSCSPN''@/0/g' \
+	      -e 's/@''GNULIB_WCSSPN''@/0/g' \
+	      -e 's/@''GNULIB_WCSPBRK''@/0/g' \
+	      -e 's/@''GNULIB_WCSSTR''@/0/g' \
+	      -e 's/@''GNULIB_WCSTOK''@/0/g' \
+	      -e 's/@''GNULIB_WCSWIDTH''@/0/g' \
+	      < ./wchar.in.h | \
+	  sed -e 's|@''HAVE_WINT_T''@|1|g' \
+	      -e 's|@''HAVE_BTOWC''@|1|g' \
+	      -e 's|@''HAVE_MBSINIT''@|1|g' \
+	      -e 's|@''HAVE_MBRTOWC''@|1|g' \
+	      -e 's|@''HAVE_MBRLEN''@|1|g' \
+	      -e 's|@''HAVE_MBSRTOWCS''@|1|g' \
+	      -e 's|@''HAVE_MBSNRTOWCS''@|1|g' \
+	      -e 's|@''HAVE_WCRTOMB''@|1|g' \
+	      -e 's|@''HAVE_WCSRTOMBS''@|1|g' \
+	      -e 's|@''HAVE_WCSNRTOMBS''@|1|g' \
+	      -e 's|@''HAVE_WMEMCHR''@|1|g' \
+	      -e 's|@''HAVE_WMEMCMP''@|1|g' \
+	      -e 's|@''HAVE_WMEMCPY''@|1|g' \
+	      -e 's|@''HAVE_WMEMMOVE''@|1|g' \
+	      -e 's|@''HAVE_WMEMSET''@|1|g' \
+	      -e 's|@''HAVE_WCSLEN''@|1|g' \
+	      -e 's|@''HAVE_WCSNLEN''@|1|g' \
+	      -e 's|@''HAVE_WCSCPY''@|1|g' \
+	      -e 's|@''HAVE_WCPCPY''@|1|g' \
+	      -e 's|@''HAVE_WCSNCPY''@|1|g' \
+	      -e 's|@''HAVE_WCPNCPY''@|1|g' \
+	      -e 's|@''HAVE_WCSCAT''@|1|g' \
+	      -e 's|@''HAVE_WCSNCAT''@|1|g' \
+	      -e 's|@''HAVE_WCSCMP''@|1|g' \
+	      -e 's|@''HAVE_WCSNCMP''@|1|g' \
+	      -e 's|@''HAVE_WCSCASECMP''@|1|g' \
+	      -e 's|@''HAVE_WCSNCASECMP''@|1|g' \
+	      -e 's|@''HAVE_WCSCOLL''@|1|g' \
+	      -e 's|@''HAVE_WCSXFRM''@|1|g' \
+	      -e 's|@''HAVE_WCSDUP''@|1|g' \
+	      -e 's|@''HAVE_WCSCHR''@|1|g' \
+	      -e 's|@''HAVE_WCSRCHR''@|1|g' \
+	      -e 's|@''HAVE_WCSCSPN''@|1|g' \
+	      -e 's|@''HAVE_WCSSPN''@|1|g' \
+	      -e 's|@''HAVE_WCSPBRK''@|1|g' \
+	      -e 's|@''HAVE_WCSSTR''@|1|g' \
+	      -e 's|@''HAVE_WCSTOK''@|1|g' \
+	      -e 's|@''HAVE_WCSWIDTH''@|1|g' \
+	      -e 's|@''HAVE_DECL_WCTOB''@|1|g' \
+	      -e 's|@''HAVE_DECL_WCWIDTH''@|1|g' \
+	  | \
+	  sed -e 's|@''REPLACE_MBSTATE_T''@|0|g' \
+	      -e 's|@''REPLACE_BTOWC''@|0|g' \
+	      -e 's|@''REPLACE_WCTOB''@|0|g' \
+	      -e 's|@''REPLACE_MBSINIT''@|0|g' \
+	      -e 's|@''REPLACE_MBRTOWC''@|0|g' \
+	      -e 's|@''REPLACE_MBRLEN''@|0|g' \
+	      -e 's|@''REPLACE_MBSRTOWCS''@|0|g' \
+	      -e 's|@''REPLACE_MBSNRTOWCS''@|0|g' \
+	      -e 's|@''REPLACE_WCRTOMB''@|0|g' \
+	      -e 's|@''REPLACE_WCSRTOMBS''@|0|g' \
+	      -e 's|@''REPLACE_WCSNRTOMBS''@|0|g' \
+	      -e 's|@''REPLACE_WCWIDTH''@|0|g' \
+	      -e 's|@''REPLACE_WCSWIDTH''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+	} > wchar.h-t && \
+	mv wchar.h-t wchar.h
+rm -f wctype.h-t wctype.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's/@''HAVE_WCTYPE_H''@/1/g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_WCTYPE_H''@|<wctype.h>|g' \
+	      -e 's/@''GNULIB_ISWBLANK''@/1/g' \
+	      -e 's/@''GNULIB_WCTYPE''@/0/g' \
+	      -e 's/@''GNULIB_ISWCTYPE''@/0/g' \
+	      -e 's/@''GNULIB_WCTRANS''@/0/g' \
+	      -e 's/@''GNULIB_TOWCTRANS''@/0/g' \
+	      -e 's/@''HAVE_ISWBLANK''@/1/g' \
+	      -e 's/@''HAVE_ISWCNTRL''@/1/g' \
+	      -e 's/@''HAVE_WCTYPE_T''@/1/g' \
+	      -e 's/@''HAVE_WCTRANS_T''@/1/g' \
+	      -e 's/@''HAVE_WINT_T''@/1/g' \
+	      -e 's/@''REPLACE_ISWBLANK''@/0/g' \
+	      -e 's/@''REPLACE_ISWCNTRL''@/0/g' \
+	      -e 's/@''REPLACE_TOWLOWER''@/0/g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./wctype.in.h; \
+	} > wctype.h-t && \
+	mv wctype.h-t wctype.h
+rm -f dirent.h-t dirent.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''HAVE_DIRENT_H''@|1|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_DIRENT_H''@|<dirent.h>|g' \
+	      -e 's/@''GNULIB_OPENDIR''@/1/g' \
+	      -e 's/@''GNULIB_READDIR''@/1/g' \
+	      -e 's/@''GNULIB_REWINDDIR''@/0/g' \
+	      -e 's/@''GNULIB_CLOSEDIR''@/1/g' \
+	      -e 's/@''GNULIB_DIRFD''@/0/g' \
+	      -e 's/@''GNULIB_FDOPENDIR''@/0/g' \
+	      -e 's/@''GNULIB_SCANDIR''@/0/g' \
+	      -e 's/@''GNULIB_ALPHASORT''@/0/g' \
+	      -e 's/@''HAVE_OPENDIR''@/1/g' \
+	      -e 's/@''HAVE_READDIR''@/1/g' \
+	      -e 's/@''HAVE_REWINDDIR''@/1/g' \
+	      -e 's/@''HAVE_CLOSEDIR''@/1/g' \
+	      -e 's|@''HAVE_DECL_DIRFD''@|1|g' \
+	      -e 's|@''HAVE_DECL_FDOPENDIR''@|1|g' \
+	      -e 's|@''HAVE_FDOPENDIR''@|1|g' \
+	      -e 's|@''HAVE_SCANDIR''@|1|g' \
+	      -e 's|@''HAVE_ALPHASORT''@|1|g' \
+	      -e 's|@''REPLACE_OPENDIR''@|0|g' \
+	      -e 's|@''REPLACE_CLOSEDIR''@|0|g' \
+	      -e 's|@''REPLACE_DIRFD''@|0|g' \
+	      -e 's|@''REPLACE_FDOPENDIR''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./dirent.in.h; \
+	} > dirent.h-t && \
+	mv dirent.h-t dirent.h
+rm -f fcntl.h-t fcntl.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_FCNTL_H''@|<fcntl.h>|g' \
+	      -e 's/@''GNULIB_FCNTL''@/1/g' \
+	      -e 's/@''GNULIB_NONBLOCKING''@/0/g' \
+	      -e 's/@''GNULIB_OPEN''@/1/g' \
+	      -e 's/@''GNULIB_OPENAT''@/0/g' \
+	      -e 's|@''HAVE_FCNTL''@|1|g' \
+	      -e 's|@''HAVE_OPENAT''@|1|g' \
+	      -e 's|@''REPLACE_FCNTL''@|1|g' \
+	      -e 's|@''REPLACE_OPEN''@|0|g' \
+	      -e 's|@''REPLACE_OPENAT''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./fcntl.in.h; \
+	} > fcntl.h-t && \
+	mv fcntl.h-t fcntl.h
+rm -f iconv.h-t iconv.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_ICONV_H''@|<iconv.h>|g' \
+	      -e 's/@''GNULIB_ICONV''@/1/g' \
+	      -e 's|@''ICONV_CONST''@||g' \
+	      -e 's|@''REPLACE_ICONV''@|0|g' \
+	      -e 's|@''REPLACE_ICONV_OPEN''@|0|g' \
+	      -e 's|@''REPLACE_ICONV_UTF''@|0|g' \
+	      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+	      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+	      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+	      < ./iconv.in.h; \
+	} > iconv.h-t && \
+	mv iconv.h-t iconv.h
+make  all-am
+make[1]: Entering directory `/mnt/lfs/sources/gettext-0.18.3.2/gettext-tools/gnulib-lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o copy-acl.lo copy-acl.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o set-acl.lo set-acl.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o allocator.lo allocator.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o areadlink.lo areadlink.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c copy-acl.c -o copy-acl.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c set-acl.c -o set-acl.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c areadlink.c -o areadlink.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c allocator.c -o allocator.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o argmatch.lo argmatch.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o gl_array_list.lo gl_array_list.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o backupfile.lo backupfile.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o addext.lo addext.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c argmatch.c -o argmatch.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c addext.c -o addext.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c gl_array_list.c -o gl_array_list.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c backupfile.c -o backupfile.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o basename.lo basename.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o binary-io.lo binary-io.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c basename.c -o basename.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o c-ctype.lo c-ctype.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o c-strcasecmp.lo c-strcasecmp.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c binary-io.c -o binary-io.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c c-ctype.c -o c-ctype.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c c-strcasecmp.c -o c-strcasecmp.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o c-strncasecmp.lo c-strncasecmp.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o c-strcasestr.lo c-strcasestr.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o c-strstr.lo c-strstr.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c c-strncasecmp.c -o c-strncasecmp.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c c-strcasestr.c -o c-strcasestr.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c c-strstr.c -o c-strstr.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o careadlinkat.lo careadlinkat.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o classpath.lo classpath.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o clean-temp.lo clean-temp.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c classpath.c -o classpath.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c careadlinkat.c -o careadlinkat.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c clean-temp.c -o clean-temp.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o cloexec.lo cloexec.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o closeout.lo closeout.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c cloexec.c -o cloexec.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o concat-filename.lo concat-filename.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c closeout.c -o closeout.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o copy-file.lo copy-file.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c concat-filename.c -o concat-filename.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c copy-file.c -o copy-file.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o csharpcomp.lo csharpcomp.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o csharpexec.lo csharpexec.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c csharpcomp.c -o csharpcomp.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c csharpexec.c -o csharpexec.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o error-progname.lo error-progname.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o execute.lo execute.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c error-progname.c -o error-progname.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c execute.c -o execute.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o exitfail.lo exitfail.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c exitfail.c -o exitfail.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o fatal-signal.lo fatal-signal.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o fd-hook.lo fd-hook.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o fd-ostream.lo fd-ostream.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c fatal-signal.c -o fatal-signal.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c fd-hook.c -o fd-hook.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c fd-ostream.c -o fd-ostream.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o fd-safer-flag.lo fd-safer-flag.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c fd-safer-flag.c -o fd-safer-flag.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o dup-safer-flag.lo dup-safer-flag.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o file-ostream.lo file-ostream.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c dup-safer-flag.c -o dup-safer-flag.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o findprog.lo findprog.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c file-ostream.c -o file-ostream.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o fstrcmp.lo fstrcmp.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o full-write.lo full-write.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c findprog.c -o findprog.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c fstrcmp.c -o fstrcmp.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o fwriteerror.lo fwriteerror.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c full-write.c -o full-write.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o gcd.lo gcd.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c fwriteerror.c -o fwriteerror.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o hash.lo hash.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c gcd.c -o gcd.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c hash.c -o hash.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o html-ostream.lo html-ostream.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o html-styled-ostream.lo html-styled-ostream.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c html-ostream.c -o html-ostream.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c html-styled-ostream.c -o html-styled-ostream.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o javacomp.lo javacomp.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c javacomp.c -o javacomp.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o javaexec.lo javaexec.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o javaversion.lo javaversion.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o gl_linkedhash_list.lo gl_linkedhash_list.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c javaexec.c -o javaexec.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c javaversion.c -o javaversion.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c gl_linkedhash_list.c -o gl_linkedhash_list.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o gl_list.lo gl_list.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c gl_list.c -o gl_list.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o localcharset.lo localcharset.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c localcharset.c -o localcharset.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o localename.lo localename.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c localename.c -o localename.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o malloca.lo malloca.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c malloca.c -o malloca.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o mbchar.lo mbchar.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o mbiter.lo mbiter.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o mbslen.lo mbslen.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c mbchar.c -o mbchar.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c mbiter.c -o mbiter.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c mbslen.c -o mbslen.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o mbsstr.lo mbsstr.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o mbswidth.lo mbswidth.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c mbsstr.c -o mbsstr.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o mbuiter.lo mbuiter.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c mbswidth.c -o mbswidth.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c mbuiter.c -o mbuiter.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o ostream.lo ostream.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o pipe-filter-ii.lo pipe-filter-ii.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c ostream.c -o ostream.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c pipe-filter-ii.c -o pipe-filter-ii.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o pipe-filter-aux.lo pipe-filter-aux.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o pipe2.lo pipe2.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c pipe-filter-aux.c -o pipe-filter-aux.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c pipe2.c -o pipe2.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o pipe2-safer.lo pipe2-safer.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o progname.lo progname.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o propername.lo propername.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c pipe2-safer.c -o pipe2-safer.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c progname.c -o progname.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c propername.c -o propername.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o acl-errno-valid.lo acl-errno-valid.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o file-has-acl.lo file-has-acl.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c acl-errno-valid.c -o acl-errno-valid.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c file-has-acl.c -o file-has-acl.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o qcopy-acl.lo qcopy-acl.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o qset-acl.lo qset-acl.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o quotearg.lo quotearg.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c qcopy-acl.c -o qcopy-acl.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c qset-acl.c -o qset-acl.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c quotearg.c -o quotearg.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o safe-read.lo safe-read.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o safe-write.lo safe-write.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c safe-read.c -o safe-read.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c safe-write.c -o safe-write.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o sh-quote.lo sh-quote.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o sig-handler.lo sig-handler.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o spawn-pipe.lo spawn-pipe.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c sh-quote.c -o sh-quote.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c sig-handler.c -o sig-handler.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c spawn-pipe.c -o spawn-pipe.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o striconv.lo striconv.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o striconveh.lo striconveh.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c striconv.c -o striconv.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c striconveh.c -o striconveh.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o striconveha.lo striconveha.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o strnlen1.lo strnlen1.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c striconveha.c -o striconveha.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o styled-ostream.lo styled-ostream.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c strnlen1.c -o strnlen1.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o tempname.lo tempname.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c styled-ostream.c -o styled-ostream.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c tempname.c -o tempname.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o term-ostream.lo term-ostream.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o term-styled-ostream.lo term-styled-ostream.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c term-ostream.c -o term-ostream.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c term-styled-ostream.c -o term-styled-ostream.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o glthread/threadlib.lo glthread/threadlib.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glthread/threadlib.c -o glthread/threadlib.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o glthread/tls.lo glthread/tls.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o tmpdir.lo tmpdir.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glthread/tls.c -o glthread/tls.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c tmpdir.c -o tmpdir.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o trim.lo trim.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c trim.c -o trim.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistd.lo unistd.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o dup-safer.lo dup-safer.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c dup-safer.c -o dup-safer.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistd.c -o unistd.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o fd-safer.lo fd-safer.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o pipe-safer.lo pipe-safer.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o wait-process.lo wait-process.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c pipe-safer.c -o pipe-safer.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c fd-safer.c -o fd-safer.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c wait-process.c -o wait-process.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o wctype-h.lo wctype-h.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xmalloc.lo xmalloc.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xmalloc.c -o xmalloc.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c wctype-h.c -o wctype-h.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xstrdup.lo xstrdup.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xconcat-filename.lo xconcat-filename.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xerror.lo xerror.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xstrdup.c -o xstrdup.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xconcat-filename.c -o xconcat-filename.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xerror.c -o xerror.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o gl_xlist.lo gl_xlist.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xmalloca.lo xmalloca.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xreadlink.lo xreadlink.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xmalloca.c -o xmalloca.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c gl_xlist.c -o gl_xlist.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xreadlink.c -o xreadlink.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xsetenv.lo xsetenv.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xsize.lo xsize.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xstriconv.lo xstriconv.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xsetenv.c -o xsetenv.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xstriconveh.lo xstriconveh.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xsize.c -o xsize.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xstriconv.c -o xstriconv.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xstriconveh.c -o xstriconveh.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xvasprintf.lo xvasprintf.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o xasprintf.lo xasprintf.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o asnprintf.lo asnprintf.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xvasprintf.c -o xvasprintf.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o fcntl.lo fcntl.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c xasprintf.c -o xasprintf.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c asnprintf.c -o asnprintf.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c fcntl.c -o fcntl.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o printf-args.lo printf-args.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o printf-parse.lo printf-parse.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c printf-args.c -o printf-args.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o tparm.lo tparm.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o tputs.lo tputs.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c printf-parse.c -o printf-parse.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c tputs.c -o tputs.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c tparm.c -o tparm.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o vasnprintf.lo vasnprintf.c
+rm -f t-charset.alias charset.alias && \
+	/bin/sh ./config.charset 'i686-pc-linux-gnu' > t-charset.alias && \
+	mv t-charset.alias charset.alias
+rm -f t-ref-add.sed ref-add.sed && \
+	sed -e '/^#/d' -e 's/@''PACKAGE''@/gettext-tools/g' ref-add.sin > t-ref-add.sed && \
+	mv t-ref-add.sed ref-add.sed
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c vasnprintf.c -o vasnprintf.o
+rm -f t-ref-del.sed ref-del.sed && \
+	sed -e '/^#/d' -e 's/@''PACKAGE''@/gettext-tools/g' ref-del.sin > t-ref-del.sed && \
+	mv t-ref-del.sed ref-del.sed
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o glthread/lock.lo glthread/lock.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glthread/lock.c -o glthread/lock.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o uniconv/u8-conv-from-enc.lo uniconv/u8-conv-from-enc.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c uniconv/u8-conv-from-enc.c -o uniconv/u8-conv-from-enc.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unilbrk/lbrktables.lo unilbrk/lbrktables.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unilbrk/lbrktables.c -o unilbrk/lbrktables.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unilbrk/u8-possible-linebreaks.lo unilbrk/u8-possible-linebreaks.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unilbrk/u8-possible-linebreaks.c -o unilbrk/u8-possible-linebreaks.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unilbrk/u8-width-linebreaks.lo unilbrk/u8-width-linebreaks.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unilbrk/u8-width-linebreaks.c -o unilbrk/u8-width-linebreaks.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unilbrk/ulc-common.lo unilbrk/ulc-common.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unilbrk/ulc-width-linebreaks.lo unilbrk/ulc-width-linebreaks.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o uniname/uniname.lo uniname/uniname.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unilbrk/ulc-common.c -o unilbrk/ulc-common.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unilbrk/ulc-width-linebreaks.c -o unilbrk/ulc-width-linebreaks.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u16-mbtouc.lo unistr/u16-mbtouc.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c uniname/uniname.c -o uniname/uniname.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u16-mbtouc-aux.lo unistr/u16-mbtouc-aux.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u16-mbtouc.c -o unistr/u16-mbtouc.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u16-mbtouc-aux.c -o unistr/u16-mbtouc-aux.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-check.lo unistr/u8-check.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-mblen.lo unistr/u8-mblen.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-mbtouc.lo unistr/u8-mbtouc.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-check.c -o unistr/u8-check.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-mblen.c -o unistr/u8-mblen.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-mbtouc.c -o unistr/u8-mbtouc.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-mbtouc-aux.lo unistr/u8-mbtouc-aux.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-mbtouc-unsafe.lo unistr/u8-mbtouc-unsafe.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-mbtouc-unsafe-aux.lo unistr/u8-mbtouc-unsafe-aux.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-mbtouc-aux.c -o unistr/u8-mbtouc-aux.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-mbtouc-unsafe.c -o unistr/u8-mbtouc-unsafe.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-mbtouc-unsafe-aux.c -o unistr/u8-mbtouc-unsafe-aux.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-mbtoucr.lo unistr/u8-mbtoucr.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-prev.lo unistr/u8-prev.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-uctomb.lo unistr/u8-uctomb.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-mbtoucr.c -o unistr/u8-mbtoucr.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-prev.c -o unistr/u8-prev.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-uctomb.c -o unistr/u8-uctomb.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o unistr/u8-uctomb-aux.lo unistr/u8-uctomb-aux.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco    -g -O2 -c -o uniwidth/width.lo uniwidth/width.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-additional-sel.lo `test -f 'libcroco/cr-additional-sel.c' || echo './'`libcroco/cr-additional-sel.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c unistr/u8-uctomb-aux.c -o unistr/u8-uctomb-aux.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c uniwidth/width.c -o uniwidth/width.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-additional-sel.c -o libcroco/libcroco_rpl_la-cr-additional-sel.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-attr-sel.lo `test -f 'libcroco/cr-attr-sel.c' || echo './'`libcroco/cr-attr-sel.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-attr-sel.c -o libcroco/libcroco_rpl_la-cr-attr-sel.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-cascade.lo `test -f 'libcroco/cr-cascade.c' || echo './'`libcroco/cr-cascade.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-declaration.lo `test -f 'libcroco/cr-declaration.c' || echo './'`libcroco/cr-declaration.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-cascade.c -o libcroco/libcroco_rpl_la-cr-cascade.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-doc-handler.lo `test -f 'libcroco/cr-doc-handler.c' || echo './'`libcroco/cr-doc-handler.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-declaration.c -o libcroco/libcroco_rpl_la-cr-declaration.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-doc-handler.c -o libcroco/libcroco_rpl_la-cr-doc-handler.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-enc-handler.lo `test -f 'libcroco/cr-enc-handler.c' || echo './'`libcroco/cr-enc-handler.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-enc-handler.c -o libcroco/libcroco_rpl_la-cr-enc-handler.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-fonts.lo `test -f 'libcroco/cr-fonts.c' || echo './'`libcroco/cr-fonts.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-input.lo `test -f 'libcroco/cr-input.c' || echo './'`libcroco/cr-input.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-fonts.c -o libcroco/libcroco_rpl_la-cr-fonts.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-num.lo `test -f 'libcroco/cr-num.c' || echo './'`libcroco/cr-num.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-input.c -o libcroco/libcroco_rpl_la-cr-input.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-num.c -o libcroco/libcroco_rpl_la-cr-num.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-om-parser.lo `test -f 'libcroco/cr-om-parser.c' || echo './'`libcroco/cr-om-parser.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-om-parser.c -o libcroco/libcroco_rpl_la-cr-om-parser.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-parser.lo `test -f 'libcroco/cr-parser.c' || echo './'`libcroco/cr-parser.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-parser.c -o libcroco/libcroco_rpl_la-cr-parser.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-parsing-location.lo `test -f 'libcroco/cr-parsing-location.c' || echo './'`libcroco/cr-parsing-location.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-parsing-location.c -o libcroco/libcroco_rpl_la-cr-parsing-location.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-prop-list.lo `test -f 'libcroco/cr-prop-list.c' || echo './'`libcroco/cr-prop-list.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-pseudo.lo `test -f 'libcroco/cr-pseudo.c' || echo './'`libcroco/cr-pseudo.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-prop-list.c -o libcroco/libcroco_rpl_la-cr-prop-list.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-pseudo.c -o libcroco/libcroco_rpl_la-cr-pseudo.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-rgb.lo `test -f 'libcroco/cr-rgb.c' || echo './'`libcroco/cr-rgb.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-rgb.c -o libcroco/libcroco_rpl_la-cr-rgb.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-sel-eng.lo `test -f 'libcroco/cr-sel-eng.c' || echo './'`libcroco/cr-sel-eng.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-selector.lo `test -f 'libcroco/cr-selector.c' || echo './'`libcroco/cr-selector.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-sel-eng.c -o libcroco/libcroco_rpl_la-cr-sel-eng.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-selector.c -o libcroco/libcroco_rpl_la-cr-selector.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-simple-sel.lo `test -f 'libcroco/cr-simple-sel.c' || echo './'`libcroco/cr-simple-sel.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-statement.lo `test -f 'libcroco/cr-statement.c' || echo './'`libcroco/cr-statement.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-statement.c -o libcroco/libcroco_rpl_la-cr-statement.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-simple-sel.c -o libcroco/libcroco_rpl_la-cr-simple-sel.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-string.lo `test -f 'libcroco/cr-string.c' || echo './'`libcroco/cr-string.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-string.c -o libcroco/libcroco_rpl_la-cr-string.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-style.lo `test -f 'libcroco/cr-style.c' || echo './'`libcroco/cr-style.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-style.c -o libcroco/libcroco_rpl_la-cr-style.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-stylesheet.lo `test -f 'libcroco/cr-stylesheet.c' || echo './'`libcroco/cr-stylesheet.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-stylesheet.c -o libcroco/libcroco_rpl_la-cr-stylesheet.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-term.lo `test -f 'libcroco/cr-term.c' || echo './'`libcroco/cr-term.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-tknzr.lo `test -f 'libcroco/cr-tknzr.c' || echo './'`libcroco/cr-tknzr.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-term.c -o libcroco/libcroco_rpl_la-cr-term.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-tknzr.c -o libcroco/libcroco_rpl_la-cr-tknzr.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-token.lo `test -f 'libcroco/cr-token.c' || echo './'`libcroco/cr-token.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libcroco/libcroco_rpl_la-cr-utils.lo `test -f 'libcroco/cr-utils.c' || echo './'`libcroco/cr-utils.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-token.c -o libcroco/libcroco_rpl_la-cr-token.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libcroco/cr-utils.c -o libcroco/libcroco_rpl_la-cr-utils.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o glib/libglib_rpl_la-ghash.lo `test -f 'glib/ghash.c' || echo './'`glib/ghash.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glib/ghash.c -o glib/libglib_rpl_la-ghash.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o glib/libglib_rpl_la-glist.lo `test -f 'glib/glist.c' || echo './'`glib/glist.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o glib/libglib_rpl_la-gmessages.lo `test -f 'glib/gmessages.c' || echo './'`glib/gmessages.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o glib/libglib_rpl_la-gprimes.lo `test -f 'glib/gprimes.c' || echo './'`glib/gprimes.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glib/glist.c -o glib/libglib_rpl_la-glist.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glib/gmessages.c -o glib/libglib_rpl_la-gmessages.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glib/gprimes.c -o glib/libglib_rpl_la-gprimes.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o glib/libglib_rpl_la-gstrfuncs.lo `test -f 'glib/gstrfuncs.c' || echo './'`glib/gstrfuncs.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o glib/libglib_rpl_la-gstring.lo `test -f 'glib/gstring.c' || echo './'`glib/gstring.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-DOCBparser.lo `test -f 'libxml/DOCBparser.c' || echo './'`libxml/DOCBparser.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glib/gstrfuncs.c -o glib/libglib_rpl_la-gstrfuncs.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c glib/gstring.c -o glib/libglib_rpl_la-gstring.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/DOCBparser.c -o libxml/libxml_rpl_la-DOCBparser.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-HTMLparser.lo `test -f 'libxml/HTMLparser.c' || echo './'`libxml/HTMLparser.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/HTMLparser.c -o libxml/libxml_rpl_la-HTMLparser.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-HTMLtree.lo `test -f 'libxml/HTMLtree.c' || echo './'`libxml/HTMLtree.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-SAX.lo `test -f 'libxml/SAX.c' || echo './'`libxml/SAX.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-SAX2.lo `test -f 'libxml/SAX2.c' || echo './'`libxml/SAX2.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-c14n.lo `test -f 'libxml/c14n.c' || echo './'`libxml/c14n.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/HTMLtree.c -o libxml/libxml_rpl_la-HTMLtree.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/SAX2.c -o libxml/libxml_rpl_la-SAX2.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/SAX.c -o libxml/libxml_rpl_la-SAX.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/c14n.c -o libxml/libxml_rpl_la-c14n.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-catalog.lo `test -f 'libxml/catalog.c' || echo './'`libxml/catalog.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-chvalid.lo `test -f 'libxml/chvalid.c' || echo './'`libxml/chvalid.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-debugXML.lo `test -f 'libxml/debugXML.c' || echo './'`libxml/debugXML.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/catalog.c -o libxml/libxml_rpl_la-catalog.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/chvalid.c -o libxml/libxml_rpl_la-chvalid.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/debugXML.c -o libxml/libxml_rpl_la-debugXML.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-dict.lo `test -f 'libxml/dict.c' || echo './'`libxml/dict.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-encoding.lo `test -f 'libxml/encoding.c' || echo './'`libxml/encoding.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/dict.c -o libxml/libxml_rpl_la-dict.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/encoding.c -o libxml/libxml_rpl_la-encoding.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-entities.lo `test -f 'libxml/entities.c' || echo './'`libxml/entities.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/entities.c -o libxml/libxml_rpl_la-entities.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-error.lo `test -f 'libxml/error.c' || echo './'`libxml/error.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/error.c -o libxml/libxml_rpl_la-error.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-globals.lo `test -f 'libxml/globals.c' || echo './'`libxml/globals.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/globals.c -o libxml/libxml_rpl_la-globals.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-hash.lo `test -f 'libxml/hash.c' || echo './'`libxml/hash.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/hash.c -o libxml/libxml_rpl_la-hash.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-legacy.lo `test -f 'libxml/legacy.c' || echo './'`libxml/legacy.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/legacy.c -o libxml/libxml_rpl_la-legacy.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-list.lo `test -f 'libxml/list.c' || echo './'`libxml/list.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-nanoftp.lo `test -f 'libxml/nanoftp.c' || echo './'`libxml/nanoftp.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/list.c -o libxml/libxml_rpl_la-list.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-nanohttp.lo `test -f 'libxml/nanohttp.c' || echo './'`libxml/nanohttp.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/nanoftp.c -o libxml/libxml_rpl_la-nanoftp.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/nanohttp.c -o libxml/libxml_rpl_la-nanohttp.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-parser.lo `test -f 'libxml/parser.c' || echo './'`libxml/parser.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-parserInternals.lo `test -f 'libxml/parserInternals.c' || echo './'`libxml/parserInternals.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/parser.c -o libxml/libxml_rpl_la-parser.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/parserInternals.c -o libxml/libxml_rpl_la-parserInternals.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-pattern.lo `test -f 'libxml/pattern.c' || echo './'`libxml/pattern.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-relaxng.lo `test -f 'libxml/relaxng.c' || echo './'`libxml/relaxng.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/relaxng.c -o libxml/libxml_rpl_la-relaxng.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/pattern.c -o libxml/libxml_rpl_la-pattern.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-schematron.lo `test -f 'libxml/schematron.c' || echo './'`libxml/schematron.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/schematron.c -o libxml/libxml_rpl_la-schematron.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-threads.lo `test -f 'libxml/threads.c' || echo './'`libxml/threads.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-tree.lo `test -f 'libxml/tree.c' || echo './'`libxml/tree.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/threads.c -o libxml/libxml_rpl_la-threads.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/tree.c -o libxml/libxml_rpl_la-tree.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-uri.lo `test -f 'libxml/uri.c' || echo './'`libxml/uri.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/uri.c -o libxml/libxml_rpl_la-uri.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-valid.lo `test -f 'libxml/valid.c' || echo './'`libxml/valid.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/valid.c -o libxml/libxml_rpl_la-valid.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xinclude.lo `test -f 'libxml/xinclude.c' || echo './'`libxml/xinclude.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xlink.lo `test -f 'libxml/xlink.c' || echo './'`libxml/xlink.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xinclude.c -o libxml/libxml_rpl_la-xinclude.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xlink.c -o libxml/libxml_rpl_la-xlink.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlIO.lo `test -f 'libxml/xmlIO.c' || echo './'`libxml/xmlIO.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlmemory.lo `test -f 'libxml/xmlmemory.c' || echo './'`libxml/xmlmemory.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlIO.c -o libxml/libxml_rpl_la-xmlIO.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlmemory.c -o libxml/libxml_rpl_la-xmlmemory.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlmodule.lo `test -f 'libxml/xmlmodule.c' || echo './'`libxml/xmlmodule.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlmodule.c -o libxml/libxml_rpl_la-xmlmodule.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlreader.lo `test -f 'libxml/xmlreader.c' || echo './'`libxml/xmlreader.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlreader.c -o libxml/libxml_rpl_la-xmlreader.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlregexp.lo `test -f 'libxml/xmlregexp.c' || echo './'`libxml/xmlregexp.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlregexp.c -o libxml/libxml_rpl_la-xmlregexp.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlsave.lo `test -f 'libxml/xmlsave.c' || echo './'`libxml/xmlsave.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlsave.c -o libxml/libxml_rpl_la-xmlsave.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlschemas.lo `test -f 'libxml/xmlschemas.c' || echo './'`libxml/xmlschemas.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlschemas.c -o libxml/libxml_rpl_la-xmlschemas.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlschemastypes.lo `test -f 'libxml/xmlschemastypes.c' || echo './'`libxml/xmlschemastypes.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlschemastypes.c -o libxml/libxml_rpl_la-xmlschemastypes.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlstring.lo `test -f 'libxml/xmlstring.c' || echo './'`libxml/xmlstring.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlunicode.lo `test -f 'libxml/xmlunicode.c' || echo './'`libxml/xmlunicode.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlstring.c -o libxml/libxml_rpl_la-xmlstring.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xmlwriter.lo `test -f 'libxml/xmlwriter.c' || echo './'`libxml/xmlwriter.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlunicode.c -o libxml/libxml_rpl_la-xmlunicode.o
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xmlwriter.c -o libxml/libxml_rpl_la-xmlwriter.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xpath.lo `test -f 'libxml/xpath.c' || echo './'`libxml/xpath.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xpath.c -o libxml/libxml_rpl_la-xpath.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I..  -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC    -I./libcroco     -g -O2 -c -o libxml/libxml_rpl_la-xpointer.lo `test -f 'libxml/xpointer.c' || echo './'`libxml/xpointer.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -DEXEEXT=\"\" -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I.. -I../intl -I../intl -I.. -I.. -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1 -DLIBXML_STATIC -I./libcroco -g -O2 -c libxml/xpointer.c -o libxml/libxml_rpl_la-xpointer.o
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -std=gnu99  -g -O2   -o libcroco_rpl.la  libcroco/libcroco_rpl_la-cr-additional-sel.lo libcroco/libcroco_rpl_la-cr-attr-sel.lo libcroco/libcroco_rpl_la-cr-cascade.lo libcroco/libcroco_rpl_la-cr-declaration.lo libcroco/libcroco_rpl_la-cr-doc-handler.lo libcroco/libcroco_rpl_la-cr-enc-handler.lo libcroco/libcroco_rpl_la-cr-fonts.lo libcroco/libcroco_rpl_la-cr-input.lo libcroco/libcroco_rpl_la-cr-num.lo libcroco/libcroco_rpl_la-cr-om-parser.lo libcroco/libcroco_rpl_la-cr-parser.lo libcroco/libcroco_rpl_la-cr-parsing-location.lo libcroco/libcroco_rpl_la-cr-prop-list.lo libcroco/libcroco_rpl_la-cr-pseudo.lo libcroco/libcroco_rpl_la-cr-rgb.lo libcroco/libcroco_rpl_la-cr-sel-eng.lo libcroco/libcroco_rpl_la-cr-selector.lo libcroco/libcroco_rpl_la-cr-simple-sel.lo libcroco/libcroco_rpl_la-cr-statement.lo libcroco/libcroco_rpl_la-cr-string.lo libcroco/libcroco_rpl_la-cr-style.lo libcroco/libcroco_rpl_la-cr-stylesheet.lo libcroco/libcroco_rpl_la-cr-term.lo libcroco/libcroco_rpl_la-cr-tknzr.lo libcroco/libcroco_rpl_la-cr-token.lo libcroco/libcroco_rpl_la-cr-utils.lo  
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -std=gnu99  -g -O2   -o libglib_rpl.la  glib/libglib_rpl_la-ghash.lo glib/libglib_rpl_la-glist.lo glib/libglib_rpl_la-gmessages.lo glib/libglib_rpl_la-gprimes.lo glib/libglib_rpl_la-gstrfuncs.lo glib/libglib_rpl_la-gstring.lo  
+libtool: link: ar cru .libs/libglib_rpl.a  glib/libglib_rpl_la-ghash.o glib/libglib_rpl_la-glist.o glib/libglib_rpl_la-gmessages.o glib/libglib_rpl_la-gprimes.o glib/libglib_rpl_la-gstrfuncs.o glib/libglib_rpl_la-gstring.o
+libtool: link: ranlib .libs/libglib_rpl.a
+libtool: link: ar cru .libs/libcroco_rpl.a  libcroco/libcroco_rpl_la-cr-additional-sel.o libcroco/libcroco_rpl_la-cr-attr-sel.o libcroco/libcroco_rpl_la-cr-cascade.o libcroco/libcroco_rpl_la-cr-declaration.o libcroco/libcroco_rpl_la-cr-doc-handler.o libcroco/libcroco_rpl_la-cr-enc-handler.o libcroco/libcroco_rpl_la-cr-fonts.o libcroco/libcroco_rpl_la-cr-input.o libcroco/libcroco_rpl_la-cr-num.o libcroco/libcroco_rpl_la-cr-om-parser.o libcroco/libcroco_rpl_la-cr-parser.o libcroco/libcroco_rpl_la-cr-parsing-location.o libcroco/libcroco_rpl_la-cr-prop-list.o libcroco/libcroco_rpl_la-cr-pseudo.o libcroco/libcroco_rpl_la-cr-rgb.o libcroco/libcroco_rpl_la-cr-sel-eng.o libcroco/libcroco_rpl_la-cr-selector.o libcroco/libcroco_rpl_la-cr-simple-sel.o libcroco/libcroco_rpl_la-cr-statement.o libcroco/libcroco_rpl_la-cr-string.o libcroco/libcroco_rpl_la-cr-style.o libcroco/libcroco_rpl_la-cr-stylesheet.o libcroco/libcroco_rpl_la-cr-term.o libcroco/libcroco_rpl_la-cr-tknzr.o libcroco/libcroco_rpl_la-cr-token.o libcroco/libcroco_rpl_la-cr-utils.o
+libtool: link: ( cd ".libs" && rm -f "libglib_rpl.la" && ln -s "../libglib_rpl.la" "libglib_rpl.la" )
+libtool: link: ranlib .libs/libcroco_rpl.a
+libtool: link: ( cd ".libs" && rm -f "libcroco_rpl.la" && ln -s "../libcroco_rpl.la" "libcroco_rpl.la" )
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -std=gnu99  -g -O2   -o libxml_rpl.la  libxml/libxml_rpl_la-DOCBparser.lo libxml/libxml_rpl_la-HTMLparser.lo libxml/libxml_rpl_la-HTMLtree.lo libxml/libxml_rpl_la-SAX.lo libxml/libxml_rpl_la-SAX2.lo libxml/libxml_rpl_la-c14n.lo libxml/libxml_rpl_la-catalog.lo libxml/libxml_rpl_la-chvalid.lo libxml/libxml_rpl_la-debugXML.lo libxml/libxml_rpl_la-dict.lo libxml/libxml_rpl_la-encoding.lo libxml/libxml_rpl_la-entities.lo libxml/libxml_rpl_la-error.lo libxml/libxml_rpl_la-globals.lo libxml/libxml_rpl_la-hash.lo libxml/libxml_rpl_la-legacy.lo libxml/libxml_rpl_la-list.lo libxml/libxml_rpl_la-nanoftp.lo libxml/libxml_rpl_la-nanohttp.lo libxml/libxml_rpl_la-parser.lo libxml/libxml_rpl_la-parserInternals.lo libxml/libxml_rpl_la-pattern.lo libxml/libxml_rpl_la-relaxng.lo libxml/libxml_rpl_la-schematron.lo libxml/libxml_rpl_la-threads.lo libxml/libxml_rpl_la-tree.lo libxml/libxml_rpl_la-uri.lo libxml/libxml_rpl_la-valid.lo libxml/libxml_rpl_la-xinclude.lo libxml/libxml_rpl_la-xlink.lo libxml/libxml_rpl_la-xmlIO.lo libxml/libxml_rpl_la-xmlmemory.lo libxml/libxml_rpl_la-xmlmodule.lo libxml/libxml_rpl_la-xmlreader.lo libxml/libxml_rpl_la-xmlregexp.lo libxml/libxml_rpl_la-xmlsave.lo libxml/libxml_rpl_la-xmlschemas.lo libxml/libxml_rpl_la-xmlschemastypes.lo libxml/libxml_rpl_la-xmlstring.lo libxml/libxml_rpl_la-xmlunicode.lo libxml/libxml_rpl_la-xmlwriter.lo libxml/libxml_rpl_la-xpath.lo libxml/libxml_rpl_la-xpointer.lo  
+libtool: link: ar cru .libs/libxml_rpl.a  libxml/libxml_rpl_la-DOCBparser.o libxml/libxml_rpl_la-HTMLparser.o libxml/libxml_rpl_la-HTMLtree.o libxml/libxml_rpl_la-SAX.o libxml/libxml_rpl_la-SAX2.o libxml/libxml_rpl_la-c14n.o libxml/libxml_rpl_la-catalog.o libxml/libxml_rpl_la-chvalid.o libxml/libxml_rpl_la-debugXML.o libxml/libxml_rpl_la-dict.o libxml/libxml_rpl_la-encoding.o libxml/libxml_rpl_la-entities.o libxml/libxml_rpl_la-error.o libxml/libxml_rpl_la-globals.o libxml/libxml_rpl_la-hash.o libxml/libxml_rpl_la-legacy.o libxml/libxml_rpl_la-list.o libxml/libxml_rpl_la-nanoftp.o libxml/libxml_rpl_la-nanohttp.o libxml/libxml_rpl_la-parser.o libxml/libxml_rpl_la-parserInternals.o libxml/libxml_rpl_la-pattern.o libxml/libxml_rpl_la-relaxng.o libxml/libxml_rpl_la-schematron.o libxml/libxml_rpl_la-threads.o libxml/libxml_rpl_la-tree.o libxml/libxml_rpl_la-uri.o libxml/libxml_rpl_la-valid.o libxml/libxml_rpl_la-xinclude.o libxml/libxml_rpl_la-xlink.o libxml/libxml_rpl_la-xmlIO.o libxml/libxml_rpl_la-xmlmemory.o libxml/libxml_rpl_la-xmlmodule.o libxml/libxml_rpl_la-xmlreader.o libxml/libxml_rpl_la-xmlregexp.o libxml/libxml_rpl_la-xmlsave.o libxml/libxml_rpl_la-xmlschemas.o libxml/libxml_rpl_la-xmlschemastypes.o libxml/libxml_rpl_la-xmlstring.o libxml/libxml_rpl_la-xmlunicode.o libxml/libxml_rpl_la-xmlwriter.o libxml/libxml_rpl_la-xpath.o libxml/libxml_rpl_la-xpointer.o
+libtool: link: ranlib .libs/libxml_rpl.a
+libtool: link: ( cd ".libs" && rm -f "libxml_rpl.la" && ln -s "../libxml_rpl.la" "libxml_rpl.la" )
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -std=gnu99  -g -O2  -no-undefined        -release 0.18.3         -o libgettextlib.la -rpath /tools/lib copy-acl.lo set-acl.lo allocator.lo areadlink.lo argmatch.lo gl_array_list.lo backupfile.lo addext.lo basename.lo binary-io.lo c-ctype.lo c-strcasecmp.lo c-strncasecmp.lo c-strcasestr.lo c-strstr.lo careadlinkat.lo classpath.lo clean-temp.lo cloexec.lo closeout.lo concat-filename.lo copy-file.lo csharpcomp.lo csharpexec.lo error-progname.lo execute.lo exitfail.lo fatal-signal.lo fd-hook.lo fd-ostream.lo fd-safer-flag.lo dup-safer-flag.lo file-ostream.lo findprog.lo fstrcmp.lo full-write.lo fwriteerror.lo gcd.lo  hash.lo html-ostream.lo html-styled-ostream.lo  javacomp.lo javaexec.lo javaversion.lo gl_linkedhash_list.lo gl_list.lo localcharset.lo localename.lo glthread/lock.lo malloca.lo mbchar.lo mbiter.lo mbslen.lo mbsstr.lo mbswidth.lo mbuiter.lo ostream.lo pipe-filter-ii.lo pipe-filter-aux.lo pipe2.lo pipe2-safer.lo progname.lo propername.lo acl-errno-valid.lo file-has-acl.lo qcopy-acl.lo qset-acl.lo quotearg.lo safe-read.lo safe-write.lo sh-quote.lo sig-handler.lo spawn-pipe.lo striconv.lo striconveh.lo striconveha.lo strnlen1.lo styled-ostream.lo tempname.lo term-ostream.lo term-styled-ostream.lo  glthread/threadlib.lo glthread/tls.lo tmpdir.lo trim.lo uniconv/u8-conv-from-enc.lo unilbrk/lbrktables.lo unilbrk/u8-possible-linebreaks.lo unilbrk/u8-width-linebreaks.lo unilbrk/ulc-common.lo unilbrk/ulc-width-linebreaks.lo uniname/uniname.lo unistd.lo dup-safer.lo fd-safer.lo pipe-safer.lo unistr/u16-mbtouc.lo unistr/u16-mbtouc-aux.lo unistr/u8-check.lo unistr/u8-mblen.lo unistr/u8-mbtouc.lo unistr/u8-mbtouc-aux.lo unistr/u8-mbtouc-unsafe.lo unistr/u8-mbtouc-unsafe-aux.lo unistr/u8-mbtoucr.lo unistr/u8-prev.lo unistr/u8-uctomb.lo unistr/u8-uctomb-aux.lo uniwidth/width.lo wait-process.lo wctype-h.lo xmalloc.lo xstrdup.lo xconcat-filename.lo xerror.lo gl_xlist.lo xmalloca.lo xreadlink.lo xsetenv.lo xsize.lo xstriconv.lo xstriconveh.lo xvasprintf.lo xasprintf.lo asnprintf.lo fcntl.lo printf-args.lo printf-parse.lo tparm.lo tputs.lo vasnprintf.lo libcroco_rpl.la libglib_rpl.la libxml_rpl.la 
+libtool: link: (cd .libs/libgettextlib.lax/libcroco_rpl.a && ar x "/mnt/lfs/sources/gettext-0.18.3.2/gettext-tools/gnulib-lib/./.libs/libcroco_rpl.a")
+libtool: link: (cd .libs/libgettextlib.lax/libglib_rpl.a && ar x "/mnt/lfs/sources/gettext-0.18.3.2/gettext-tools/gnulib-lib/./.libs/libglib_rpl.a")
+libtool: link: (cd .libs/libgettextlib.lax/libxml_rpl.a && ar x "/mnt/lfs/sources/gettext-0.18.3.2/gettext-tools/gnulib-lib/./.libs/libxml_rpl.a")
+libtool: link: ar cru .libs/libgettextlib.a  copy-acl.o set-acl.o allocator.o areadlink.o argmatch.o gl_array_list.o backupfile.o addext.o basename.o binary-io.o c-ctype.o c-strcasecmp.o c-strncasecmp.o c-strcasestr.o c-strstr.o careadlinkat.o classpath.o clean-temp.o cloexec.o closeout.o concat-filename.o copy-file.o csharpcomp.o csharpexec.o error-progname.o execute.o exitfail.o fatal-signal.o fd-hook.o fd-ostream.o fd-safer-flag.o dup-safer-flag.o file-ostream.o findprog.o fstrcmp.o full-write.o fwriteerror.o gcd.o hash.o html-ostream.o html-styled-ostream.o javacomp.o javaexec.o javaversion.o gl_linkedhash_list.o gl_list.o localcharset.o localename.o glthread/lock.o malloca.o mbchar.o mbiter.o mbslen.o mbsstr.o mbswidth.o mbuiter.o ostream.o pipe-filter-ii.o pipe-filter-aux.o pipe2.o pipe2-safer.o progname.o propername.o acl-errno-valid.o file-has-acl.o qcopy-acl.o qset-acl.o quotearg.o safe-read.o safe-write.o sh-quote.o sig-handler.o spawn-pipe.o striconv.o striconveh.o striconveha.o strnlen1.o styled-ostream.o tempname.o term-ostream.o term-styled-ostream.o glthread/threadlib.o glthread/tls.o tmpdir.o trim.o uniconv/u8-conv-from-enc.o unilbrk/lbrktables.o unilbrk/u8-possible-linebreaks.o unilbrk/u8-width-linebreaks.o unilbrk/ulc-common.o unilbrk/ulc-width-linebreaks.o uniname/uniname.o unistd.o dup-safer.o fd-safer.o pipe-safer.o unistr/u16-mbtouc.o unistr/u16-mbtouc-aux.o unistr/u8-check.o unistr/u8-mblen.o unistr/u8-mbtouc.o unistr/u8-mbtouc-aux.o unistr/u8-mbtouc-unsafe.o unistr/u8-mbtouc-unsafe-aux.o unistr/u8-mbtoucr.o unistr/u8-prev.o unistr/u8-uctomb.o unistr/u8-uctomb-aux.o uniwidth/width.o wait-process.o wctype-h.o xmalloc.o xstrdup.o xconcat-filename.o xerror.o gl_xlist.o xmalloca.o xreadlink.o xsetenv.o xsize.o xstriconv.o xstriconveh.o xvasprintf.o xasprintf.o asnprintf.o fcntl.o printf-args.o printf-parse.o tparm.o tputs.o vasnprintf.o  .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-additional-sel.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-attr-sel.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-cascade.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-declaration.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-doc-handler.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-enc-handler.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-fonts.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-input.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-num.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-om-parser.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-parser.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-parsing-location.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-prop-list.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-pseudo.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-rgb.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-sel-eng.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-selector.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-simple-sel.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-statement.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-string.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-style.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-stylesheet.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-term.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-tknzr.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-token.o .libs/libgettextlib.lax/libcroco_rpl.a/libcroco_rpl_la-cr-utils.o  .libs/libgettextlib.lax/libglib_rpl.a/libglib_rpl_la-ghash.o .libs/libgettextlib.lax/libglib_rpl.a/libglib_rpl_la-glist.o .libs/libgettextlib.lax/libglib_rpl.a/libglib_rpl_la-gmessages.o .libs/libgettextlib.lax/libglib_rpl.a/libglib_rpl_la-gprimes.o .libs/libgettextlib.lax/libglib_rpl.a/libglib_rpl_la-gstrfuncs.o .libs/libgettextlib.lax/libglib_rpl.a/libglib_rpl_la-gstring.o  .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-DOCBparser.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-HTMLparser.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-HTMLtree.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-SAX.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-SAX2.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-c14n.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-catalog.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-chvalid.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-debugXML.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-dict.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-encoding.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-entities.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-error.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-globals.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-hash.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-legacy.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-list.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-nanoftp.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-nanohttp.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-parser.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-parserInternals.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-pattern.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-relaxng.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-schematron.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-threads.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-tree.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-uri.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-valid.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xinclude.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xlink.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlIO.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlmemory.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlmodule.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlreader.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlregexp.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlsave.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlschemas.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlschemastypes.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlstring.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlunicode.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xmlwriter.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xpath.o .libs/libgettextlib.lax/libxml_rpl.a/libxml_rpl_la-xpointer.o 
+libtool: link: ranlib .libs/libgettextlib.a
+libtool: link: rm -fr .libs/libgettextlib.lax
+libtool: link: ( cd ".libs" && rm -f "libgettextlib.la" && ln -s "../libgettextlib.la" "libgettextlib.la" )
+make[1]: Leaving directory `/mnt/lfs/sources/gettext-0.18.3.2/gettext-tools/gnulib-lib'
+make: Leaving directory `/mnt/lfs/sources/gettext-0.18.3.2/gettext-tools/gnulib-lib'

@@ -1,0 +1,29 @@
+backref-multibyte-slow: skipped test: en_US.UTF-8 locale not found
+backslash-s-and-repetition-operators: skipped test: en_US.UTF-8 locale not found
+backslash-s-vs-invalid-multitype: skipped test: en_US.UTF-8 locale not found
+big-hole: skipped test: expensive: disabled by default
+big-match: skipped test: expensive: disabled by default
+char-class-multibyte: skipped test: en_US.UTF-8 locale not found
+char-class-multibyte2: skipped test: en_US.UTF-8 locale not found
+dfa-coverage: skipped test: en_US.UTF-8 locale not found
+equiv-classes: skipped test: en_US.UTF-8 locale not found
+euc-mb: skipped test: en_US.UTF-8 locale not found
+fgrep-infloop: skipped test: en_US.UTF-8 locale not found
+fmbtest: skipped test: this system lacks the cs_CZ.UTF-8 locale
+grep-dev-null: skipped test: en_US.UTF-8 locale not found
+invalid-multibyte-infloop: skipped test: en_US.UTF-8 locale not found
+long-line-vs-2GiB-read: skipped test: expensive: disabled by default
+multibyte-white-space: skipped test: en_US.UTF-8 locale not found
+empty-line-mb: skipped test: en_US.UTF-8 locale not found
+unibyte-bracket-expr: skipped test: ru_RU.KOI8-R locale not found
+pcre: skipped test: no PCRE support
+pcre-abort: skipped test: no PCRE support
+pcre-invalid-utf8-input: skipped test: no PCRE support
+pcre-utf8: skipped test: no PCRE support
+pcre-z: skipped test: no PCRE support
+prefix-of-multibyte: skipped test: en_US.UTF-8 locale not found
+sjis-mb: skipped test: en_US.UTF-8 locale not found
+surrogate-pair: skipped test: en_US.UTF-8 locale not found
+turkish-I: skipped test: en_US.UTF-8 locale not found
+turkish-I-without-dot: skipped test: tr_TR.UTF-8 locale not found
+word-delim-multibyte: skipped test: en_US.UTF-8 locale not found

@@ -1,0 +1,68 @@
+softmagic.c: In function 'mprint':
+softmagic.c:412:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%s"), buf) == -1)
+    ^
+softmagic.c:417:8: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+        (unsigned char) v) == -1)
+        ^
+softmagic.c:434:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%s"), buf) == -1)
+    ^
+softmagic.c:439:8: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+        (unsigned short) v) == -1)
+        ^
+softmagic.c:456:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%s"), buf) == -1)
+    ^
+softmagic.c:461:8: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+        (uint32_t) v) == -1)
+        ^
+softmagic.c:478:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%s"), buf) == -1)
+    ^
+softmagic.c:483:8: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+        (unsigned long long) v) == -1)
+        ^
+softmagic.c:495:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%s"), m->value.s) == -1)
+    ^
+softmagic.c:521:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%s"), str) == -1)
+    ^
+softmagic.c:535:7: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+       tbuf)) == -1)
+       ^
+softmagic.c:545:7: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+       file_fmttime(p->l, 0, tbuf)) == -1)
+       ^
+softmagic.c:554:7: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+       file_fmttime(p->q, FILE_T_LOCAL, tbuf)) == -1)
+       ^
+softmagic.c:563:7: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+       file_fmttime(p->q, 0, tbuf)) == -1)
+       ^
+softmagic.c:572:7: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+       file_fmttime(p->q, FILE_T_WINDOWS, tbuf)) == -1)
+       ^
+softmagic.c:586:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%s"), buf) == -1)
+    ^
+softmagic.c:590:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%g"), vf) == -1)
+    ^
+softmagic.c:606:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%s"), buf) == -1)
+    ^
+softmagic.c:610:4: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+    if (file_printf(ms, F(m->desc, "%g"), vd) == -1)
+    ^
+softmagic.c:626:3: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+   rval = file_printf(ms, F(m->desc, "%s"), cp);
+   ^
+softmagic.c:640:5: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     if (file_printf(ms, F(m->desc, "%s"), m->value.s) == -1)
+     ^
+softmagic.c: In function 'mget':
+softmagic.c:1758:8: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+        file_printf(ms, F(m->desc, "%u"), offset) == -1)
+        ^

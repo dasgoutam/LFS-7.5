@@ -1,0 +1,2 @@
+/mnt/lfs/sources/linux-3.13.3/usr/include/linux/kexec.h:49: userspace cannot reference function or variable defined in the kernel
+/mnt/lfs/sources/linux-3.13.3/usr/include/linux/soundcard.h:1054: userspace cannot reference function or variable defined in the kernel

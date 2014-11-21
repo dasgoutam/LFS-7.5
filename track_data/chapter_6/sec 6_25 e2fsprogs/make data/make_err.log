@@ -1,0 +1,40 @@
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:4:0: warning: "FALLOC_FL_KEEP_SIZE" redefined [enabled by default]
+ #define FALLOC_FL_KEEP_SIZE 0x01 /* default is extend size */
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:304:0: note: this is the location of the previous definition
+ # define FALLOC_FL_KEEP_SIZE  1 /* Don't extend size of file
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:5:0: warning: "FALLOC_FL_PUNCH_HOLE" redefined [enabled by default]
+ #define FALLOC_FL_PUNCH_HOLE 0x02 /* de-allocates range */
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:307:0: note: this is the location of the previous definition
+ # define FALLOC_FL_PUNCH_HOLE  2 /* Create a hole in the file.  */
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:4:0: warning: "FALLOC_FL_KEEP_SIZE" redefined [enabled by default]
+ #define FALLOC_FL_KEEP_SIZE 0x01 /* default is extend size */
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:304:0: note: this is the location of the previous definition
+ # define FALLOC_FL_KEEP_SIZE  1 /* Don't extend size of file
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:5:0: warning: "FALLOC_FL_PUNCH_HOLE" redefined [enabled by default]
+ #define FALLOC_FL_PUNCH_HOLE 0x02 /* de-allocates range */
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:307:0: note: this is the location of the previous definition
+ # define FALLOC_FL_PUNCH_HOLE  2 /* Create a hole in the file.  */
+ ^

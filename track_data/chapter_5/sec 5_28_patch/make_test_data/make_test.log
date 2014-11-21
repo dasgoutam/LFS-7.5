@@ -1,0 +1,62 @@
+  GEN    public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/mnt/lfs/sources/patch-2.7.1'
+Making check in lib
+make[2]: Entering directory '/mnt/lfs/sources/patch-2.7.1/lib'
+make  check-am
+make[3]: Entering directory '/mnt/lfs/sources/patch-2.7.1/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/mnt/lfs/sources/patch-2.7.1/lib'
+make[2]: Leaving directory '/mnt/lfs/sources/patch-2.7.1/lib'
+Making check in src
+make[2]: Entering directory '/mnt/lfs/sources/patch-2.7.1/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/mnt/lfs/sources/patch-2.7.1/src'
+Making check in tests
+make[2]: Entering directory '/mnt/lfs/sources/patch-2.7.1/tests'
+make  check-TESTS
+make[3]: Entering directory '/mnt/lfs/sources/patch-2.7.1/tests'
+make[4]: Entering directory '/mnt/lfs/sources/patch-2.7.1/tests'
+PASS: asymmetric-hunks
+PASS: backup-prefix-suffix
+PASS: bad-filenames
+PASS: concat-git-diff
+PASS: copy-rename
+PASS: corrupt-reject-files
+PASS: create-delete
+PASS: create-directory
+PASS: criss-cross
+PASS: crlf-handling
+XFAIL: dash-o-append
+PASS: empty-files
+PASS: fifo
+PASS: file-modes
+PASS: filename-choice
+PASS: git-binary-diff
+PASS: global-reject-files
+PASS: inname
+PASS: line-numbers
+PASS: merge
+PASS: mangled-numbers-abort
+PASS: mixed-patch-types
+PASS: munged-context-format
+PASS: need-filename
+PASS: no-newline-triggers-assert
+PASS: preserve-c-function-names
+PASS: preserve-mode-and-timestamp
+PASS: quoted-filenames
+PASS: read-only-files
+PASS: reject-format
+PASS: remember-backup-files
+PASS: remember-reject-files
+PASS: symlinks
+PASS: unmodified-files
+=====================================================
+All 34 tests behaved as expected (1 expected failure)
+=====================================================
+make[4]: Leaving directory '/mnt/lfs/sources/patch-2.7.1/tests'
+make[3]: Leaving directory '/mnt/lfs/sources/patch-2.7.1/tests'
+make[2]: Leaving directory '/mnt/lfs/sources/patch-2.7.1/tests'
+make[2]: Entering directory '/mnt/lfs/sources/patch-2.7.1'
+make[2]: Leaving directory '/mnt/lfs/sources/patch-2.7.1'
+make[1]: Leaving directory '/mnt/lfs/sources/patch-2.7.1'

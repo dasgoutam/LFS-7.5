@@ -1,0 +1,49 @@
+./parse.y: warning: 1 shift/reduce conflict [-Wconflicts-sr]
+./parse.y: warning: 1 shift/reduce conflict [-Wconflicts-sr]
+expr.c:207:17: warning: conflicting types for built-in function 'exp2' [enabled by default]
+ static intmax_t exp2 __P((void));
+                 ^
+execute_cmd.c: In function 'execute_in_subshell':
+execute_cmd.c:1507:5: warning: passing argument 1 of 'execute_command_internal' discards 'volatile' qualifier from pointer target type [enabled by default]
+     return_code = execute_command_internal (tcom, asynchronous, NO_PIPE, NO_PIPE, fds_to_close);
+     ^
+execute_cmd.c:522:1: note: expected 'struct COMMAND *' but argument is of type 'volatile struct COMMAND *'
+ execute_command_internal (command, asynchronous, pipe_in, pipe_out,
+ ^
+execute_cmd.c: In function 'execute_function':
+execute_cmd.c:4256:3: warning: passing argument 1 of 'array_rshift' discards 'volatile' qualifier from pointer target type [enabled by default]
+   array_push (bash_source_a, sfile);
+   ^
+In file included from variables.h:25:0,
+                 from shell.h:31,
+                 from execute_cmd.c:66:
+array.h:56:12: note: expected 'struct ARRAY *' but argument is of type 'volatile struct ARRAY *'
+ extern int array_rshift __P((ARRAY *, int, char *));
+            ^
+execute_cmd.c:4258:3: warning: passing argument 1 of 'array_rshift' discards 'volatile' qualifier from pointer target type [enabled by default]
+   array_push (bash_lineno_a, t);
+   ^
+In file included from variables.h:25:0,
+                 from shell.h:31,
+                 from execute_cmd.c:66:
+array.h:56:12: note: expected 'struct ARRAY *' but argument is of type 'volatile struct ARRAY *'
+ extern int array_rshift __P((ARRAY *, int, char *));
+            ^
+execute_cmd.c:4333:3: warning: passing argument 1 of 'array_shift' discards 'volatile' qualifier from pointer target type [enabled by default]
+   array_pop (bash_source_a);
+   ^
+In file included from variables.h:25:0,
+                 from shell.h:31,
+                 from execute_cmd.c:66:
+array.h:55:23: note: expected 'struct ARRAY *' but argument is of type 'volatile struct ARRAY *'
+ extern ARRAY_ELEMENT *array_shift __P((ARRAY *, int, int));
+                       ^
+execute_cmd.c:4334:3: warning: passing argument 1 of 'array_shift' discards 'volatile' qualifier from pointer target type [enabled by default]
+   array_pop (bash_lineno_a);
+   ^
+In file included from variables.h:25:0,
+                 from shell.h:31,
+                 from execute_cmd.c:66:
+array.h:55:23: note: expected 'struct ARRAY *' but argument is of type 'volatile struct ARRAY *'
+ extern ARRAY_ELEMENT *array_shift __P((ARRAY *, int, int));
+                       ^

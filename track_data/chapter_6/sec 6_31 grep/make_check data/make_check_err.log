@@ -1,0 +1,9 @@
+big-hole: skipped test: expensive: disabled by default
+big-match: skipped test: expensive: disabled by default
+long-line-vs-2GiB-read: skipped test: expensive: disabled by default
+pcre: skipped test: no PCRE support
+pcre-abort: skipped test: no PCRE support
+pcre-invalid-utf8-input: skipped test: no PCRE support
+pcre-utf8: skipped test: no PCRE support
+pcre-z: skipped test: no PCRE support
+sjis-mb: skipped test: SJIS locale not found

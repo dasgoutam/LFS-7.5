@@ -1,0 +1,24 @@
+make: Entering directory `/mnt/lfs/sources/binutils-build/ld'
+Making clean in po
+make[1]: Entering directory `/mnt/lfs/sources/binutils-build/ld/po'
+rm -f core core.* *.pox ld.po *.old.po cat-id-tbl.tmp
+rm -fr *.o
+make[1]: Leaving directory `/mnt/lfs/sources/binutils-build/ld/po'
+Making clean in .
+make[1]: Entering directory `/mnt/lfs/sources/binutils-build/ld'
+test -z "ld.dvi ld.pdf ld.ps ld.html" \
+	|| rm -rf ld.dvi ld.pdf ld.ps ld.html
+ rm -f ld-new
+test -z "dep.sed DEP DEPA DEP1 DEP2 spu_ovl.s spu_ovl.o spu_icache.s spu_icache.o" || rm -f dep.sed DEP DEPA DEP1 DEP2 spu_ovl.s spu_ovl.o spu_icache.s spu_icache.o
+rm -rf .libs _libs
+test -z "libldtestplug.la" || rm -f libldtestplug.la
+rm -f "./so_locations"
+rm -rf ld.aux ld.cp ld.cps ld.fn ld.fns ld.ky ld.log ld.pg ld.pgs ld.tmp \
+	  ld.toc ld.tp ld.tps ld.vr ld.vrs
+rm -f *.o
+test -z "*.o ldscripts/* e*.c ld1 ld2 ld3 ldemul-list.h crtbegin.o crtend.o ld.log ld.sum" || rm -f *.o ldscripts/* e*.c ld1 ld2 ld3 ldemul-list.h crtbegin.o crtend.o ld.log ld.sum
+rm -f *.lo
+rm -rf tmpdir
+make[1]: Leaving directory `/mnt/lfs/sources/binutils-build/ld'
+make: Leaving directory `/mnt/lfs/sources/binutils-build/ld'
+

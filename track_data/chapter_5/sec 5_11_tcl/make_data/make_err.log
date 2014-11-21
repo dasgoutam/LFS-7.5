@@ -1,0 +1,268 @@
+/mnt/lfs/sources/tcl8.6.1/generic/tclDate.c: In function 'TclDateparse':
+/mnt/lfs/sources/tcl8.6.1/generic/tclDate.c:2226:12: warning: 'TclDatelval.Number' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   *++yyvsp = yylval;
+            ^
+config.status: WARNING:  '/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/Makefile.in' seems to ignore the --datarootdir setting
+configure: WARNING: Found Makefile - using build library specs for tdbc
+configure: WARNING: Looking for "/mnt/lfs/sources/tcl8.6.1/unix/pkgs/tdbc1.0.0/Makefile"
+configure: WARNING: Found Makefile - using build include spec and lib specs for tdbc
+configure: WARNING: Found Makefile - using build library specs for tdbc
+configure: WARNING: Looking for "/mnt/lfs/sources/tcl8.6.1/unix/pkgs/tdbc1.0.0/Makefile"
+configure: WARNING: Found Makefile - using build include spec and lib specs for tdbc
+configure: WARNING: Found Makefile - using build library specs for tdbc
+configure: WARNING: Looking for "/mnt/lfs/sources/tcl8.6.1/unix/pkgs/tdbc1.0.0/Makefile"
+configure: WARNING: Found Makefile - using build include spec and lib specs for tdbc
+configure: WARNING: unrecognized options: --with-tclinclude, --enable-shared, --enable-threads
+configure: WARNING: Found Makefile - using build library specs for tdbc
+configure: WARNING: unrecognized options: --with-tclinclude, --enable-shared, --enable-threads
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclClass.c: In function 'Itcl_DeleteMemberFunc':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclClass.c:59:21: warning: variable 'imPtr' set but not used [-Wunused-but-set-variable]
+     ItclMemberFunc *imPtr;
+                     ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclClass.c: In function 'ItclDestroyClassNamesp':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclClass.c:859:20: warning: variable 'hPtr2' set but not used [-Wunused-but-set-variable]
+     Tcl_HashEntry *hPtr2;
+                    ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c: In function 'Itcl_BiInit':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c:269:9: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     int result;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclClass.c: In function 'ItclFreeClass':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclClass.c:1000:9: warning: variable 'found' set but not used [-Wunused-but-set-variable]
+     int found;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBase.c: In function 'ItclCallCCommand':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBase.c:571:25: warning: variable 'infoPtr' set but not used [-Wunused-but-set-variable]
+         ItclObjectInfo *infoPtr;
+                         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBase.c:570:17: warning: variable 'callerNsPtr' set but not used [-Wunused-but-set-variable]
+  Tcl_Namespace *callerNsPtr;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclClass.c: In function 'Itcl_BuildVirtualTables':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclClass.c:1715:17: warning: variable 'type' set but not used [-Wunused-but-set-variable]
+             int type = VAR_TYPE_VARIABLE;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBase.c: In function 'ItclFinishCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBase.c:706:9: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     int result;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c: In function 'ItclBiClassUnknownCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c:1287:9: warning: variable 'found' set but not used [-Wunused-but-set-variable]
+     int found;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c: In function 'ItclExtendedConfigure':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c:1922:17: warning: variable 'token' set but not used [-Wunused-but-set-variable]
+     const char *token;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c:1913:20: warning: variable 'vlookup' set but not used [-Wunused-but-set-variable]
+     ItclVarLookup *vlookup;
+                    ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c: In function 'ItclExtendedSetGet':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c:2757:17: warning: variable 'token' set but not used [-Wunused-but-set-variable]
+     const char *token;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c: In function 'Itcl_BiInstallComponentCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c:2873:20: warning: variable 'icPtr' set but not used [-Wunused-but-set-variable]
+     ItclComponent *icPtr;
+                    ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c:2872:26: warning: variable 'idoPtr' set but not used [-Wunused-but-set-variable]
+     ItclDelegatedOption *idoPtr;
+                          ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c: In function 'Itcl_BiMyVarCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclBuiltin.c:3423:14: warning: variable 'objPtr' set but not used [-Wunused-but-set-variable]
+     Tcl_Obj *objPtr;
+              ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c: In function 'Itcl_MixinAddCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c:1340:16: warning: variable 'iclsPtr' set but not used [-Wunused-but-set-variable]
+     ItclClass *iclsPtr;
+                ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c: In function 'Itcl_NWidgetCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c:1407:21: warning: variable 'infoPtr' set but not used [-Wunused-but-set-variable]
+     ItclObjectInfo *infoPtr;
+                     ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c: In function 'Itcl_AddComponentCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c:1762:9: warning: variable 'type' set but not used [-Wunused-but-set-variable]
+     int type = VAR_TYPE_VARIABLE;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c:1753:21: warning: variable 'infoPtr' set but not used [-Wunused-but-set-variable]
+     ItclObjectInfo *infoPtr;
+                     ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c: In function 'Itcl_SetComponentCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c:1923:21: warning: variable 'infoPtr' set but not used [-Wunused-but-set-variable]
+     ItclObjectInfo *infoPtr;
+                     ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c: In function 'Itcl_ExtendedClassCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c:2011:21: warning: variable 'infoPtr' set but not used [-Wunused-but-set-variable]
+     ItclObjectInfo *infoPtr;
+                     ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c: In function 'Itcl_TypeClassCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c:2047:21: warning: variable 'infoPtr' set but not used [-Wunused-but-set-variable]
+     ItclObjectInfo *infoPtr;
+                     ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c: In function 'Itcl_ClassHullTypeCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclCmd.c:2095:9: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     int result;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclEnsemble.c: In function 'DeleteEnsemblePart':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclEnsemble.c:1287:17: warning: variable 'cmdPtr' set but not used [-Wunused-but-set-variable]
+     Tcl_Command cmdPtr;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclEnsemble.c: In function 'GetEnsembleParser':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclEnsemble.c:1865:20: warning: variable 'nsPtr' set but not used [-Wunused-but-set-variable]
+     Tcl_Namespace *nsPtr;
+                    ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclEnsemble.c: In function 'Itcl_EnsPartCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclEnsemble.c:2003:17: warning: variable 'cmdPtr' set but not used [-Wunused-but-set-variable]
+     Tcl_Command cmdPtr;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclHelpers.c: In function 'ItclAddDelegatedOptionDictInfo':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclHelpers.c:960:11: warning: variable 'value' set but not used [-Wunused-but-set-variable]
+     void *value;
+           ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclHelpers.c: In function 'ItclAddClassComponentDictInfo':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclHelpers.c:1061:11: warning: variable 'value' set but not used [-Wunused-but-set-variable]
+     void *value;
+           ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclHelpers.c: In function 'ItclAddClassDelegatedFunctionDictInfo':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclHelpers.c:1467:11: warning: variable 'value' set but not used [-Wunused-but-set-variable]
+     void *value;
+           ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclInfo.c: In function 'ItclInfoInit':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclInfo.c:376:17: warning: variable 'cmd' set but not used [-Wunused-but-set-variable]
+     Tcl_Command cmd;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclInfo.c: In function 'Itcl_BiInfoVarsCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclInfo.c:1474:9: warning: variable 'hasPattern' set but not used [-Wunused-but-set-variable]
+     int hasPattern;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclInfo.c: In function 'Itcl_BiInfoUnknownCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclInfo.c:1608:9: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     int result;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclInfo.c: In function 'Itcl_BiInfoComponentsCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclInfo.c:3613:21: warning: variable 'infoPtr' set but not used [-Wunused-but-set-variable]
+     ItclObjectInfo *infoPtr;
+                     ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclMethod.c: In function 'Itcl_EvalMemberCode':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclMethod.c:1250:17: warning: variable 'callerNsPtr' set but not used [-Wunused-but-set-variable]
+  Tcl_Namespace *callerNsPtr;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclMethod.c: In function 'Itcl_GetMemberFuncUsage':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclMethod.c:1472:9: warning: variable 'argcount' set but not used [-Wunused-but-set-variable]
+     int argcount;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclMethod.c: In function 'ItclAfterCallMethod':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclMethod.c:2435:16: warning: variable 'oPtr' set but not used [-Wunused-but-set-variable]
+     Tcl_Object oPtr;
+                ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c: In function 'ItclCreateObject':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:162:9: warning: variable 'newObjc' set but not used [-Wunused-but-set-variable]
+     int newObjc;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c: In function 'ItclInitObjectVariables':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:962:8: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    int result;
+        ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:783:9: warning: variable 'numInheritComponents' set but not used [-Wunused-but-set-variable]
+     int numInheritComponents;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:778:20: warning: variable 'vlookup' set but not used [-Wunused-but-set-variable]
+     ItclVarLookup *vlookup;
+                    ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c: In function 'ItclInitObjectOptions':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:1095:17: warning: variable 'itclOptionsName' set but not used [-Wunused-but-set-variable]
+     const char *itclOptionsName;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c: In function 'ItclTraceOptionVar':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:2245:17: warning: variable 'ioptPtr' set but not used [-Wunused-but-set-variable]
+     ItclOption *ioptPtr;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:2244:17: warning: variable 'ioPtr' set but not used [-Wunused-but-set-variable]
+     ItclObject *ioPtr;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c: In function 'ExpandDelegateAs':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:3068:10: warning: variable 'hadDoublePercent' set but not used [-Wunused-but-set-variable]
+      int hadDoublePercent;
+          ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c: In function 'DelegateFunction':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclObject.c:3275:17: warning: variable 'val' set but not used [-Wunused-but-set-variable]
+     const char *val;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c: In function 'ItclInitClassCommon':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c:2012:9: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     int result;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c: In function 'ItclCreateDelegatedFunction':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c:3185:20: warning: variable 'hPtr' set but not used [-Wunused-but-set-variable]
+     Tcl_HashEntry *hPtr;
+                    ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c: In function 'Itcl_HandleDelegateMethodCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c:3272:17: warning: variable 'what' set but not used [-Wunused-but-set-variable]
+     const char *what;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c:3271:17: warning: variable 'whatName' set but not used [-Wunused-but-set-variable]
+     const char *whatName;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c: In function 'Itcl_ClassDelegateMethodCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c:3446:17: warning: variable 'usageStr' set but not used [-Wunused-but-set-variable]
+     const char *usageStr;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c: In function 'Itcl_HandleDelegateOptionCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c:3523:17: warning: variable 'whatName' set but not used [-Wunused-but-set-variable]
+     const char *whatName;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c:3522:17: warning: variable 'what' set but not used [-Wunused-but-set-variable]
+     const char *what;
+                 ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c: In function 'Itcl_ClassMethodVariableCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclParse.c:4113:9: warning: variable 'pLevel' set but not used [-Wunused-but-set-variable]
+     int pLevel;
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclResolve.c: In function 'Itcl_ClassCmdResolver':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclResolve.c:81:28: warning: variable 'idmPtr' set but not used [-Wunused-but-set-variable]
+     ItclDelegatedFunction *idmPtr;
+                            ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclResolve.c: In function 'Itcl_ClassVarResolver':
+/mnt/lfs/sources/tcl8.6.1/pkgs/itcl4.0.0/generic/itclResolve.c:266:20: warning: variable 'upNsPtr' set but not used [-Wunused-but-set-variable]
+     Tcl_Namespace *upNsPtr;
+                    ^
+In file included from /mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/tclsqlite3.c:4:0:
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c: In function 'porter_stemmer':
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128074:41: warning: value computed is not used [-Wunused-value]
+      stem(&z, "lanoita", "ate", m_gt_0) ||
+                                         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128078:39: warning: value computed is not used [-Wunused-value]
+      stem(&z, "icne", "ence", m_gt_0) ||
+                                       ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128091:35: warning: value computed is not used [-Wunused-value]
+      stem(&z, "ile", "e", m_gt_0) ||
+                                   ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128096:39: warning: value computed is not used [-Wunused-value]
+      stem(&z, "noita", "ate", m_gt_0) ||
+                                       ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128102:41: warning: value computed is not used [-Wunused-value]
+      stem(&z, "ssenluf", "ful", m_gt_0) ||
+                                         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128107:39: warning: value computed is not used [-Wunused-value]
+      stem(&z, "itivi", "ive", m_gt_0) ||
+                                       ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128116:38: warning: value computed is not used [-Wunused-value]
+      stem(&z, "evita", "", m_gt_0)   ||
+                                      ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128123:37: warning: value computed is not used [-Wunused-value]
+      stem(&z, "laci", "ic", m_gt_0) ||
+                                     ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128166:39: warning: value computed is not used [-Wunused-value]
+          stem(&z, "tnem", "", m_gt_1) ||
+                                       ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/sqlite3.8.0/generic/sqlite3.c:128186:34: warning: value computed is not used [-Wunused-value]
+      stem(&z, "eta", "", m_gt_1) ||
+                                  ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/thread2.7.0/generic/threadSpCmd.c: In function 'ThreadEvalObjCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/thread2.7.0/generic/threadSpCmd.c:768:9: warning: 'errorLine' is deprecated (declared at /mnt/lfs/sources/tcl8.6.1/generic/tcl.h:526) [-Wdeprecated-declarations]
+         sprintf(msg, "\n    (\"eval\" body line %d)", Tcl_GetErrorLine(interp));
+         ^
+/mnt/lfs/sources/tcl8.6.1/pkgs/thread2.7.0/generic/threadSvCmd.c: In function 'SvLockObjCmd':
+/mnt/lfs/sources/tcl8.6.1/pkgs/thread2.7.0/generic/threadSvCmd.c:2051:9: warning: 'errorLine' is deprecated (declared at /mnt/lfs/sources/tcl8.6.1/generic/tcl.h:526) [-Wdeprecated-declarations]
+         sprintf(msg, "\n    (\"eval\" body line %d)", Tcl_GetErrorLine(interp));
+         ^

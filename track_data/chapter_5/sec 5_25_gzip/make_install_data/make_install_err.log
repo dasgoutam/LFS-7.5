@@ -1,0 +1,9 @@
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
++ cd /tools/bin
++ rm -f uncompress
++ case remove-installed-links in
++ cd /tools/bin
++ rm -f uncompress
++ case install-exec-hook in
++ ln gunzip uncompress

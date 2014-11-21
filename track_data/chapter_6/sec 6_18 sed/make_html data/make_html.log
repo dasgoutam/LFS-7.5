@@ -1,0 +1,15 @@
+cd doc && make html
+make[1]: Entering directory '/sources/sed-4.2.2/doc'
+rm -rf sed.htp
+if /bin/sh /sources/sed-4.2.2/build-aux/missing --run makeinfo --html --no-split  -I . \
+ -o sed.htp sed.texi; \
+then \
+  rm -rf sed.html; \
+  if test ! -d sed.htp && test -d sed; then \
+    mv sed sed.html; else mv sed.htp sed.html; fi; \
+else \
+  if test ! -d sed.htp && test -d sed; then \
+    rm -rf sed; else rm -Rf sed.htp sed.html; fi; \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/sed-4.2.2/doc'

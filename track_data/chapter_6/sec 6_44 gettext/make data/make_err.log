@@ -1,0 +1,5 @@
+libxml/tree.c: In function 'xmlNodeSetBase':
+libxml/tree.c:4851:2: warning: passing argument 1 of 'xmlFree' discards 'const' qualifier from pointer target type [enabled by default]
+  xmlFree(fixed);
+  ^
+libxml/tree.c:4851:2: note: expected 'void *' but argument is of type 'const xmlChar *'

@@ -1,0 +1,9 @@
+tio_str.c:24:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+ #define _POSIX_C_SOURCE 1 /* apparently needed on Darwin */
+ ^
+In file included from /usr/include/stdio.h:27:0,
+                 from mpc-tests.h:25,
+                 from tio_str.c:21:
+/usr/include/features.h:230:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^

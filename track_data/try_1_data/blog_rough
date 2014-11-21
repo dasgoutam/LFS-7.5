@@ -1,0 +1,46 @@
+killall unity-panel-service
+
+for binutils pass 1
+make -j4
+real	1m3.383s
+user	2m32.828s
+sys	0m11.508s
+
+make
+real	2m44.626s
+user	1m49.744s
+sys	0m12.172s
+
+
+for gcc pass 1
+make -j4
+real	6m52.659s
+user	21m0.308s
+sys	0m55.396s
+make install
+real	0m8.058s
+user	0m1.280s
+sys	0m0.828s
+
+
+during installation of glibc in sec 5.7:
+during config run we got the error:
+
+checking LD_LIBRARY_PATH variable... ok
+checking whether GCC supports -static-libgcc... -static-libgcc
+checking for bash... /bin/bash
+checking for perl... /usr/bin/perl
+checking for install-info... /usr/bin/install-info
+checking for bison... /usr/bin/bison
+checking for libc-friendly stddef.h... yes
+checking whether we need to use -P to assemble .S files... no
+checking for .set assembler directive... no
+checking for assembler gnu_unique_object symbol type... yes
+checking for .previous assembler directive... yes
+checking for .protected and .hidden assembler directive... yes
+checking whether __attribute__((visibility())) is supported... yes
+checking for broken __attribute__((visibility()))... no
+checking for broken __attribute__((alias()))... no
+checking whether to put _rtld_local into .sdata section... no
+checking for .preinit_array/.init_array/.fini_array support... no
+configure: error: Need linker with .init_array/.fini_array support.

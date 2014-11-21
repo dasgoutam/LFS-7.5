@@ -1,0 +1,6 @@
+make: Entering directory '/sources/tar-1.27.1/doc'
+  MAKEINFO tar.html
+ /bin/mkdir -p '/usr/share/doc/tar-1.27.1'
+ /bin/mkdir -p '/usr/share/doc/tar-1.27.1/tar.html'
+ /usr/bin/install -c -m 644 'tar.html'/* '/usr/share/doc/tar-1.27.1/tar.html'
+make: Leaving directory '/sources/tar-1.27.1/doc'

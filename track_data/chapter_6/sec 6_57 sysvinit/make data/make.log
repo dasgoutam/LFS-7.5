@@ -1,0 +1,19 @@
+make: Entering directory '/sources/sysvinit-2.88dsf/src'
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o init.o init.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE -DINIT_MAIN -c -o init_utmp.o utmp.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o halt.o halt.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o ifdown.o ifdown.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o hddown.o hddown.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o utmp.o utmp.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o shutdown.o shutdown.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o dowall.o dowall.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o runlevel.o runlevel.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE    killall5.c   -o killall5
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE    fstab-decode.c   -o fstab-decode
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o bootlogd.o bootlogd.c
+cc   halt.o ifdown.o hddown.o utmp.o reboot.h   -o halt
+cc   shutdown.o dowall.o utmp.o reboot.h   -o shutdown
+cc   runlevel.o   -o runlevel
+cc   bootlogd.o  -lutil -o bootlogd
+cc   init.o init_utmp.o    -o init
+make: Leaving directory '/sources/sysvinit-2.88dsf/src'

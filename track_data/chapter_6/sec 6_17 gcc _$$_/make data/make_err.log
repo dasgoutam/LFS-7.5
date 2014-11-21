@@ -1,0 +1,563 @@
+libtool: install: warning: remember to run `libtool --finish /usr/libexec/gcc/i686-pc-linux-gnu/4.8.2'
+configure: WARNING: fixed-point is not supported for this target, ignored
+Links are now set up to build a native compiler for i686-pc-linux-gnu.
+../../gcc-4.8.2/gcc/doc/install.texi:3133: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3148: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3161: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3168: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3177: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3214: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3231: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3254: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3289: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3301: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3308: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3346: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3359: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3411: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3424: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3535: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3544: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3556: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3576: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3605: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3625: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3640: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3791: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3798: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3805: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3812: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3819: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3826: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3854: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3864: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3871: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3878: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3930: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3937: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3946: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3952: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3964: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3980: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3986: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3993: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:3999: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4006: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4012: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4018: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4025: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4031: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4038: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4046: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4052: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4058: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4069: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4174: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4189: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4251: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4267: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4277: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4302: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4309: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4316: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4324: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4332: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4367: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4377: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4393: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4411: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4423: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4480: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4497: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4507: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4516: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/install.texi:4562: warning: @anchor should not appear in @heading
+../../gcc-4.8.2/gcc/doc/gcc.texi:88: warning: @tex should only appear at a line beginning
+../../gcc-4.8.2/gcc/doc/gcc.texi:88: warning: @end should only appear at a line beginning
+../../gcc-4.8.2/gcc/doc/gcc.texi:90: warning: @tex should only appear at a line beginning
+../../gcc-4.8.2/gcc/doc/gcc.texi:90: warning: @end should only appear at a line beginning
+../../gcc-4.8.2/gcc/doc/invoke.texi:11809: warning: command @tie does not accept arguments
+../../gcc-4.8.2/gcc/doc/invoke.texi:11819: warning: command @tie does not accept arguments
+../../gcc-4.8.2/gcc/doc/invoke.texi:1046: warning: node next `Overall Options' in menu `C Dialect Options' and in sectioning `Invoking G++' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:1046: warning: node up `Overall Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:1512: warning: node prev `C Dialect Options' in menu `Overall Options' and in sectioning `Invoking G++' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:1512: warning: node up `C Dialect Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:1907: warning: node up `C++ Dialect Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:2686: warning: node up `Objective-C and Objective-C++ Dialect Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:2918: warning: node up `Language Independent Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:2973: warning: node up `Warning Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:4848: warning: node up `Debugging Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:6445: warning: node up `Optimize Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:9706: warning: node up `Preprocessor Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:9759: warning: node up `Assembler Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:9782: warning: node up `Link Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:10055: warning: node up `Directory Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:10208: warning: node up `Spec Files' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/invoke.texi:10769: warning: node up `Target Options' in menu `Option Summary' and in sectioning `Invoking GCC' differ
+../../gcc-4.8.2/gcc/doc/trouble.texi:5: warning: node next `Trouble' in menu `Service' and in sectioning `Bugs' differ
+../../gcc-4.8.2/gcc/doc/trouble.texi:5: warning: node prev `Trouble' in menu `Bug Reporting' and in sectioning `Gcov' differ
+../../gcc-4.8.2/gcc/doc/trouble.texi:5: warning: node up `Trouble' in menu `Bugs' and in sectioning `Top' differ
+../../gcc-4.8.2/gcc/doc/service.texi:5: warning: node prev `Service' in menu `Trouble' and in sectioning `Bugs' differ
+../../gcc-4.8.2/gcc/doc/service.texi:5: warning: node up `Service' in menu `Bugs' and in sectioning `Top' differ
+../../gcc-4.8.2/gcc/doc/passes.texi:7: warning: node next `Passes' in menu `GENERIC' and in sectioning `RTL' differ
+../../gcc-4.8.2/gcc/doc/rtl.texi:5: warning: node next `RTL' in menu `Control Flow' and in sectioning `GENERIC' differ
+../../gcc-4.8.2/gcc/doc/rtl.texi:5: warning: node prev `RTL' in menu `Tree SSA' and in sectioning `Passes' differ
+../../gcc-4.8.2/gcc/doc/generic.texi:9: warning: node prev `GENERIC' in menu `Passes' and in sectioning `RTL' differ
+../../gcc-4.8.2/gcc/doc/tree-ssa.texi:9: warning: node next `Tree SSA' in menu `RTL' and in sectioning `Loop Analysis and Representation' differ
+../../gcc-4.8.2/gcc/doc/loop.texi:10: warning: node next `Loop Analysis and Representation' in menu `Machine Desc' and in sectioning `Control Flow' differ
+../../gcc-4.8.2/gcc/doc/loop.texi:10: warning: node prev `Loop Analysis and Representation' in menu `Control Flow' and in sectioning `Tree SSA' differ
+../../gcc-4.8.2/gcc/doc/cfg.texi:10: warning: node next `Control Flow' in menu `Loop Analysis and Representation' and in sectioning `Machine Desc' differ
+../../gcc-4.8.2/gcc/doc/cfg.texi:10: warning: node prev `Control Flow' in menu `RTL' and in sectioning `Loop Analysis and Representation' differ
+../../gcc-4.8.2/gcc/doc/md.texi:6: warning: node prev `Machine Desc' in menu `Loop Analysis and Representation' and in sectioning `Control Flow' differ
+xgcc: error trying to exec 'cc1': execvp: No such file or directory
+Applying io_quotes_use            to drm/drm.h
+Applying io_quotes_use            to drm/i915_drm.h
+Applying io_quotes_use            to drm/via_drm.h
+Applying io_quotes_use            to drm/r128_drm.h
+Applying io_quotes_use            to drm/nouveau_drm.h
+Applying io_quotes_use            to drm/msm_drm.h
+Applying io_quotes_use            to drm/tegra_drm.h
+Applying io_quotes_use            to drm/sis_drm.h
+Applying io_quotes_use            to drm/radeon_drm.h
+Applying io_quotes_use            to drm/savage_drm.h
+Applying io_quotes_use            to drm/i810_drm.h
+Applying io_quotes_use            to drm/exynos_drm.h
+Applying io_quotes_use            to drm/mga_drm.h
+Applying io_quotes_use            to mtd/ubi-user.h
+Applying io_quotes_use            to sys/raw.h
+Applying io_quotes_use            to sys/mount.h
+Applying sysv68_string            to string.h
+Applying io_quotes_use            to linux/rfkill.h
+Applying io_quotes_use            to linux/dn.h
+Applying io_quotes_use            to linux/pktcdvd.h
+Applying io_quotes_def            to linux/version.h
+Applying io_quotes_use            to linux/media.h
+Applying io_quotes_def            to linux/pci_regs.h
+Applying io_quotes_use            to linux/nbd.h
+Applying io_quotes_use            to linux/omapfb.h
+Applying io_quotes_def            to linux/ppp-comp.h
+Applying io_quotes_use            to linux/auto_fs.h
+Applying io_quotes_use            to linux/atmbr2684.h
+Applying io_quotes_use            to linux/hsi/hsi_char.h
+Applying io_quotes_use            to linux/ipmi.h
+Applying io_quotes_use            to linux/raid/md_u.h
+Applying io_quotes_use            to linux/mmc/ioctl.h
+Applying io_quotes_use            to linux/suspend_ioctls.h
+Applying io_quotes_use            to linux/auto_fs4.h
+Applying io_quotes_use            to linux/i2o-dev.h
+Applying io_quotes_use            to linux/random.h
+Applying io_quotes_use            to linux/synclink.h
+Applying io_quotes_use            to linux/dm-ioctl.h
+Applying io_quotes_use            to linux/agpgart.h
+Applying io_quotes_use            to linux/raw.h
+Applying io_quotes_use            to linux/mmtimer.h
+Applying io_quotes_use            to linux/spi/spidev.h
+Applying io_quotes_use            to linux/input.h
+Applying io_quotes_use            to linux/fd.h
+Applying io_quotes_use            to linux/fs.h
+Applying io_quotes_use            to linux/reiserfs_fs.h
+Applying io_quotes_use            to linux/cm4000_cs.h
+Applying io_quotes_use            to linux/ptp_clock.h
+Applying io_quotes_use            to linux/uinput.h
+Applying io_quotes_use            to linux/if_pppox.h
+Applying io_quotes_use            to linux/usb/tmc.h
+Applying io_quotes_use            to linux/vfio.h
+Applying io_quotes_use            to linux/ppdev.h
+Applying io_quotes_def            to linux/soundcard.h
+Applying io_quotes_use            to linux/kvm.h
+Applying io_quotes_use            to linux/vhost.h
+Applying io_quotes_use            to linux/watchdog.h
+Applying io_quotes_use            to linux/blkpg.h
+Applying io_quotes_use            to linux/btrfs.h
+Applying io_quotes_use            to linux/phantom.h
+Applying io_quotes_use            to linux/cciss_ioctl.h
+Applying io_quotes_use            to linux/gigaset_dev.h
+Applying io_quotes_use            to asm/mtrr.h
+Applying glibc_stdint             to stdint.h
+Applying io_quotes_use            to video/sisfb.h
+Applying pthread_incomplete_struct_argument to pthread.h
+Applying hpux8_bogus_inlines      to math.h
+Applying sun_malloc               to malloc.h
+Applying io_quotes_use            to sound/emu10k1.h
+Applying io_quotes_use            to sound/asequencer.h
+Applying io_quotes_use            to sound/compress_offload.h
+Applying io_quotes_use            to sound/asound.h
+Applying io_quotes_use            to rdma/ib_user_mad.h
+../../../gcc-4.8.2/libgcc/config/libbid/bid64_div.c: In function '__bid64dq_div':
+../../../gcc-4.8.2/libgcc/config/libbid/bid64_div.c:523:51: warning: variable 'Ql' set but not used [-Wunused-but-set-variable]
+ UINT128 CX, CY, T128, CQ, CQ2, CR, CA, TP128, Qh, Ql, Tmp;
+                                                   ^
+../../../gcc-4.8.2/libgcc/config/libbid/bid64_div.c: In function '__bid64qd_div':
+../../../gcc-4.8.2/libgcc/config/libbid/bid64_div.c:937:51: warning: variable 'Ql' set but not used [-Wunused-but-set-variable]
+ UINT128 CX, CY, T128, CQ, CQ2, CR, CA, TP128, Qh, Ql, Tmp;
+                                                   ^
+../../../gcc-4.8.2/libgcc/config/libbid/bid64_div.c: In function '__bid64qq_div':
+../../../gcc-4.8.2/libgcc/config/libbid/bid64_div.c:1374:51: warning: variable 'Ql' set but not used [-Wunused-but-set-variable]
+ UINT128 CX, CY, T128, CQ, CQ2, CR, CA, TP128, Qh, Ql, Tmp;
+                                                   ^
+../../../gcc-4.8.2/libgcc/config/libbid/bid128_div.c: In function '__bid128_div':
+../../../gcc-4.8.2/libgcc/config/libbid/bid128_div.c:39:51: warning: variable 'Ql' set but not used [-Wunused-but-set-variable]
+      UINT128 CX, CY, T128, CQ, CR, CA, TP128, Qh, Ql, res;
+                                                   ^
+../../../gcc-4.8.2/libgcc/config/libbid/bid128_div.c: In function '__bid128dd_div':
+../../../gcc-4.8.2/libgcc/config/libbid/bid128_div.c:490:51: warning: variable 'Ql' set but not used [-Wunused-but-set-variable]
+      UINT128 CX, CY, T128, CQ, CR, CA, TP128, Qh, Ql, res;
+                                                   ^
+../../../gcc-4.8.2/libgcc/config/libbid/bid128_div.c: In function '__bid128dq_div':
+../../../gcc-4.8.2/libgcc/config/libbid/bid128_div.c:949:51: warning: variable 'Ql' set but not used [-Wunused-but-set-variable]
+      UINT128 CX, CY, T128, CQ, CR, CA, TP128, Qh, Ql, res;
+                                                   ^
+../../../gcc-4.8.2/libgcc/config/libbid/bid128_div.c: In function '__bid128qd_div':
+../../../gcc-4.8.2/libgcc/config/libbid/bid128_div.c:1406:51: warning: variable 'Ql' set but not used [-Wunused-but-set-variable]
+      UINT128 CX, CY, T128, CQ, CR, CA, TP128, Qh, Ql, res;
+                                                   ^
+../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c:34:8: warning: no previous prototype for '__divtf3' [-Wmissing-prototypes]
+ TFtype __divtf3(TFtype a, TFtype b)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/eqtf2.c:34:9: warning: no previous prototype for '__eqtf2' [-Wmissing-prototypes]
+ CMPtype __eqtf2(TFtype a, TFtype b)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/addtf3.c:34:8: warning: no previous prototype for '__addtf3' [-Wmissing-prototypes]
+ TFtype __addtf3(TFtype a, TFtype b)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/getf2.c:34:9: warning: no previous prototype for '__getf2' [-Wmissing-prototypes]
+ CMPtype __getf2(TFtype a, TFtype b)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/letf2.c:34:9: warning: no previous prototype for '__letf2' [-Wmissing-prototypes]
+ CMPtype __letf2(TFtype a, TFtype b)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/multf3.c:34:8: warning: no previous prototype for '__multf3' [-Wmissing-prototypes]
+ TFtype __multf3(TFtype a, TFtype b)
+        ^
+In file included from ../../../gcc-4.8.2/libgcc/soft-fp/soft-fp.h:192:0,
+                 from ../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c:31:
+../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c: In function '__divtf3':
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:176:11: warning: 'R_e' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     X##_e += _FP_EXPBIAS_##fs;     \
+           ^
+../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c:37:41: note: 'R_e' was declared here
+   FP_DECL_Q(A); FP_DECL_Q(B); FP_DECL_Q(R);
+                                         ^
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:33:52: note: in definition of macro '_FP_DECL'
+   _FP_I_TYPE X##_c __attribute__((unused)), X##_s, X##_e; \
+                                                    ^
+../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c:37:31: note: in expansion of macro 'FP_DECL_Q'
+   FP_DECL_Q(A); FP_DECL_Q(B); FP_DECL_Q(R);
+                               ^
+../../../gcc-4.8.2/libgcc/soft-fp/negtf2.c:34:8: warning: no previous prototype for '__negtf2' [-Wmissing-prototypes]
+ TFtype __negtf2(TFtype a)
+        ^
+In file included from ../../../gcc-4.8.2/libgcc/soft-fp/soft-fp.h:192:0,
+                 from ../../../gcc-4.8.2/libgcc/soft-fp/multf3.c:31:
+../../../gcc-4.8.2/libgcc/soft-fp/multf3.c: In function '__multf3':
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:176:11: warning: 'R_e' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     X##_e += _FP_EXPBIAS_##fs;     \
+           ^
+../../../gcc-4.8.2/libgcc/soft-fp/multf3.c:37:41: note: 'R_e' was declared here
+   FP_DECL_Q(A); FP_DECL_Q(B); FP_DECL_Q(R);
+                                         ^
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:33:52: note: in definition of macro '_FP_DECL'
+   _FP_I_TYPE X##_c __attribute__((unused)), X##_s, X##_e; \
+                                                    ^
+../../../gcc-4.8.2/libgcc/soft-fp/multf3.c:37:31: note: in expansion of macro 'FP_DECL_Q'
+   FP_DECL_Q(A); FP_DECL_Q(B); FP_DECL_Q(R);
+                               ^
+../../../gcc-4.8.2/libgcc/soft-fp/subtf3.c:34:8: warning: no previous prototype for '__subtf3' [-Wmissing-prototypes]
+ TFtype __subtf3(TFtype a, TFtype b)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:33:9: warning: no previous prototype for '__unordtf2' [-Wmissing-prototypes]
+ CMPtype __unordtf2(TFtype a, TFtype b)
+         ^
+In file included from ../../../gcc-4.8.2/libgcc/soft-fp/soft-fp.h:192:0,
+                 from ../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:30:
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c: In function '__unordtf2':
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:36:13: warning: variable 'B_s' set but not used [-Wunused-but-set-variable]
+   FP_DECL_Q(B);
+             ^
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:33:45: note: in definition of macro '_FP_DECL'
+   _FP_I_TYPE X##_c __attribute__((unused)), X##_s, X##_e; \
+                                             ^
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:36:3: note: in expansion of macro 'FP_DECL_Q'
+   FP_DECL_Q(B);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:35:13: warning: variable 'A_s' set but not used [-Wunused-but-set-variable]
+   FP_DECL_Q(A);
+             ^
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:33:45: note: in definition of macro '_FP_DECL'
+   _FP_I_TYPE X##_c __attribute__((unused)), X##_s, X##_e; \
+                                             ^
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:35:3: note: in expansion of macro 'FP_DECL_Q'
+   FP_DECL_Q(A);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:34:8: warning: no previous prototype for '__fixtfsi' [-Wmissing-prototypes]
+ SItype __fixtfsi(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c: In function '__fixtfsi':
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+   FP_TO_INT_Q(r, A, SI_BITS, 1);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:34:9: warning: no previous prototype for '__fixunstfsi' [-Wmissing-prototypes]
+ USItype __fixunstfsi(TFtype a)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c: In function '__fixunstfsi':
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+   FP_TO_INT_Q(r, A, SI_BITS, 0);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/floatsitf.c:34:8: warning: no previous prototype for '__floatsitf' [-Wmissing-prototypes]
+ TFtype __floatsitf(SItype i)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatunsitf.c:35:1: warning: no previous prototype for '__floatunsitf' [-Wmissing-prototypes]
+ __floatunsitf(USItype i)
+ ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatunsitf.c: In function '__floatunsitf':
+../../../gcc-4.8.2/libgcc/soft-fp/floatunsitf.c:41:3: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+   FP_FROM_INT_Q(A, i, SI_BITS, USItype);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfdi.c:34:8: warning: no previous prototype for '__fixtfdi' [-Wmissing-prototypes]
+ DItype __fixtfdi(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfdi.c:34:9: warning: no previous prototype for '__fixunstfdi' [-Wmissing-prototypes]
+ UDItype __fixunstfdi(TFtype a)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatditf.c:34:8: warning: no previous prototype for '__floatditf' [-Wmissing-prototypes]
+ TFtype __floatditf(DItype i)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatunditf.c:35:1: warning: no previous prototype for '__floatunditf' [-Wmissing-prototypes]
+ __floatunditf(UDItype i)
+ ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatunditf.c: In function '__floatunditf':
+../../../gcc-4.8.2/libgcc/soft-fp/floatunditf.c:41:3: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+   FP_FROM_INT_Q(A, i, DI_BITS, UDItype);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/extendsftf2.c:35:8: warning: no previous prototype for '__extendsftf2' [-Wmissing-prototypes]
+ TFtype __extendsftf2(SFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/extenddftf2.c:35:8: warning: no previous prototype for '__extenddftf2' [-Wmissing-prototypes]
+ TFtype __extenddftf2(DFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/extendxftf2.c:35:8: warning: no previous prototype for '__extendxftf2' [-Wmissing-prototypes]
+ TFtype __extendxftf2(XFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/trunctfsf2.c:35:8: warning: no previous prototype for '__trunctfsf2' [-Wmissing-prototypes]
+ SFtype __trunctfsf2(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/trunctfdf2.c:35:8: warning: no previous prototype for '__trunctfdf2' [-Wmissing-prototypes]
+ DFtype __trunctfdf2(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/trunctfxf2.c:35:8: warning: no previous prototype for '__trunctfxf2' [-Wmissing-prototypes]
+ XFtype __trunctfxf2(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/addtf3.c:34:8: warning: no previous prototype for '__addtf3' [-Wmissing-prototypes]
+ TFtype __addtf3(TFtype a, TFtype b)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c:34:8: warning: no previous prototype for '__divtf3' [-Wmissing-prototypes]
+ TFtype __divtf3(TFtype a, TFtype b)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/eqtf2.c:34:9: warning: no previous prototype for '__eqtf2' [-Wmissing-prototypes]
+ CMPtype __eqtf2(TFtype a, TFtype b)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/getf2.c:34:9: warning: no previous prototype for '__getf2' [-Wmissing-prototypes]
+ CMPtype __getf2(TFtype a, TFtype b)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/letf2.c:34:9: warning: no previous prototype for '__letf2' [-Wmissing-prototypes]
+ CMPtype __letf2(TFtype a, TFtype b)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/multf3.c:34:8: warning: no previous prototype for '__multf3' [-Wmissing-prototypes]
+ TFtype __multf3(TFtype a, TFtype b)
+        ^
+In file included from ../../../gcc-4.8.2/libgcc/soft-fp/soft-fp.h:192:0,
+                 from ../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c:31:
+../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c: In function '__divtf3':
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:176:11: warning: 'R_e' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     X##_e += _FP_EXPBIAS_##fs;     \
+           ^
+../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c:37:41: note: 'R_e' was declared here
+   FP_DECL_Q(A); FP_DECL_Q(B); FP_DECL_Q(R);
+                                         ^
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:33:52: note: in definition of macro '_FP_DECL'
+   _FP_I_TYPE X##_c __attribute__((unused)), X##_s, X##_e; \
+                                                    ^
+../../../gcc-4.8.2/libgcc/soft-fp/divtf3.c:37:31: note: in expansion of macro 'FP_DECL_Q'
+   FP_DECL_Q(A); FP_DECL_Q(B); FP_DECL_Q(R);
+                               ^
+../../../gcc-4.8.2/libgcc/soft-fp/negtf2.c:34:8: warning: no previous prototype for '__negtf2' [-Wmissing-prototypes]
+ TFtype __negtf2(TFtype a)
+        ^
+In file included from ../../../gcc-4.8.2/libgcc/soft-fp/soft-fp.h:192:0,
+                 from ../../../gcc-4.8.2/libgcc/soft-fp/multf3.c:31:
+../../../gcc-4.8.2/libgcc/soft-fp/multf3.c: In function '__multf3':
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:176:11: warning: 'R_e' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     X##_e += _FP_EXPBIAS_##fs;     \
+           ^
+../../../gcc-4.8.2/libgcc/soft-fp/multf3.c:37:41: note: 'R_e' was declared here
+   FP_DECL_Q(A); FP_DECL_Q(B); FP_DECL_Q(R);
+                                         ^
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:33:52: note: in definition of macro '_FP_DECL'
+   _FP_I_TYPE X##_c __attribute__((unused)), X##_s, X##_e; \
+                                                    ^
+../../../gcc-4.8.2/libgcc/soft-fp/multf3.c:37:31: note: in expansion of macro 'FP_DECL_Q'
+   FP_DECL_Q(A); FP_DECL_Q(B); FP_DECL_Q(R);
+                               ^
+../../../gcc-4.8.2/libgcc/soft-fp/subtf3.c:34:8: warning: no previous prototype for '__subtf3' [-Wmissing-prototypes]
+ TFtype __subtf3(TFtype a, TFtype b)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:33:9: warning: no previous prototype for '__unordtf2' [-Wmissing-prototypes]
+ CMPtype __unordtf2(TFtype a, TFtype b)
+         ^
+In file included from ../../../gcc-4.8.2/libgcc/soft-fp/soft-fp.h:192:0,
+                 from ../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:30:
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c: In function '__unordtf2':
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:36:13: warning: variable 'B_s' set but not used [-Wunused-but-set-variable]
+   FP_DECL_Q(B);
+             ^
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:33:45: note: in definition of macro '_FP_DECL'
+   _FP_I_TYPE X##_c __attribute__((unused)), X##_s, X##_e; \
+                                             ^
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:36:3: note: in expansion of macro 'FP_DECL_Q'
+   FP_DECL_Q(B);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:35:13: warning: variable 'A_s' set but not used [-Wunused-but-set-variable]
+   FP_DECL_Q(A);
+             ^
+../../../gcc-4.8.2/libgcc/soft-fp/op-common.h:33:45: note: in definition of macro '_FP_DECL'
+   _FP_I_TYPE X##_c __attribute__((unused)), X##_s, X##_e; \
+                                             ^
+../../../gcc-4.8.2/libgcc/soft-fp/unordtf2.c:35:3: note: in expansion of macro 'FP_DECL_Q'
+   FP_DECL_Q(A);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:34:8: warning: no previous prototype for '__fixtfsi' [-Wmissing-prototypes]
+ SItype __fixtfsi(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c: In function '__fixtfsi':
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+   FP_TO_INT_Q(r, A, SI_BITS, 1);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:34:9: warning: no previous prototype for '__fixunstfsi' [-Wmissing-prototypes]
+ USItype __fixunstfsi(TFtype a)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c: In function '__fixunstfsi':
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+   FP_TO_INT_Q(r, A, SI_BITS, 0);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfsi.c:41:3: warning: left shift count >= width of type [enabled by default]
+../../../gcc-4.8.2/libgcc/soft-fp/floatsitf.c:34:8: warning: no previous prototype for '__floatsitf' [-Wmissing-prototypes]
+ TFtype __floatsitf(SItype i)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatunsitf.c:35:1: warning: no previous prototype for '__floatunsitf' [-Wmissing-prototypes]
+ __floatunsitf(USItype i)
+ ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatunsitf.c: In function '__floatunsitf':
+../../../gcc-4.8.2/libgcc/soft-fp/floatunsitf.c:41:3: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+   FP_FROM_INT_Q(A, i, SI_BITS, USItype);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixtfdi.c:34:8: warning: no previous prototype for '__fixtfdi' [-Wmissing-prototypes]
+ DItype __fixtfdi(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/fixunstfdi.c:34:9: warning: no previous prototype for '__fixunstfdi' [-Wmissing-prototypes]
+ UDItype __fixunstfdi(TFtype a)
+         ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatditf.c:34:8: warning: no previous prototype for '__floatditf' [-Wmissing-prototypes]
+ TFtype __floatditf(DItype i)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatunditf.c:35:1: warning: no previous prototype for '__floatunditf' [-Wmissing-prototypes]
+ __floatunditf(UDItype i)
+ ^
+../../../gcc-4.8.2/libgcc/soft-fp/floatunditf.c: In function '__floatunditf':
+../../../gcc-4.8.2/libgcc/soft-fp/floatunditf.c:41:3: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+   FP_FROM_INT_Q(A, i, DI_BITS, UDItype);
+   ^
+../../../gcc-4.8.2/libgcc/soft-fp/extendsftf2.c:35:8: warning: no previous prototype for '__extendsftf2' [-Wmissing-prototypes]
+ TFtype __extendsftf2(SFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/extenddftf2.c:35:8: warning: no previous prototype for '__extenddftf2' [-Wmissing-prototypes]
+ TFtype __extenddftf2(DFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/extendxftf2.c:35:8: warning: no previous prototype for '__extendxftf2' [-Wmissing-prototypes]
+ TFtype __extendxftf2(XFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/trunctfsf2.c:35:8: warning: no previous prototype for '__trunctfsf2' [-Wmissing-prototypes]
+ SFtype __trunctfsf2(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/trunctfdf2.c:35:8: warning: no previous prototype for '__trunctfdf2' [-Wmissing-prototypes]
+ DFtype __trunctfdf2(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/soft-fp/trunctfxf2.c:35:8: warning: no previous prototype for '__trunctfxf2' [-Wmissing-prototypes]
+ XFtype __trunctfxf2(TFtype a)
+        ^
+../../../gcc-4.8.2/libgcc/crtstuff.c: In function 'frame_dummy':
+../../../gcc-4.8.2/libgcc/crtstuff.c:463:19: warning: array subscript is above array bounds [-Warray-bounds]
+   if (__JCR_LIST__[0])
+                   ^
+../../../gcc-4.8.2/libgcc/crtstuff.c: In function 'frame_dummy':
+../../../gcc-4.8.2/libgcc/crtstuff.c:463:19: warning: array subscript is above array bounds [-Warray-bounds]
+   if (__JCR_LIST__[0])
+                   ^
+../../../gcc-4.8.2/libgcc/crtstuff.c: In function 'frame_dummy':
+../../../gcc-4.8.2/libgcc/crtstuff.c:463:19: warning: array subscript is above array bounds [-Warray-bounds]
+   if (__JCR_LIST__[0])
+                   ^
+../../../gcc-4.8.2/libssp/gets-chk.c: In function '__gets_chk':
+../../../gcc-4.8.2/libssp/gets-chk.c:62:5: warning: 'gets' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+     return gets (s);
+     ^
+../../../gcc-4.8.2/libssp/gets-chk.c:69:5: warning: 'gets' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+     return gets (s);
+     ^
+.libs/gets-chk.o: In function `__gets_chk':
+/sources/gcc-build/i686-pc-linux-gnu/libssp/../../../gcc-4.8.2/libssp/gets-chk.c:69: warning: the `gets' function is dangerous and should not be used.
+../../../gcc-4.8.2/libgomp/libgomp.texi:160: warning: multiple @menu
+../../../gcc-4.8.2/libgomp/libgomp.texi:175: warning: multiple @menu
+../../../gcc-4.8.2/libgomp/libgomp.texi:706: warning: node `omp_init_lock' is next for `omp_set_schedule' in sectioning but not in menu
+../../../gcc-4.8.2/libgomp/libgomp.texi:739: warning: node `omp_set_schedule' is prev for `omp_init_lock' in sectioning but not in menu
+../../../gcc-4.8.2/libgomp/libgomp.texi:998: warning: node `omp_get_wtick' is next for `omp_destroy_nest_lock' in sectioning but not in menu
+../../../gcc-4.8.2/libgomp/libgomp.texi:1025: warning: node `omp_destroy_nest_lock' is prev for `omp_get_wtick' in sectioning but not in menu
+../../../gcc-4.8.2/libgomp/libgomp.texi:1165: warning: node next `OMP_NUM_THREADS' in menu `OMP_STACKSIZE' and in sectioning `OMP_SCHEDULE' differ
+../../../gcc-4.8.2/libgomp/libgomp.texi:1185: warning: node next `OMP_SCHEDULE' in menu `OMP_THREAD_LIMIT' and in sectioning `OMP_STACKSIZE' differ
+../../../gcc-4.8.2/libgomp/libgomp.texi:1185: warning: node prev `OMP_SCHEDULE' in menu `OMP_STACKSIZE' and in sectioning `OMP_NUM_THREADS' differ
+../../../gcc-4.8.2/libgomp/libgomp.texi:1206: warning: node next `OMP_STACKSIZE' in menu `OMP_SCHEDULE' and in sectioning `OMP_THREAD_LIMIT' differ
+../../../gcc-4.8.2/libgomp/libgomp.texi:1206: warning: node prev `OMP_STACKSIZE' in menu `OMP_NUM_THREADS' and in sectioning `OMP_SCHEDULE' differ
+../../../gcc-4.8.2/libgomp/libgomp.texi:1226: warning: node prev `OMP_THREAD_LIMIT' in menu `OMP_SCHEDULE' and in sectioning `OMP_STACKSIZE' differ
+In file included from ../../../gcc-4.8.2/libmudflap/mf-runtime.c:66:0:
+../../../gcc-4.8.2/libmudflap/mf-runtime.c: In function '__mf_backtrace':
+../../../gcc-4.8.2/libmudflap/mf-impl.h:346:15: warning: typedef '__mf_fn_malloc' locally defined but not used [-Wunused-local-typedefs]
+  typedef ty (*__mf_fn_ ## fname) (__VA_ARGS__);       \
+               ^
+../../../gcc-4.8.2/libmudflap/mf-runtime.c:1976:3: note: in expansion of macro 'DECLARE'
+   DECLARE (void *, malloc, size_t n);
+   ^
+In file included from ../../../gcc-4.8.2/libmudflap/mf-hooks1.c:59:0:
+../../../gcc-4.8.2/libmudflap/mf-hooks1.c: In function 'calloc':
+../../../gcc-4.8.2/libmudflap/mf-impl.h:346:15: warning: typedef '__mf_fn_memset' locally defined but not used [-Wunused-local-typedefs]
+  typedef ty (*__mf_fn_ ## fname) (__VA_ARGS__);       \
+               ^
+../../../gcc-4.8.2/libmudflap/mf-hooks1.c:139:3: note: in expansion of macro 'DECLARE'
+   DECLARE(void *, memset, void *, int, size_t);
+   ^
+/sources/gcc-4.8.2/libitm/configure: line 17402: LIBITM_CHECK_AS_HTM: command not found

@@ -1,0 +1,90 @@
+touch ./.version
+echo 3.3.9 > .version-t && mv .version-t .version
+make  all-recursive
+make[1]: Entering directory '/sources/procps-ng-3.3.9'
+Making all in include
+make[2]: Entering directory '/sources/procps-ng-3.3.9/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/include'
+Making all in lib
+make[2]: Entering directory '/sources/procps-ng-3.3.9/lib'
+  CC       strutils.o
+  CC       fileutils.o
+  CCLD     test_fileutils
+  CCLD     test_strutils
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/lib'
+Making all in po
+make[2]: Entering directory '/sources/procps-ng-3.3.9/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/po'
+Making all in proc
+make[2]: Entering directory '/sources/procps-ng-3.3.9/proc'
+  CC       alloc.lo
+  CC       devname.lo
+  CC       escape.lo
+  CC       ksym.lo
+  CC       pwcache.lo
+  CC       readproc.lo
+  CC       sig.lo
+  CC       slab.lo
+  CC       sysinfo.lo
+  CC       version.lo
+  CC       whattime.lo
+  CCLD     libprocps.la
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/proc'
+Making all in ps
+make[2]: Entering directory '/sources/procps-ng-3.3.9/ps'
+  CC       global.o
+  CC       display.o
+  CC       help.o
+  CC       output.o
+  CC       parser.o
+  CC       select.o
+  CC       sortformat.o
+  CC       stacktrace.o
+  CC       fileutils.o
+  CCLD     pscommand
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/ps'
+Making all in testsuite
+make[2]: Entering directory '/sources/procps-ng-3.3.9/testsuite'
+  CC       test-schedbatch.o
+  CCLD     test-schedbatch
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/testsuite'
+Making all in top
+make[2]: Entering directory '/sources/procps-ng-3.3.9/top'
+  CC       top.o
+  CC       top_nls.o
+  CC       fileutils.o
+  CCLD     top
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/top'
+make[2]: Entering directory '/sources/procps-ng-3.3.9'
+  CC       sysctl.o
+  CC       fileutils.o
+  CC       free.o
+  CC       strutils.o
+  CC       nsutils.o
+  CC       pgrep.o
+  CC       pmap.o
+  CC       pwdx.o
+  CC       tload.o
+  CC       uptime.o
+  CC       vmstat.o
+  CC       w.o
+  CC       pidof.o
+  CC       slabtop.o
+  CC       watch.o
+  CCLD     sysctl
+  CCLD     free
+  CCLD     pgrep
+  CCLD     pkill
+  CCLD     pmap
+  CCLD     pwdx
+  CCLD     tload
+  CCLD     uptime
+  CCLD     vmstat
+  CCLD     w
+  CCLD     pidof
+  CCLD     slabtop
+  CCLD     watch
+make[2]: Leaving directory '/sources/procps-ng-3.3.9'
+make[1]: Leaving directory '/sources/procps-ng-3.3.9'

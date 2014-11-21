@@ -1,0 +1,12 @@
+  INSTALL drivers/thermal/x86_pkg_temp_thermal.ko
+  INSTALL net/ipv4/netfilter/ipt_MASQUERADE.ko
+  INSTALL net/ipv4/netfilter/iptable_nat.ko
+  INSTALL net/ipv4/netfilter/nf_nat_ipv4.ko
+  INSTALL net/netfilter/nf_nat.ko
+  INSTALL net/netfilter/nf_nat_ftp.ko
+  INSTALL net/netfilter/nf_nat_irc.ko
+  INSTALL net/netfilter/nf_nat_sip.ko
+  INSTALL net/netfilter/xt_LOG.ko
+  INSTALL net/netfilter/xt_mark.ko
+  INSTALL net/netfilter/xt_nat.ko
+  DEPMOD  3.13.3

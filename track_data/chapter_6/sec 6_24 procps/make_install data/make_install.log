@@ -1,0 +1,125 @@
+make  install-recursive
+make[1]: Entering directory '/sources/procps-ng-3.3.9'
+Making install in include
+make[2]: Entering directory '/sources/procps-ng-3.3.9/include'
+make[3]: Entering directory '/sources/procps-ng-3.3.9/include'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/procps-ng-3.3.9/include'
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/include'
+Making install in lib
+make[2]: Entering directory '/sources/procps-ng-3.3.9/lib'
+make[3]: Entering directory '/sources/procps-ng-3.3.9/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/procps-ng-3.3.9/lib'
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/lib'
+Making install in po
+make[2]: Entering directory '/sources/procps-ng-3.3.9/po'
+/bin/sh .././mkinstalldirs /usr/share
+if test "procps-ng" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/po'
+Making install in proc
+make[2]: Entering directory '/sources/procps-ng-3.3.9/proc'
+make[3]: Entering directory '/sources/procps-ng-3.3.9/proc'
+ /tools/bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /tools/bin/install -c   libprocps.la '/usr/lib'
+libtool: install: /tools/bin/install -c .libs/libprocps.so.3.0.0 /usr/lib/libprocps.so.3.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libprocps.so.3.0.0 libprocps.so.3 || { rm -f libprocps.so.3 && ln -s libprocps.so.3.0.0 libprocps.so.3; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libprocps.so.3.0.0 libprocps.so || { rm -f libprocps.so && ln -s libprocps.so.3.0.0 libprocps.so; }; })
+libtool: install: /tools/bin/install -c .libs/libprocps.lai /usr/lib/libprocps.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /tools/bin/mkdir -p '/usr/include/proc/'
+ /tools/bin/install -c -m 644 alloc.h devname.h escape.h procps.h pwcache.h readproc.h sig.h slab.h sysinfo.h version.h wchan.h whattime.h '/usr/include/proc/'
+ /tools/bin/mkdir -p '/usr/lib/pkgconfig'
+ /tools/bin/install -c -m 644 libprocps.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/procps-ng-3.3.9/proc'
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/proc'
+Making install in ps
+make[2]: Entering directory '/sources/procps-ng-3.3.9/ps'
+make[3]: Entering directory '/sources/procps-ng-3.3.9/ps'
+ /tools/bin/mkdir -p '/bin'
+  /bin/sh ../libtool   --mode=install /tools/bin/install -c pscommand '/bin/./ps'
+libtool: install: /tools/bin/install -c .libs/pscommand /bin/./ps
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /tools/bin/install -c -m 644 ps.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/procps-ng-3.3.9/ps'
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/ps'
+Making install in testsuite
+make[2]: Entering directory '/sources/procps-ng-3.3.9/testsuite'
+make[3]: Entering directory '/sources/procps-ng-3.3.9/testsuite'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/procps-ng-3.3.9/testsuite'
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/testsuite'
+Making install in top
+make[2]: Entering directory '/sources/procps-ng-3.3.9/top'
+make[3]: Entering directory '/sources/procps-ng-3.3.9/top'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /tools/bin/install -c top '/usr/bin'
+libtool: install: /tools/bin/install -c .libs/top /usr/bin/top
+ /tools/bin/mkdir -p '/usr/share/doc/procps-ng-3.3.9'
+ /tools/bin/install -c -m 644 README.top '/usr/share/doc/procps-ng-3.3.9'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /tools/bin/install -c -m 644 top.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/procps-ng-3.3.9/top'
+make[2]: Leaving directory '/sources/procps-ng-3.3.9/top'
+make[2]: Entering directory '/sources/procps-ng-3.3.9'
+make[3]: Entering directory '/sources/procps-ng-3.3.9'
+ /tools/bin/mkdir -p '/sbin'
+  /bin/sh ./libtool   --mode=install /tools/bin/install -c sysctl '/sbin'
+libtool: install: /tools/bin/install -c .libs/sysctl /sbin/sysctl
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /tools/bin/install -c free pgrep pkill pmap pwdx tload uptime vmstat w pidof slabtop watch '/usr/bin'
+libtool: install: /tools/bin/install -c .libs/free /usr/bin/free
+libtool: install: /tools/bin/install -c .libs/pgrep /usr/bin/pgrep
+libtool: install: /tools/bin/install -c .libs/pkill /usr/bin/pkill
+libtool: install: /tools/bin/install -c .libs/pmap /usr/bin/pmap
+libtool: install: /tools/bin/install -c .libs/pwdx /usr/bin/pwdx
+libtool: install: /tools/bin/install -c .libs/tload /usr/bin/tload
+libtool: install: /tools/bin/install -c .libs/uptime /usr/bin/uptime
+libtool: install: /tools/bin/install -c .libs/vmstat /usr/bin/vmstat
+libtool: install: /tools/bin/install -c .libs/w /usr/bin/w
+libtool: install: /tools/bin/install -c .libs/pidof /usr/bin/pidof
+libtool: install: /tools/bin/install -c .libs/slabtop /usr/bin/slabtop
+libtool: install: /tools/bin/install -c .libs/watch /usr/bin/watch
+ /tools/bin/mkdir -p '/usr/share/doc/procps-ng-3.3.9'
+ /tools/bin/install -c -m 644 Documentation/BUGS Documentation/FAQ '/usr/share/doc/procps-ng-3.3.9'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /tools/bin/install -c -m 644 free.1 pgrep.1 pkill.1 pmap.1 pwdx.1 tload.1 uptime.1 w.1 pidof.1 slabtop.1 watch.1 '/usr/share/man/man1'
+ /tools/bin/mkdir -p '/usr/share/man/man5'
+ /tools/bin/install -c -m 644 sysctl.conf.5 '/usr/share/man/man5'
+ /tools/bin/mkdir -p '/usr/share/man/man8'
+ /tools/bin/install -c -m 644 sysctl.8 vmstat.8 '/usr/share/man/man8'
+make[3]: Leaving directory '/sources/procps-ng-3.3.9'
+make[2]: Leaving directory '/sources/procps-ng-3.3.9'
+make[1]: Leaving directory '/sources/procps-ng-3.3.9'

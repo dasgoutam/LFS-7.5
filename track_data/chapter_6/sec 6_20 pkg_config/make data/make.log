@@ -1,0 +1,131 @@
+make  all-recursive
+make[1]: Entering directory '/sources/pkg-config-0.28'
+Making all in glib
+make[2]: Entering directory '/sources/pkg-config-0.28/glib'
+make  all-recursive
+make[3]: Entering directory '/sources/pkg-config-0.28/glib'
+Making all in .
+make[4]: Entering directory '/sources/pkg-config-0.28/glib'
+make[4]: Leaving directory '/sources/pkg-config-0.28/glib'
+Making all in m4macros
+make[4]: Entering directory '/sources/pkg-config-0.28/glib/m4macros'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/pkg-config-0.28/glib/m4macros'
+Making all in glib
+make[4]: Entering directory '/sources/pkg-config-0.28/glib/glib'
+  GEN      glibconfig-stamp
+config.status: executing glib/glibconfig.h commands
+config.status: glib/glibconfig.h is unchanged
+make  all-recursive
+make[5]: Entering directory '/sources/pkg-config-0.28/glib/glib'
+Making all in libcharset
+make[6]: Entering directory '/sources/pkg-config-0.28/glib/glib/libcharset'
+  CC       localcharset.lo
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+  CCLD     libcharset.la
+make[6]: Leaving directory '/sources/pkg-config-0.28/glib/glib/libcharset'
+Making all in .
+make[6]: Entering directory '/sources/pkg-config-0.28/glib/glib'
+  CC       gallocator.lo
+  CC       gcompletion.lo
+  CC       grel.lo
+  CC       gcache.lo
+  CC       gthread-deprecated.lo
+  CC       garray.lo
+  CC       gasyncqueue.lo
+  CC       gatomic.lo
+  CC       gbacktrace.lo
+  CC       gbase64.lo
+  CC       gbitlock.lo
+  CC       gbookmarkfile.lo
+  CC       gbytes.lo
+  CC       gcharset.lo
+  CC       gchecksum.lo
+  CC       gconvert.lo
+  CC       gdataset.lo
+  CC       gdate.lo
+  CC       gdatetime.lo
+  CC       gdir.lo
+  CC       genviron.lo
+  CC       gerror.lo
+  CC       gfileutils.lo
+  CC       ggettext.lo
+  CC       ghash.lo
+  CC       ghmac.lo
+  CC       ghook.lo
+  CC       ghostutils.lo
+  CC       giochannel.lo
+  CC       gkeyfile.lo
+  CC       glib-init.lo
+  CC       glib-private.lo
+  CC       glist.lo
+  CC       gmain.lo
+  CC       gmappedfile.lo
+  CC       gmarkup.lo
+  CC       gmem.lo
+  CC       gmessages.lo
+  CC       gnode.lo
+  CC       goption.lo
+  CC       gpattern.lo
+  CC       gpoll.lo
+  CC       gprimes.lo
+  CC       gqsort.lo
+  CC       gqueue.lo
+  CC       grand.lo
+  CC       gscanner.lo
+  CC       gsequence.lo
+  CC       gshell.lo
+  CC       gslice.lo
+  CC       gslist.lo
+  CC       gstdio.lo
+  CC       gstrfuncs.lo
+  CC       gstring.lo
+  CC       gstringchunk.lo
+  CC       gtestutils.lo
+  CC       gthread.lo
+  CC       gthreadpool.lo
+  CC       gtimer.lo
+  CC       gtimezone.lo
+  CC       gtrashstack.lo
+  CC       gtree.lo
+  CC       guniprop.lo
+  CC       gutf8.lo
+  CC       gunibreak.lo
+  CC       gunicollate.lo
+  CC       gunidecomp.lo
+  CC       gurifuncs.lo
+  CC       gutils.lo
+  CC       gvariant.lo
+  CC       gvariant-core.lo
+  CC       gvariant-parser.lo
+  CC       gvariant-serialiser.lo
+  CC       gvarianttypeinfo.lo
+  CC       gvarianttype.lo
+  CC       gversion.lo
+  CC       gwakeup.lo
+  CC       gprintf.lo
+  CC       glib-unix.lo
+  CC       gthread-posix.lo
+  CC       giounix.lo
+  CC       gspawn.lo
+echo   > glib-public-headers.txt.tmp && mv glib-public-headers.txt.tmp glib-public-headers.txt
+  CCLD     libglib-2.0.la
+make[6]: Leaving directory '/sources/pkg-config-0.28/glib/glib'
+make[5]: Leaving directory '/sources/pkg-config-0.28/glib/glib'
+make[4]: Leaving directory '/sources/pkg-config-0.28/glib/glib'
+make[3]: Leaving directory '/sources/pkg-config-0.28/glib'
+make[2]: Leaving directory '/sources/pkg-config-0.28/glib'
+Making all in .
+make[2]: Entering directory '/sources/pkg-config-0.28'
+  CC       pkg.o
+  CC       parse.o
+  CC       main.o
+  CCLD     pkg-config
+make[2]: Leaving directory '/sources/pkg-config-0.28'
+Making all in check
+make[2]: Entering directory '/sources/pkg-config-0.28/check'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/pkg-config-0.28/check'
+make[1]: Leaving directory '/sources/pkg-config-0.28'

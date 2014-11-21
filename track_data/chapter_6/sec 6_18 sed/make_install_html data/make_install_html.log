@@ -1,0 +1,4 @@
+make: Entering directory '/sources/sed-4.2.2/doc'
+ /tools/bin/mkdir -p '/usr/share/doc/sed-4.2.2'
+ /tools/bin/install -c -m 644 sed.html '/usr/share/doc/sed-4.2.2'
+make: Leaving directory '/sources/sed-4.2.2/doc'

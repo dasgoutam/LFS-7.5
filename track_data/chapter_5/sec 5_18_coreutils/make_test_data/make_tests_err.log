@@ -1,0 +1,92 @@
+inotify-race.sh: skipped test: very expensive: disabled by default
+ext3-perf.sh: skipped test: very expensive: disabled by default
+tty-eof.pl: this script requires Perl's Expect package >=1.11
+assert.sh: skipped test: very expensive: disabled by default
+arch.sh: skipped test: required program(s) not built
+shuf-reservoir.sh: skipped test: requires a working valgrind
+sort-benchmark-random.sh: skipped test: very expensive: disabled by default
+sort-compress-hang.sh: skipped test: very expensive: disabled by default
+sort-spinlock-abuse.sh: skipped test: very expensive: disabled by default
+sort-stale-thread-mem.sh: skipped test: very expensive: disabled by default
+sort-u-FMR.sh: skipped test: requires a working valgrind
+tac-continue.sh: skipped test: FULL_PARTITION_TMPDIR not defined
+xattr.sh: skipped test: coreutils built without xattr support
+acl.sh: skipped test: insufficient ACL support
+fiemap-empty.sh: skipped test: disabled for now
+fiemap-FMR.sh: skipped test: requires a working valgrind
+perm.sh: skipped test: very expensive: disabled by default
+skip-rootfs.sh: skipped test: no rootfs in mtab
+2g.sh: skipped test: very expensive: disabled by default
+bigtime.sh: skipped test: file system cannot represent big time stamps
+gnu-zero-uids.sh: skipped test: not running on GNU/Hurd
+no-context.sh: skipped test: this system lacks SELinux support
+context.sh: skipped test: this system lacks SELinux support
+setgid.sh: skipped test: must be run as root
+install-C-selinux.sh: skipped test: this system lacks SELinux support
+no-cap.sh: skipped test: your ls doesn't call capget
+stat-free-color.sh: skipped test: strace -qe "stat,lstat,stat64,lstat64,newfstatat" does not work
+selinux.sh: skipped test: this system lacks SELinux support
+restorecon.sh: skipped test: this system lacks SELinux support
+acl.sh: skipped test: insufficient ACL support
+assert-2.sh: skipped test: very expensive: disabled by default
+basic.sh: skipped test: must be run as root
+cp-a-selinux.sh: skipped test: must be run as root
+preserve-gid.sh: skipped test: must be run as root
+special-bits.sh: skipped test: must be run as root
+cp-mv-enotsup-xattr.sh: skipped test: must be run as root
+capability.sh: skipped test: must be run as root
+skip-seek-past-dev.sh: skipped test: must be run as root
+problematic-chars.sh: skipped test: must be run as root
+bind-mount-dir-cycle.sh: skipped test: must be run as root
+install-C-root.sh: skipped test: must be run as root
+capability.sh: skipped test: must be run as root
+nameless-uid.sh: skipped test: must be run as root
+chcon.sh: skipped test: must be run as root
+chroot-credentials.sh: skipped test: must be run as root
+selinux.sh: skipped test: must be run as root
+truncate-owned-by-other.sh: skipped test: must be run as root
+writable-under-readonly.sh: skipped test: must be run as root
+sticky-to-xpart.sh: skipped test: must be run as root
+fail-2eperm.sh: skipped test: must be run as root
+no-give-up.sh: skipped test: must be run as root
+one-file-system.sh: skipped test: must be run as root
+read-only.sh: skipped test: must be run as root
+append-only.sh: skipped test: must be run as root
+now-owned-by-other.sh: skipped test: must be run as root
+t00.sh: skipped test: very expensive: disabled by default
+t01.sh: skipped test: very expensive: disabled by default
+t02.sh: skipped test: very expensive: disabled by default
+t03.sh: skipped test: very expensive: disabled by default
+t04.sh: skipped test: very expensive: disabled by default
+t05.sh: skipped test: very expensive: disabled by default
+t06.sh: skipped test: very expensive: disabled by default
+t07.sh: skipped test: very expensive: disabled by default
+t08.sh: skipped test: very expensive: disabled by default
+t09.sh: skipped test: very expensive: disabled by default
+t10.sh: skipped test: very expensive: disabled by default
+t11.sh: skipped test: very expensive: disabled by default
+t12.sh: skipped test: very expensive: disabled by default
+t13.sh: skipped test: very expensive: disabled by default
+t14.sh: skipped test: very expensive: disabled by default
+t15.sh: skipped test: very expensive: disabled by default
+t16.sh: skipped test: very expensive: disabled by default
+t17.sh: skipped test: very expensive: disabled by default
+t18.sh: skipped test: very expensive: disabled by default
+t19.sh: skipped test: very expensive: disabled by default
+t20.sh: skipped test: very expensive: disabled by default
+t21.sh: skipped test: very expensive: disabled by default
+t22.sh: skipped test: very expensive: disabled by default
+t23.sh: skipped test: very expensive: disabled by default
+t24.sh: skipped test: very expensive: disabled by default
+t25.sh: skipped test: very expensive: disabled by default
+t26.sh: skipped test: very expensive: disabled by default
+t27.sh: skipped test: very expensive: disabled by default
+t28.sh: skipped test: very expensive: disabled by default
+t29.sh: skipped test: very expensive: disabled by default
+t30.sh: skipped test: very expensive: disabled by default
+t31.sh: skipped test: very expensive: disabled by default
+t32.sh: skipped test: very expensive: disabled by default
+t33.sh: skipped test: very expensive: disabled by default
+t34.sh: skipped test: very expensive: disabled by default
+t35.sh: skipped test: very expensive: disabled by default
+t36.sh: skipped test: very expensive: disabled by default

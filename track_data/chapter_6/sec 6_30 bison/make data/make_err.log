@@ -1,0 +1,8 @@
+extexi:  GEN examples/rpcalc/rpcalc.y
+extexi:  GEN examples/mfcalc/mfcalc.y
+extexi:  GEN examples/mfcalc/calc.h
+extexi:  GEN examples/calc++/calc++-driver.hh
+extexi:  GEN examples/calc++/calc++-driver.cc
+extexi:  GEN examples/calc++/calc++-parser.yy
+extexi:  GEN examples/calc++/calc++-scanner.ll
+extexi:  GEN examples/calc++/calc++.cc

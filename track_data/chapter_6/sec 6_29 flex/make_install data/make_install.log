@@ -1,0 +1,458 @@
+make  install-recursive
+make[1]: Entering directory '/sources/flex-2.5.38'
+Making install in lib
+make[2]: Entering directory '/sources/flex-2.5.38/lib'
+make[3]: Entering directory '/sources/flex-2.5.38/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/flex-2.5.38/lib'
+make[2]: Leaving directory '/sources/flex-2.5.38/lib'
+Making install in .
+make[2]: Entering directory '/sources/flex-2.5.38'
+make[3]: Entering directory '/sources/flex-2.5.38'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libfl.la libfl_pic.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libfl.so.2.0.0 /usr/lib/libfl.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libfl.so.2.0.0 libfl.so.2 || { rm -f libfl.so.2 && ln -s libfl.so.2.0.0 libfl.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfl.so.2.0.0 libfl.so || { rm -f libfl.so && ln -s libfl.so.2.0.0 libfl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libfl.lai /usr/lib/libfl.la
+libtool: install: /usr/bin/install -c .libs/libfl_pic.so.2.0.0 /usr/lib/libfl_pic.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libfl_pic.so.2.0.0 libfl_pic.so.2 || { rm -f libfl_pic.so.2 && ln -s libfl_pic.so.2.0.0 libfl_pic.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfl_pic.so.2.0.0 libfl_pic.so || { rm -f libfl_pic.so && ln -s libfl_pic.so.2.0.0 libfl_pic.so; }; })
+libtool: install: /usr/bin/install -c .libs/libfl_pic.lai /usr/lib/libfl_pic.la
+libtool: install: /usr/bin/install -c .libs/libfl.a /usr/lib/libfl.a
+libtool: install: chmod 644 /usr/lib/libfl.a
+libtool: install: ranlib /usr/lib/libfl.a
+libtool: install: /usr/bin/install -c .libs/libfl_pic.a /usr/lib/libfl_pic.a
+libtool: install: chmod 644 /usr/lib/libfl_pic.a
+libtool: install: ranlib /usr/lib/libfl_pic.a
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c flex '/usr/bin'
+libtool: install: /usr/bin/install -c flex /usr/bin/flex
+make  install-exec-hook
+make[4]: Entering directory '/sources/flex-2.5.38'
+cd /usr/bin && \
+	ln -s -f flex flex++
+make[4]: Leaving directory '/sources/flex-2.5.38'
+ /bin/mkdir -p '/usr/share/doc/flex-2.5.38'
+ /usr/bin/install -c -m 644 AUTHORS COPYING NEWS ONEWS README TODO '/usr/share/doc/flex-2.5.38'
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 FlexLexer.h '/usr/include'
+make[3]: Leaving directory '/sources/flex-2.5.38'
+make[2]: Leaving directory '/sources/flex-2.5.38'
+Making install in doc
+make[2]: Entering directory '/sources/flex-2.5.38/doc'
+make[3]: Entering directory '/sources/flex-2.5.38/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/flex-2.5.38'
+ /usr/bin/install -c -m 644 flex.pdf '/usr/share/doc/flex-2.5.38'
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./flex.info ./flex.info-1 ./flex.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/flex.info'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 flex.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/flex-2.5.38/doc'
+make[2]: Leaving directory '/sources/flex-2.5.38/doc'
+Making install in examples
+make[2]: Entering directory '/sources/flex-2.5.38/examples'
+Making install in manual
+make[3]: Entering directory '/sources/flex-2.5.38/examples/manual'
+make[4]: Entering directory '/sources/flex-2.5.38/examples/manual'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/examples/manual'
+make[3]: Leaving directory '/sources/flex-2.5.38/examples/manual'
+Making install in fastwc
+make[3]: Entering directory '/sources/flex-2.5.38/examples/fastwc'
+make[4]: Entering directory '/sources/flex-2.5.38/examples/fastwc'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/examples/fastwc'
+make[3]: Leaving directory '/sources/flex-2.5.38/examples/fastwc'
+make[3]: Entering directory '/sources/flex-2.5.38/examples'
+make[4]: Entering directory '/sources/flex-2.5.38/examples'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/examples'
+make[3]: Leaving directory '/sources/flex-2.5.38/examples'
+make[2]: Leaving directory '/sources/flex-2.5.38/examples'
+Making install in po
+make[2]: Entering directory '/sources/flex-2.5.38/po'
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/flex.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/flex.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/flex.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/flex.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/flex.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/flex.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/flex.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/flex.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/flex.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/flex.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/flex.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/flex.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/flex.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/flex.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/flex.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/flex.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/flex.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/flex.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/flex.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/flex.mo
+installing zh_tw.gmo as /usr/share/locale/zh_tw/LC_MESSAGES/flex.mo
+if test "flex" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/flex-2.5.38/po'
+Making install in tools
+make[2]: Entering directory '/sources/flex-2.5.38/tools'
+make[3]: Entering directory '/sources/flex-2.5.38/tools'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/flex-2.5.38/tools'
+make[2]: Leaving directory '/sources/flex-2.5.38/tools'
+Making install in tests
+make[2]: Entering directory '/sources/flex-2.5.38/tests'
+Making install in test-concatenated-options
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-concatenated-options'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-concatenated-options'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-concatenated-options'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-concatenated-options'
+Making install in test-c++-yywrap
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-c++-yywrap'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-c++-yywrap'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-c++-yywrap'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-c++-yywrap'
+Making install in test-extended
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-extended'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-extended'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-extended'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-extended'
+Making install in test-ccl
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-ccl'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-ccl'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-ccl'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-ccl'
+Making install in test-quotes
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-quotes'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-quotes'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-quotes'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-quotes'
+Making install in test-rescan-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-rescan-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-rescan-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-rescan-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-rescan-r'
+Making install in test-rescan-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-rescan-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-rescan-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-rescan-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-rescan-nr'
+Making install in test-basic-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-basic-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-basic-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-basic-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-basic-nr'
+Making install in test-basic-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-basic-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-basic-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-basic-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-basic-r'
+Making install in test-multiple-scanners-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-multiple-scanners-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-multiple-scanners-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-multiple-scanners-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-multiple-scanners-nr'
+Making install in test-multiple-scanners-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-multiple-scanners-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-multiple-scanners-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-multiple-scanners-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-multiple-scanners-r'
+Making install in test-header-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-header-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-header-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-header-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-header-nr'
+Making install in test-header-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-header-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-header-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-header-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-header-r'
+Making install in test-reject
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-reject'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-reject'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-reject'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-reject'
+Making install in test-c++-multiple-scanners
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-c++-multiple-scanners'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-c++-multiple-scanners'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-c++-multiple-scanners'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-c++-multiple-scanners'
+Making install in test-c++-basic
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-c++-basic'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-c++-basic'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-c++-basic'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-c++-basic'
+Making install in test-posixly-correct
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-posixly-correct'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-posixly-correct'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-posixly-correct'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-posixly-correct'
+Making install in test-posix
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-posix'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-posix'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-posix'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-posix'
+Making install in test-mem-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-mem-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-mem-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-mem-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-mem-r'
+Making install in test-mem-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-mem-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-mem-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-mem-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-mem-nr'
+Making install in test-debug-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-debug-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-debug-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-debug-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-debug-nr'
+Making install in test-debug-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-debug-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-debug-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-debug-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-debug-r'
+Making install in test-lineno-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-lineno-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-lineno-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-lineno-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-lineno-r'
+Making install in test-lineno-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-lineno-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-lineno-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-lineno-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-lineno-nr'
+Making install in test-lineno-trailing
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-lineno-trailing'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-lineno-trailing'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-lineno-trailing'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-lineno-trailing'
+Making install in test-linedir-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-linedir-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-linedir-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-linedir-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-linedir-r'
+Making install in test-array-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-array-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-array-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-array-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-array-nr'
+Making install in test-array-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-array-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-array-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-array-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-array-r'
+Making install in test-c-cpp-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-c-cpp-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-c-cpp-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-c-cpp-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-c-cpp-nr'
+Making install in test-c-cpp-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-c-cpp-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-c-cpp-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-c-cpp-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-c-cpp-r'
+Making install in test-include-by-buffer
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-include-by-buffer'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-include-by-buffer'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-include-by-buffer'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-include-by-buffer'
+Making install in test-include-by-push
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-include-by-push'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-include-by-push'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-include-by-push'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-include-by-push'
+Making install in test-include-by-reentrant
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-include-by-reentrant'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-include-by-reentrant'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-include-by-reentrant'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-include-by-reentrant'
+Making install in test-prefix-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-prefix-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-prefix-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-prefix-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-prefix-nr'
+Making install in test-prefix-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-prefix-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-prefix-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-prefix-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-prefix-r'
+Making install in test-pthread
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-pthread'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-pthread'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-pthread'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-pthread'
+Making install in test-string-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-string-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-string-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-string-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-string-nr'
+Making install in test-string-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-string-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-string-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-string-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-string-r'
+Making install in test-yyextra
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-yyextra'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-yyextra'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-yyextra'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-yyextra'
+Making install in test-alloc-extra
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-alloc-extra'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-alloc-extra'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-alloc-extra'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-alloc-extra'
+Making install in test-noansi-nr
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-noansi-nr'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-noansi-nr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-noansi-nr'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-noansi-nr'
+Making install in test-noansi-r
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-noansi-r'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-noansi-r'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-noansi-r'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-noansi-r'
+Making install in test-top
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-top'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-top'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-top'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-top'
+Making install in test-table-opts
+make[3]: Entering directory '/sources/flex-2.5.38/tests/test-table-opts'
+make[4]: Entering directory '/sources/flex-2.5.38/tests/test-table-opts'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests/test-table-opts'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests/test-table-opts'
+make[3]: Entering directory '/sources/flex-2.5.38/tests'
+make[4]: Entering directory '/sources/flex-2.5.38/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/flex-2.5.38/tests'
+make[3]: Leaving directory '/sources/flex-2.5.38/tests'
+make[2]: Leaving directory '/sources/flex-2.5.38/tests'
+make[1]: Leaving directory '/sources/flex-2.5.38'

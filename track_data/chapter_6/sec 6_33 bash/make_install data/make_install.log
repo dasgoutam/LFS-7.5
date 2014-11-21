@@ -1,0 +1,128 @@
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.2.45(2)-release (i686-pc-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+( cd ./po/ ; make  DESTDIR= installdirs )
+make[1]: Entering directory '/sources/bash-4.2/po'
+/bin/sh /sources/bash-4.2/./support/mkinstalldirs /usr/share
+mkdir -p -- /usr/share/locale/en@quot/LC_MESSAGES
+mkdir -p -- /usr/share/locale/en@boldquot/LC_MESSAGES
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /sources/bash-4.2/./support/mkinstalldirs /usr/share/gettext/po; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/bash-4.2/po'
+/usr/bin/install -c -m 0755 bash /bin/bash
+/usr/bin/install -c -m 0555 bashbug /bin/bashbug
+( cd ./doc ; make  \
+	man1dir=/usr/share/man/man1 man1ext=.1 \
+	man3dir=/usr/share/man/man3 man3ext=.3 \
+	infodir=/usr/share/info htmldir=/usr/share/doc/bash-4.2 DESTDIR= install )
+make[1]: Entering directory '/sources/bash-4.2/doc'
+makeinfo --no-split -I../lib/readline/doc ./bashref.texi
+/bin/sh ../support/mkinstalldirs /usr/share/man/man1
+/bin/sh ../support/mkinstalldirs /usr/share/info
+if test -n "/usr/share/doc/bash-4.2" ; then \
+	/bin/sh ../support/mkinstalldirs /usr/share/doc/bash-4.2 ; \
+fi
+mkdir -p -- /usr/share/doc/bash-4.2
+/bin/sh ./infopost.sh < ./bashref.info > bash.info ; \
+
+/usr/bin/install -c -m 644 ./bash.1 /usr/share/man/man1/bash.1
+/usr/bin/install -c -m 644 ./bashbug.1 /usr/share/man/man1/bashbug.1
+if test -f bash.info; then d=.; else d=.; fi; \
+  /usr/bin/install -c -m 644 $d/bash.info /usr/share/info/bash.info
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/usr/share/info/dir /usr/share/info/bash.info; \
+else true; fi
+if test -n "/usr/share/doc/bash-4.2" ; then \
+	/usr/bin/install -c -m 644 ./bash.html /usr/share/doc/bash-4.2 ; \
+	/usr/bin/install -c -m 644 ./bashref.html /usr/share/doc/bash-4.2 ; \
+fi
+make[1]: Leaving directory '/sources/bash-4.2/doc'
+( cd ./builtins ; make  DESTDIR= install )
+make[1]: Entering directory '/sources/bash-4.2/builtins'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/bash-4.2/builtins'
+( cd ./po/ ; make  DESTDIR= install )
+make[1]: Entering directory '/sources/bash-4.2/po'
+test -z "en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo de.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo hu.gmo id.gmo ja.gmo lt.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo" || make en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo de.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo hu.gmo id.gmo ja.gmo lt.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo
+make[2]: Entering directory '/sources/bash-4.2/po'
+make[2]: 'en@quot.gmo' is up to date.
+make[2]: 'en@boldquot.gmo' is up to date.
+make[2]: 'af.gmo' is up to date.
+make[2]: 'bg.gmo' is up to date.
+make[2]: 'ca.gmo' is up to date.
+make[2]: 'cs.gmo' is up to date.
+make[2]: 'de.gmo' is up to date.
+make[2]: 'eo.gmo' is up to date.
+make[2]: 'es.gmo' is up to date.
+make[2]: 'et.gmo' is up to date.
+make[2]: 'fi.gmo' is up to date.
+make[2]: 'fr.gmo' is up to date.
+make[2]: 'ga.gmo' is up to date.
+make[2]: 'hu.gmo' is up to date.
+make[2]: 'id.gmo' is up to date.
+make[2]: 'ja.gmo' is up to date.
+make[2]: 'lt.gmo' is up to date.
+make[2]: 'nl.gmo' is up to date.
+make[2]: 'pl.gmo' is up to date.
+make[2]: 'pt_BR.gmo' is up to date.
+make[2]: 'ro.gmo' is up to date.
+make[2]: 'ru.gmo' is up to date.
+make[2]: 'sk.gmo' is up to date.
+make[2]: 'sv.gmo' is up to date.
+make[2]: 'tr.gmo' is up to date.
+make[2]: 'uk.gmo' is up to date.
+make[2]: 'vi.gmo' is up to date.
+make[2]: 'zh_CN.gmo' is up to date.
+make[2]: 'zh_TW.gmo' is up to date.
+make[2]: Leaving directory '/sources/bash-4.2/po'
+touch stamp-po
+/bin/sh /sources/bash-4.2/./support/mkinstalldirs /usr/share
+installing en@quot.gmo as /usr/share/locale/en@quot/LC_MESSAGES/bash.mo
+installing en@boldquot.gmo as /usr/share/locale/en@boldquot/LC_MESSAGES/bash.mo
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/bash.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/bash.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/bash.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/bash.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/bash.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/bash.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/bash.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/bash.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/bash.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/bash.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/bash.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/bash.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/bash.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/bash.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/bash.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/bash.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/bash.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/bash.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/bash.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/bash.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/bash.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/bash.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/bash.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/bash.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/bash.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/bash.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/bash.mo
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /sources/bash-4.2/./support/mkinstalldirs /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/bash-4.2/po'

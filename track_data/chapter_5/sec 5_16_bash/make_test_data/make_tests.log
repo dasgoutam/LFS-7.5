@@ -1,0 +1,134 @@
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.2.45(2)-release (i686-pc-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+Testing /mnt/lfs/sources/bash-4.2/bash
+version: 4.2.45(2)-release
+versinfo: 4 2 45 2 release i686-pc-linux-gnu
+HOSTTYPE = i686
+OSTYPE = linux-gnu
+MACHTYPE = i686-pc-linux-gnu
+Any output from any test, unless otherwise noted, indicates a possible anomaly
+run-alias
+run-appendop
+run-arith
+run-arith-for
+run-array
+run-array2
+run-assoc
+run-braces
+run-builtins
+108d107
+< ./source5.sub: line 1: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+run-case
+run-casemod
+run-comsub
+run-comsub-eof
+run-comsub-posix
+run-cond
+run-coproc
+1c1
+< 26660
+---
+> 84575
+4c4
+< 26662
+---
+> 84577
+7,8c7,8
+< ./coproc.tests: line 22: 26662 Terminated              coproc REFLECT { cat -; }
+< 26664
+---
+> ./coproc.tests: line 22: 84577 Terminated              coproc REFLECT { cat -; }
+> 84579
+run-cprint
+run-dbg-support
+run-dbg-support2
+run-dirstack
+run-dollars
+run-errors
+run-execscript
+run-exp-tests
+run-extglob
+run-extglob2
+run-extglob3
+run-func
+run-getopts
+run-glob-test
+run-globstar
+run-heredoc
+run-herestr
+run-histexpand
+run-history
+run-ifs
+run-ifs-posix
+run-input-test
+run-intl
+2c2
+< 2
+---
+> 1
+8,15c8,14
+< a�b
+< 0000000 141 303 142
+< 0000003
+< -абвгдежзиклмноп - 31
+< -абвгдежзиклмноп- 30
+< -аб�- 5
+< 1.0000
+< 1.0000
+---
+> aéb
+> 0000000 141 303 251 142
+> 0000004
+> -абвгдежзиклмноп - 16
+> -абвгдежзиклмноп- 15
+> -абвгд- 5
+> 1,0000
+19a19
+> 1,0000
+run-invert
+run-iquote
+run-jobs
+run-lastpipe
+run-mapfile
+run-more-exp
+run-new-exp
+run-nquote
+run-nquote1
+run-nquote2
+run-nquote3
+run-nquote4
+run-nquote5
+run-posix2
+run-posixexp
+run-posixexp2
+run-posixpat
+run-posixpipe
+run-precedence
+run-printf
+253d252
+< printf2.sub: multibyte character conversion failed
+run-quote
+run-read
+run-redir
+run-rhs-exp
+run-rsh
+run-set-e
+run-set-x
+run-shopt
+run-strip
+run-test
+run-tilde
+run-tilde2
+run-trap
+84d83
+< trap -- '' SIGUSR2
+85a85
+> trap -- '' SIGUSR2
+run-type
+run-varenv
+run-vredir

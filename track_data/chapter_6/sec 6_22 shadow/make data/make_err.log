@@ -1,0 +1,20 @@
+libtool: link: warning: `-version-info/-version-number' is ignored for convenience libraries
+login.c: In function 'check_nologin':
+login.c:242:8: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+  fname = getdef_str ("NOLOGINS_FILE");
+        ^
+login.c: In function 'init_env':
+login.c:392:6: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+   cp = getdef_str ("ENV_TZ");
+      ^
+login.c:408:6: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+   cp = getdef_str ("ENV_HZ");
+      ^
+su.c: In function 'main':
+su.c:1160:12: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+   argv[-1] = cp;
+            ^
+newgrp.c: In function 'main':
+newgrp.c:769:5: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+  cp = Basename ((char *) prog);
+     ^

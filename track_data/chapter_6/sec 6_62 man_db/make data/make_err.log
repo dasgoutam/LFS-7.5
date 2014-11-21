@@ -1,0 +1,16 @@
+glob.c:165:1: warning: '__leaf__' attribute has no effect on unit local functions [-Wattributes]
+ static const char *next_brace_sub (const char *begin, int flags) __THROW;
+ ^
+glob.c:213:1: warning: '__leaf__' attribute has no effect on unit local functions [-Wattributes]
+ static int prefix_array (const char *prefix, char **array, size_t n) __THROW;
+ ^
+glob.c:214:1: warning: '__leaf__' attribute has no effect on unit local functions [-Wattributes]
+ static int collated_compare (const void *, const void *) __THROW;
+ ^
+globbing.c: In function 'match_in_directory':
+globbing.c:273:20: warning: 'pattern_start.len' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if (strncasecmp (pattern_start.pattern,
+                    ^
+globbing.c:295:8: warning: 'pattern_start.pattern' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   free (pattern_start.pattern);
+        ^

@@ -1,0 +1,4 @@
+ksym.c: In function 'ExpandKadds':
+ksym.c:769:12: warning: variable 'dlm' set but not used [-Wunused-but-set-variable]
+  auto char dlm,
+            ^

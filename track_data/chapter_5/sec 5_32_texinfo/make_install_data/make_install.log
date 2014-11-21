@@ -1,0 +1,254 @@
+Making install in gnulib/lib
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/gnulib/lib'
+make  install-recursive
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/gnulib/lib'
+make[3]: Entering directory '/mnt/lfs/sources/texinfo-5.2/gnulib/lib'
+make[4]: Entering directory '/mnt/lfs/sources/texinfo-5.2/gnulib/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /mnt/lfs/sources/texinfo-5.2/build-aux/install-sh -d /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /tools/lib/charset.tmp ; \
+    /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/gnulib/lib'
+make[3]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/gnulib/lib'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/gnulib/lib'
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/gnulib/lib'
+Making install in install-info
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/install-info'
+Making install in tests
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/install-info/tests'
+make[3]: Entering directory '/mnt/lfs/sources/texinfo-5.2/install-info/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/install-info/tests'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/install-info/tests'
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/install-info'
+make[3]: Entering directory '/mnt/lfs/sources/texinfo-5.2/install-info'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c ginstall-info '/tools/bin/./install-info'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/install-info'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/install-info'
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/install-info'
+Making install in po
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/po'
+installing cs.gmo as /tools/share/locale/cs/LC_MESSAGES/texinfo.mo
+installing da.gmo as /tools/share/locale/da/LC_MESSAGES/texinfo.mo
+installing de.gmo as /tools/share/locale/de/LC_MESSAGES/texinfo.mo
+installing de_AT.gmo as /tools/share/locale/de_AT/LC_MESSAGES/texinfo.mo
+installing eo.gmo as /tools/share/locale/eo/LC_MESSAGES/texinfo.mo
+installing es.gmo as /tools/share/locale/es/LC_MESSAGES/texinfo.mo
+installing fr.gmo as /tools/share/locale/fr/LC_MESSAGES/texinfo.mo
+installing he.gmo as /tools/share/locale/he/LC_MESSAGES/texinfo.mo
+installing hr.gmo as /tools/share/locale/hr/LC_MESSAGES/texinfo.mo
+installing hu.gmo as /tools/share/locale/hu/LC_MESSAGES/texinfo.mo
+installing id.gmo as /tools/share/locale/id/LC_MESSAGES/texinfo.mo
+installing it.gmo as /tools/share/locale/it/LC_MESSAGES/texinfo.mo
+installing ja.gmo as /tools/share/locale/ja/LC_MESSAGES/texinfo.mo
+installing nb.gmo as /tools/share/locale/nb/LC_MESSAGES/texinfo.mo
+installing nl.gmo as /tools/share/locale/nl/LC_MESSAGES/texinfo.mo
+installing pl.gmo as /tools/share/locale/pl/LC_MESSAGES/texinfo.mo
+installing ro.gmo as /tools/share/locale/ro/LC_MESSAGES/texinfo.mo
+installing ru.gmo as /tools/share/locale/ru/LC_MESSAGES/texinfo.mo
+installing rw.gmo as /tools/share/locale/rw/LC_MESSAGES/texinfo.mo
+installing sl.gmo as /tools/share/locale/sl/LC_MESSAGES/texinfo.mo
+installing sv.gmo as /tools/share/locale/sv/LC_MESSAGES/texinfo.mo
+installing tr.gmo as /tools/share/locale/tr/LC_MESSAGES/texinfo.mo
+installing uk.gmo as /tools/share/locale/uk/LC_MESSAGES/texinfo.mo
+installing vi.gmo as /tools/share/locale/vi/LC_MESSAGES/texinfo.mo
+installing zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/texinfo.mo
+installing zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/texinfo.mo
+if test "texinfo" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ./$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/po'
+Making install in po_document
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/po_document'
+installing de.us-ascii.gmo as /tools/share/locale/de.us-ascii/LC_MESSAGES/texinfo_document.mo
+installing eo.gmo as /tools/share/locale/eo/LC_MESSAGES/texinfo_document.mo
+installing es.us-ascii.gmo as /tools/share/locale/es.us-ascii/LC_MESSAGES/texinfo_document.mo
+installing fr.gmo as /tools/share/locale/fr/LC_MESSAGES/texinfo_document.mo
+installing hu.gmo as /tools/share/locale/hu/LC_MESSAGES/texinfo_document.mo
+installing it.gmo as /tools/share/locale/it/LC_MESSAGES/texinfo_document.mo
+installing nl.gmo as /tools/share/locale/nl/LC_MESSAGES/texinfo_document.mo
+installing no.us-ascii.gmo as /tools/share/locale/no.us-ascii/LC_MESSAGES/texinfo_document.mo
+installing pl.gmo as /tools/share/locale/pl/LC_MESSAGES/texinfo_document.mo
+installing pt_BR.us-ascii.gmo as /tools/share/locale/pt_BR.us-ascii/LC_MESSAGES/texinfo_document.mo
+installing pt.us-ascii.gmo as /tools/share/locale/pt.us-ascii/LC_MESSAGES/texinfo_document.mo
+if test "texinfo" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ./$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/po_document'
+Making install in tp
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp'
+Making install in .
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp'
+make[3]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp'
+ /tools/bin/mkdir -p '/tools/bin'
+ /tools/bin/install -c texi2any '/tools/bin'
+make  install-exec-hook
+make[4]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp'
+rm -f /tools/bin/makeinfo
+ln -s texi2any /tools/bin/makeinfo
+make[4]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp'
+if test no != 'yes' ; then \
+  /tools/bin/mkdir -p /tools/share/texinfo/lib/libintl-perl/lib/Locale/Recode \
+    /tools/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData; \
+  /tools/bin/install -c -m 644 ./maintain/lib/libintl-perl/lib/Locale/*.pm \
+    /tools/share/texinfo/lib/libintl-perl/lib/Locale; \
+  /tools/bin/install -c -m 644 ./maintain/lib/libintl-perl/lib/Locale/Recode/*.pm \
+    /tools/share/texinfo/lib/libintl-perl/lib/Locale/Recode; \
+  /tools/bin/install -c -m 644 ./maintain/lib/libintl-perl/lib/Locale/RecodeData/*.pm \
+    /tools/share/texinfo/lib/libintl-perl/lib/Locale/RecodeData; \
+fi
+if test no != 'yes' ; then \
+  /tools/bin/mkdir -p /tools/share/texinfo/lib/Unicode-EastAsianWidth/lib/Unicode; \
+  /tools/bin/install -c -m 644 ./maintain/lib/Unicode-EastAsianWidth/lib/Unicode/EastAsianWidth.pm \
+   /tools/share/texinfo/lib/Unicode-EastAsianWidth/lib/Unicode; \
+fi
+if test no != 'yes' ; then \
+  /tools/bin/mkdir -p /tools/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode; \
+  /tools/bin/install -c -m 644 ./maintain/lib/Text-Unidecode/lib/Text/Unidecode.pm \
+    /tools/share/texinfo/lib/Text-Unidecode/lib/Text; \
+  /tools/bin/install -c -m 644 ./maintain/lib/Text-Unidecode/lib/Text/Unidecode/*.pm \
+    /tools/share/texinfo/lib/Text-Unidecode/lib/Text/Unidecode; \
+fi
+ /tools/bin/mkdir -p '/tools/share/texinfo/Texinfo/Convert'
+ /tools/bin/install -c -m 644 Texinfo/Convert/Converter.pm Texinfo/Convert/DocBook.pm Texinfo/Convert/HTML.pm Texinfo/Convert/IXIN.pm Texinfo/Convert/IXINSXML.pm Texinfo/Convert/Info.pm Texinfo/Convert/Line.pm Texinfo/Convert/NodeNameNormalization.pm Texinfo/Convert/Paragraph.pm Texinfo/Convert/PlainTexinfo.pm Texinfo/Convert/Plaintext.pm Texinfo/Convert/Texinfo.pm Texinfo/Convert/TexinfoSXML.pm Texinfo/Convert/TexinfoXML.pm Texinfo/Convert/Text.pm Texinfo/Convert/TextContent.pm Texinfo/Convert/UnFilled.pm Texinfo/Convert/Unicode.pm '/tools/share/texinfo/Texinfo/Convert'
+ /tools/bin/mkdir -p '/tools/share/texinfo/DebugTexinfo'
+ /tools/bin/install -c -m 644 DebugTexinfo/DebugCount.pm DebugTexinfo/DebugTree.pm '/tools/share/texinfo/DebugTexinfo'
+ /tools/bin/mkdir -p '/tools/share/texinfo/init'
+ /tools/bin/install -c -m 644 init/book.pm init/chm.pm init/html32.pm init/tex4ht.pm init/latex2html.pm '/tools/share/texinfo/init'
+ /tools/bin/mkdir -p '/tools/share/texinfo/Texinfo'
+ /tools/bin/install -c -m 644 Texinfo/Parser.pm Texinfo/Report.pm Texinfo/Common.pm Texinfo/Encoding.pm Texinfo/Structuring.pm Texinfo/Documentlanguages.pm '/tools/share/texinfo/Texinfo'
+make[3]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp'
+Making install in tests
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp/tests'
+Making install in .
+make[3]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp/tests'
+make[4]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp/tests'
+make[3]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp/tests'
+Making install in many_input_files
+make[3]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp/tests/many_input_files'
+make[4]: Entering directory '/mnt/lfs/sources/texinfo-5.2/tp/tests/many_input_files'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp/tests/many_input_files'
+make[3]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp/tests/many_input_files'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp/tests'
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/tp'
+Making install in Pod-Simple-Texinfo
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/Pod-Simple-Texinfo'
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/Pod-Simple-Texinfo'
+ /tools/bin/mkdir -p '/tools/bin'
+ /tools/bin/install -c pod2texi '/tools/bin'
+ /tools/bin/mkdir -p '/tools/share/texinfo/Pod-Simple-Texinfo/Pod/Simple/'
+ /tools/bin/install -c -m 644 lib/Pod/Simple/Texinfo.pm '/tools/share/texinfo/Pod-Simple-Texinfo/Pod/Simple/'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/Pod-Simple-Texinfo'
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/Pod-Simple-Texinfo'
+Making install in util
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/util'
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/util'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c texindex '/tools/bin'
+ /tools/bin/mkdir -p '/tools/bin'
+ /tools/bin/install -c texi2dvi texi2pdf pdftexi2dvi '/tools/bin'
+ /tools/bin/mkdir -p '/tools/share/texinfo'
+ /tools/bin/install -c -m 644 htmlxref.cnf texinfo.dtd '/tools/share/texinfo'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/util'
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/util'
+Making install in doc
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/doc'
+Making install in tp_api
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/doc/tp_api'
+make  install-am
+make[3]: Entering directory '/mnt/lfs/sources/texinfo-5.2/doc/tp_api'
+make[4]: Entering directory '/mnt/lfs/sources/texinfo-5.2/doc/tp_api'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/doc/tp_api'
+make[3]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/doc/tp_api'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/doc/tp_api'
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/doc'
+make[3]: Entering directory '/mnt/lfs/sources/texinfo-5.2/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+
+WARNING: If your texmf tree does not already contain
+         up-to-date versions, you must install
+             texinfo.tex and txi-??.tex manually,
+         perhaps in TEXMF/tex/texinfo/,
+         where TEXMF is a root of your TeX tree.
+         See doc/README for some considerations.
+         You can run make TEXMF=/your/texmf install-tex to do this.
+
+         You may also need to install epsf.tex in
+         TEXMF/tex/generic/dvips, if your TeX
+         installation did not include it.
+ /tools/bin/mkdir -p '/tools/share/info'
+ /tools/bin/install -c -m 644 ./texinfo.info ./texinfo.info-1 ./texinfo.info-2 ./texinfo.info-3 ./info-stnd.info ./info.info '/tools/share/info'
+ install-info --info-dir='/tools/share/info' '/tools/share/info/texinfo.info'
+ install-info --info-dir='/tools/share/info' '/tools/share/info/info-stnd.info'
+ install-info --info-dir='/tools/share/info' '/tools/share/info/info.info'
+make[3]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/doc'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/doc'
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/doc'
+Making install in man
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2/man'
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 install-info.1 makeinfo.1 texindex.1 texi2dvi.1 pod2texi.1 texi2any.1 texi2pdf.1 pdftexi2dvi.1 '/tools/share/man/man1'
+ /tools/bin/mkdir -p '/tools/share/man/man5'
+ /tools/bin/install -c -m 644 info.5 texinfo.5 '/tools/share/man/man5'
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/man'
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2/man'
+make[1]: Entering directory '/mnt/lfs/sources/texinfo-5.2'
+make[2]: Entering directory '/mnt/lfs/sources/texinfo-5.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/texinfo-5.2'
+make[1]: Leaving directory '/mnt/lfs/sources/texinfo-5.2'

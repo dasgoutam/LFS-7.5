@@ -1,0 +1,14 @@
+grub_script.yy.c:2354:13: warning: 'yy_fatal_error' defined but not used [-Wunused-function]
+ static void yy_fatal_error (yyconst char* msg , yyscan_t yyscanner)
+             ^
+grub-core/lib/libgcrypt-grub/cipher/rijndael.c: In function 'do_setkey':
+grub-core/lib/libgcrypt-grub/cipher/rijndael.c:173:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for (i = 0; i < keylen; i++) 
+                     ^
+grub_script.yy.c:2354:13: warning: 'yy_fatal_error' defined but not used [-Wunused-function]
+ static void yy_fatal_error (yyconst char* msg , yyscan_t yyscanner)
+             ^
+lib/libgcrypt-grub/cipher/rijndael.c: In function 'do_setkey':
+lib/libgcrypt-grub/cipher/rijndael.c:173:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for (i = 0; i < keylen; i++) 
+                     ^

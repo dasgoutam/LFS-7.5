@@ -1,0 +1,34 @@
+make: Entering directory '/sources/sysvinit-2.88dsf/src'
+install -m 755 -d  /sbin/
+for i in ; do \
+		install -o root -g root -m 755 $i /bin/ ; \
+	done
+for i in init halt shutdown runlevel killall5 fstab-decode bootlogd; do \
+		install -o root -g root -m 755 $i /sbin/ ; \
+	done
+for i in ; do \
+		install -o root -g root -m 755 $i /usr/bin/ ; \
+	done
+# install -m 755 -d /etc/
+# install -o root -g root -m 755 initscript.sample /etc/
+ln -sf halt /sbin/reboot
+ln -sf halt /sbin/poweroff
+ln -sf init /sbin/telinit
+install -m 755 -d /usr/include/
+install -o root -g root -m 644 initreq.h /usr/include/
+install -m 755 -d /usr/share/man/man5/
+install -m 755 -d /usr/share/man/man8/
+for i in ; do \
+		install -o root -g root -m 644 ../man/$i /usr/share/man/man1/; \
+	done
+for i in initscript.5 inittab.5; do \
+		install -o root -g root -m 644 ../man/$i /usr/share/man/man5/; \
+	done
+for i in halt.8 init.8 killall5.8  poweroff.8 reboot.8 runlevel.8 shutdown.8 telinit.8 fstab-decode.8 bootlogd.8; do \
+		install -o root -g root -m 644 ../man/$i /usr/share/man/man8/; \
+	done
+#
+# This part is skipped on Debian systems, the
+# debian.preinst script takes care of it.
+Creating /dev/initctl
+make: Leaving directory '/sources/sysvinit-2.88dsf/src'

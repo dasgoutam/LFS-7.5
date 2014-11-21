@@ -1,0 +1,35 @@
+make --no-print-directory all-recursive
+Making all in .
+  GEN      libkmod/libkmod.pc
+  CC       libkmod/libkmod.lo
+  CC       libkmod/libkmod-list.lo
+  CC       libkmod/libkmod-config.lo
+  CC       libkmod/libkmod-index.lo
+  CC       libkmod/libkmod-module.lo
+  CC       libkmod/libkmod-file.lo
+  CC       libkmod/libkmod-elf.lo
+  CC       libkmod/libkmod-signature.lo
+  CC       libkmod/libkmod-hash.lo
+  CC       libkmod/libkmod-array.lo
+  CC       libkmod/libkmod-util.lo
+  CC       tools/kmod.o
+  CC       tools/lsmod.o
+  CC       tools/rmmod.o
+  CC       tools/insmod.o
+  CC       tools/modinfo.o
+  CC       tools/modprobe.o
+  CC       tools/depmod.o
+  CC       tools/log.o
+  CC       tools/static-nodes.o
+  CCLD     libkmod/libkmod-util.la
+  CCLD     libkmod/libkmod-internal.la
+  CCLD     libkmod/libkmod.la
+  CCLD     tools/kmod
+  GEN      tools/insmod
+  GEN      tools/lsmod
+  GEN      tools/modprobe
+  GEN      tools/rmmod
+  GEN      tools/modinfo
+  GEN      tools/depmod
+Making all in libkmod/docs
+make[2]: Nothing to be done for 'all'.

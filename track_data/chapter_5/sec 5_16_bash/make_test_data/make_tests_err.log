@@ -1,0 +1,68 @@
+warning: all of these tests will fail if arrays have not
+warning: been compiled into the shell
+warning: the BASH_ARGC and BASH_ARGV tests will fail if debugging support
+warning: has not been compiled into the shell
+warning: all of these tests will fail if arrays have not
+warning: been compiled into the shell
+warning: all of these tests will fail if arrays have not
+warning: been compiled into the shell
+warning: some of these tests may fail if process substitution has not
+warning: been compiled into the shell or if the OS does not provide
+warning: /dev/fd.
+warning: all of these tests will fail if the conditional command has not
+warning: been compiled into the shell
+warning: some of these tests will fail if extended pattern matching has not
+warning: been compiled into the shell
+warning: the process IDs printed will differ on every run
+warning: and generate diffs
+warning: the text of a system error message may vary between systems and
+warning: produce diff output.
+warning: if the text of the error messages concerning `notthere' or
+warning: `/tmp/bash-notthere' not being found or `/' being a directory
+warning: produce diff output, please do not consider this a test failure
+warning: if diff output differing only in the location of the bash
+warning: binary appears, please do not consider this a test failure
+warning: if you have exported functions defined in your environment,
+warning: they may show up as diff output.
+warning: if so, please do not consider this a test failure
+warning: all of these tests will fail if history has not been compiled
+warning: into the shell
+warning: all of these tests will fail if history has not been compiled
+warning: into the shell
+warning: some of these tests will fail if you do not have UTF-8
+warning: locales installed on your system.
+warning: please ignore any differences consisting only of white space
+./intl.tests: line 1: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+/mnt/lfs/sources/bash-4.2/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+./intl1.sub: line 1: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/mnt/lfs/sources/bash-4.2/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+./intl2.sub: line 1: warning: setlocale: LC_NUMERIC: cannot change locale (en_IN): No such file or directory
+warning: some of these tests may fail if job control has not been compiled
+warning: into the shell
+warning: there may be a message regarding a cat process dying due to a
+warning: SIGHUP.  Please disregard.
+warning: two of these tests will fail if your OS does not support
+warning: named pipes or the /dev/fd filesystem.  If the tests of the
+warning: process substitution mechanism fail, please do not consider
+warning: this a test failure
+warning: if you have exported variables beginning with the string _Q,
+warning: diff output may be generated.  If so, please do not consider
+warning: this a test failure
+warning: several of these tests will fail if arrays have not
+warning: been compiled into the shell.
+warning: several of these tests will fail if arrays have not
+warning: been compiled into the shell.
+warning: several of these tests will fail if arrays have not
+warning: been compiled into the shell.
+warning: some of these tests will fail if you do not have UTF-8
+warning: locales installed on your system
+warning: please do not consider output differing only in the amount of
+warning: white space to be an error.
+warning: the text of a system error message may vary between systems and
+warning: produce diff output.
+warning: if the text of an error message concerning `redir1.*' not being
+warning: found or messages concerning bad file descriptors produce diff
+warning: output, please do not consider it a test failure
+warning: UNIX versions number signals and schedule processes differently.
+warning: If output differing only in line numbers is produced, please
+warning: do not consider this a test failure.

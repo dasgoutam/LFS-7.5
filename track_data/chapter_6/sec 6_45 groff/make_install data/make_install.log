@@ -1,0 +1,1181 @@
+test -d /usr \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr
+make[1]: Entering directory '/sources/groff-1.22.2'
+make[2]: Entering directory '/sources/groff-1.22.2/src/include'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/include'
+make[2]: Entering directory '/sources/groff-1.22.2/arch/misc'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/arch/misc'
+make[2]: Entering directory '/sources/groff-1.22.2/src/libs/libgroff'
+test yes != no || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/lib
+if test -f /usr/lib/charset.alias; then \
+  sed -f ref-add.sed /usr/lib/charset.alias \
+      > /usr/lib/t-charset.alias; \
+  /usr/bin/install -c -m 644 /usr/lib/t-charset.alias \
+                  /usr/lib/charset.alias; \
+  rm -f /usr/lib/t-charset.alias; \
+else \
+  if test yes = no; then \
+    sed -f ref-add.sed charset.alias \
+        > /usr/lib/t-charset.alias; \
+    /usr/bin/install -c -m 644 /usr/lib/t-charset.alias \
+                    /usr/lib/charset.alias; \
+    rm -f /usr/lib/t-charset.alias; \
+  fi; \
+fi
+make[2]: Leaving directory '/sources/groff-1.22.2/src/libs/libgroff'
+make[2]: Entering directory '/sources/groff-1.22.2/src/libs/libdriver'
+make[2]: Nothing to be done for 'do_install'.
+make[2]: Leaving directory '/sources/groff-1.22.2/src/libs/libdriver'
+make[2]: Entering directory '/sources/groff-1.22.2/src/libs/libbib'
+make[2]: Nothing to be done for 'do_install'.
+make[2]: Leaving directory '/sources/groff-1.22.2/src/libs/libbib'
+make[1]: Nothing to be done for 'arch/misc'.
+make[2]: Entering directory '/sources/groff-1.22.2/src/roff/groff'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/groff
+/usr/bin/install -c groff /usr/bin/groff
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 groff.n /usr/share/man/man1/groff.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/roff/groff'
+make[2]: Entering directory '/sources/groff-1.22.2/src/roff/troff'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/troff
+/usr/bin/install -c troff /usr/bin/troff
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 troff.n /usr/share/man/man1/troff.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/roff/troff'
+make[2]: Entering directory '/sources/groff-1.22.2/src/preproc/preconv'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/preconv
+/usr/bin/install -c preconv /usr/bin/preconv
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 preconv.n /usr/share/man/man1/preconv.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/preproc/preconv'
+make[2]: Entering directory '/sources/groff-1.22.2/src/preproc/tbl'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/tbl
+/usr/bin/install -c tbl /usr/bin/tbl
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 tbl.n /usr/share/man/man1/tbl.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/preproc/tbl'
+make[2]: Entering directory '/sources/groff-1.22.2/src/preproc/pic'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/pic
+/usr/bin/install -c pic /usr/bin/pic
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 pic.n /usr/share/man/man1/pic.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/preproc/pic'
+make[2]: Entering directory '/sources/groff-1.22.2/src/preproc/eqn'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/eqn
+/usr/bin/install -c eqn /usr/bin/eqn
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 eqn.n /usr/share/man/man1/eqn.1
+/usr/bin/install -c -m 644 neqn.n /usr/share/man/man1/neqn.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+rm -f /usr/bin/neqn
+/usr/bin/install -c neqn /usr/bin/neqn
+make[2]: Leaving directory '/sources/groff-1.22.2/src/preproc/eqn'
+make[2]: Entering directory '/sources/groff-1.22.2/src/preproc/grn'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/grn
+/usr/bin/install -c grn /usr/bin/grn
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grn.n /usr/share/man/man1/grn.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/preproc/grn'
+make[2]: Entering directory '/sources/groff-1.22.2/src/preproc/refer'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/refer
+/usr/bin/install -c refer /usr/bin/refer
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 refer.n /usr/share/man/man1/refer.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/preproc/refer'
+make[2]: Entering directory '/sources/groff-1.22.2/src/preproc/soelim'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/soelim
+/usr/bin/install -c soelim /usr/bin/soelim
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 soelim.n /usr/share/man/man1/soelim.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/preproc/soelim'
+make[2]: Entering directory '/sources/groff-1.22.2/src/preproc/html'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/pre-grohtml
+/usr/bin/install -c pre-grohtml /usr/bin/pre-grohtml
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/preproc/html'
+make[2]: Entering directory '/sources/groff-1.22.2/src/devices/grops'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/grops
+/usr/bin/install -c grops /usr/bin/grops
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grops.n /usr/share/man/man1/grops.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/devices/grops'
+make[2]: Entering directory '/sources/groff-1.22.2/src/devices/grotty'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/grotty
+/usr/bin/install -c grotty /usr/bin/grotty
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grotty.n /usr/share/man/man1/grotty.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/devices/grotty'
+make[2]: Entering directory '/sources/groff-1.22.2/src/devices/grodvi'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/grodvi
+/usr/bin/install -c grodvi /usr/bin/grodvi
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grodvi.n /usr/share/man/man1/grodvi.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/devices/grodvi'
+make[2]: Entering directory '/sources/groff-1.22.2/src/devices/grolj4'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/grolj4
+/usr/bin/install -c grolj4 /usr/bin/grolj4
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grolj4.n /usr/share/man/man1/grolj4.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+/usr/bin/install -c -m 644 lj4_font.n /usr/share/man/man5/lj4_font.5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/devices/grolj4'
+make[2]: Entering directory '/sources/groff-1.22.2/src/devices/grohtml'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/post-grohtml
+/usr/bin/install -c post-grohtml /usr/bin/post-grohtml
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grohtml.n /usr/share/man/man1/grohtml.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/devices/grohtml'
+make[2]: Entering directory '/sources/groff-1.22.2/src/devices/grolbp'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/grolbp
+/usr/bin/install -c grolbp /usr/bin/grolbp
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grolbp.n /usr/share/man/man1/grolbp.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/devices/grolbp'
+make[2]: Entering directory '/sources/groff-1.22.2/src/utils/tfmtodit'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/tfmtodit
+/usr/bin/install -c tfmtodit /usr/bin/tfmtodit
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 tfmtodit.n /usr/share/man/man1/tfmtodit.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/utils/tfmtodit'
+make[2]: Entering directory '/sources/groff-1.22.2/src/utils/hpftodit'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/hpftodit
+/usr/bin/install -c hpftodit /usr/bin/hpftodit
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 hpftodit.n /usr/share/man/man1/hpftodit.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/utils/hpftodit'
+make[2]: Entering directory '/sources/groff-1.22.2/src/utils/lookbib'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/lookbib
+/usr/bin/install -c lookbib /usr/bin/lookbib
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 lookbib.n /usr/share/man/man1/lookbib.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/utils/lookbib'
+make[2]: Entering directory '/sources/groff-1.22.2/src/utils/indxbib'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/indxbib
+/usr/bin/install -c indxbib /usr/bin/indxbib
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 indxbib.n /usr/share/man/man1/indxbib.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+mkdir -p -- /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+mkdir -p -- /usr/share/groff/1.22.2
+if test -f /usr/lib/eign; then \
+  rm -f /usr/share/groff/1.22.2/eign; \
+  ln -s /usr/lib/eign /usr/share/groff/1.22.2/eign 2>/dev/null \
+  || ln /usr/lib/eign /usr/share/groff/1.22.2/eign 2>/dev/null \
+  || cp /usr/lib/eign /usr/share/groff/1.22.2/eign; \
+else \
+  rm -f /usr/share/groff/1.22.2/eign; \
+  /usr/bin/install -c -m 644 ./eign /usr/share/groff/1.22.2/eign; \
+fi
+make[2]: Leaving directory '/sources/groff-1.22.2/src/utils/indxbib'
+make[2]: Entering directory '/sources/groff-1.22.2/src/utils/lkbib'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/lkbib
+/usr/bin/install -c lkbib /usr/bin/lkbib
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 lkbib.n /usr/share/man/man1/lkbib.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/utils/lkbib'
+make[2]: Entering directory '/sources/groff-1.22.2/src/utils/addftinfo'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/addftinfo
+/usr/bin/install -c addftinfo /usr/bin/addftinfo
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 addftinfo.n /usr/share/man/man1/addftinfo.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/utils/addftinfo'
+make[2]: Entering directory '/sources/groff-1.22.2/src/utils/pfbtops'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/pfbtops
+/usr/bin/install -c pfbtops /usr/bin/pfbtops
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 pfbtops.n /usr/share/man/man1/pfbtops.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+make[2]: Leaving directory '/sources/groff-1.22.2/src/utils/pfbtops'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devps'
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+test -d /usr/share/groff/1.22.2/font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font
+mkdir -p -- /usr/share/groff/1.22.2/font
+test -d /usr/share/groff/1.22.2/font/devps \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devps
+mkdir -p -- /usr/share/groff/1.22.2/font/devps
+if test -d ./generate; then \
+  test -d /usr/share/groff/1.22.2/font/devps/generate \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devps/generate; \
+fi
+mkdir -p -- /usr/share/groff/1.22.2/font/devps/generate
+if test -d ./enc; then \
+  test -d /usr/share/groff/1.22.2/font/devps/enc \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devps/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/share/groff/1.22.2/font/devps/map \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devps/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/share/groff/1.22.2/font/devps/util \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devps/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/share/groff/1.22.2/oldfont \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont; \
+  test -d /usr/share/groff/1.22.2/oldfont/devps \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont/devps; \
+fi
+mkdir -p -- /usr/share/groff/1.22.2/oldfont
+mkdir -p -- /usr/share/groff/1.22.2/oldfont/devps
+test -z "DESC prologue symbolsl.pfa zapfdr.pfa S SS ZD ZDR ZCMI AB ABI AI AR BMB BMBI BMI BMR CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR EURO freeeuro.pfa freeeuro.afm text.enc download generate/Makefile generate/dingbats.map generate/dingbats.rmap generate/lgreekmap generate/symbolchars generate/symbolsl.afm generate/textmap" \
+  || for f in ""DESC prologue symbolsl.pfa zapfdr.pfa S SS ZD ZDR ZCMI AB ABI AI AR BMB BMBI BMI BMR CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR EURO freeeuro.pfa freeeuro.afm text.enc download generate/Makefile generate/dingbats.map generate/dingbats.rmap generate/lgreekmap generate/symbolchars generate/symbolsl.afm generate/textmap; do \
+       rm -f /usr/share/groff/1.22.2/font/devps/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devps/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devps/$f; \
+       fi; \
+     done
+test -z "S SS CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR symbol.afm symbolsl.afm zapfdr.afm zapfdr.ps" \
+  || for f in ""S SS CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR symbol.afm symbolsl.afm zapfdr.afm zapfdr.ps; do \
+       rm -f /usr/share/groff/1.22.2/oldfont/devps/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /usr/share/groff/1.22.2/oldfont/devps/$f; \
+     done
+test -z "generate/afmname generate/symbol.sed" \
+  || for f in ""generate/afmname generate/symbol.sed; do \
+       rm -f /usr/share/groff/1.22.2/font/devps/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /usr/share/groff/1.22.2/font/devps/$f; \
+       else \
+	 /usr/bin/install -c ./$f /usr/share/groff/1.22.2/font/devps/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devps'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devdvi'
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+test -d /usr/share/groff/1.22.2/font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font
+test -d /usr/share/groff/1.22.2/font/devdvi \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devdvi
+mkdir -p -- /usr/share/groff/1.22.2/font/devdvi
+if test -d ./generate; then \
+  test -d /usr/share/groff/1.22.2/font/devdvi/generate \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devdvi/generate; \
+fi
+mkdir -p -- /usr/share/groff/1.22.2/font/devdvi/generate
+if test -d ./enc; then \
+  test -d /usr/share/groff/1.22.2/font/devdvi/enc \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devdvi/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/share/groff/1.22.2/font/devdvi/map \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devdvi/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/share/groff/1.22.2/font/devdvi/util \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devdvi/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/share/groff/1.22.2/oldfont \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont; \
+  test -d /usr/share/groff/1.22.2/oldfont/devdvi \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont/devdvi; \
+fi
+test -z "DESC TR TI TB TBI CW CWI HR HI HB HBI TREC TIEC TBEC TBIEC CWEC CWIEC HREC HIEC HBEC HBIEC TRTC TITC TBTC TBITC CWTC CWITC HRTC HITC HBTC HBITC MI S EX SA SB SC generate/Makefile generate/msam.map generate/msbm.map generate/texb.map generate/texex.map generate/texi.map generate/texmi.map generate/texr.map generate/texsy.map generate/textt.map generate/textex.map generate/ec.map generate/tc.map" \
+  || for f in ""DESC TR TI TB TBI CW CWI HR HI HB HBI TREC TIEC TBEC TBIEC CWEC CWIEC HREC HIEC HBEC HBIEC TRTC TITC TBTC TBITC CWTC CWITC HRTC HITC HBTC HBITC MI S EX SA SB SC generate/Makefile generate/msam.map generate/msbm.map generate/texb.map generate/texex.map generate/texi.map generate/texmi.map generate/texr.map generate/texsy.map generate/textt.map generate/textex.map generate/ec.map generate/tc.map; do \
+       rm -f /usr/share/groff/1.22.2/font/devdvi/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devdvi/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devdvi/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/oldfont/devdvi/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /usr/share/groff/1.22.2/oldfont/devdvi/$f; \
+     done
+test -z "generate/CompileFonts" \
+  || for f in ""generate/CompileFonts; do \
+       rm -f /usr/share/groff/1.22.2/font/devdvi/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /usr/share/groff/1.22.2/font/devdvi/$f; \
+       else \
+	 /usr/bin/install -c ./$f /usr/share/groff/1.22.2/font/devdvi/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devdvi'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devhtml'
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+test -d /usr/share/groff/1.22.2/font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font
+test -d /usr/share/groff/1.22.2/font/devhtml \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devhtml
+mkdir -p -- /usr/share/groff/1.22.2/font/devhtml
+if test -d ./generate; then \
+  test -d /usr/share/groff/1.22.2/font/devhtml/generate \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devhtml/generate; \
+fi
+if test -d ./enc; then \
+  test -d /usr/share/groff/1.22.2/font/devhtml/enc \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devhtml/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/share/groff/1.22.2/font/devhtml/map \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devhtml/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/share/groff/1.22.2/font/devhtml/util \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devhtml/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/share/groff/1.22.2/oldfont \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont; \
+  test -d /usr/share/groff/1.22.2/oldfont/devhtml \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont/devhtml; \
+fi
+test -z "R I B BI CR CI CB CBI S DESC" \
+  || for f in ""R I B BI CR CI CB CBI S DESC; do \
+       rm -f /usr/share/groff/1.22.2/font/devhtml/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devhtml/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devhtml/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/oldfont/devhtml/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /usr/share/groff/1.22.2/oldfont/devhtml/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/font/devhtml/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /usr/share/groff/1.22.2/font/devhtml/$f; \
+       else \
+	 /usr/bin/install -c ./$f /usr/share/groff/1.22.2/font/devhtml/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devhtml'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devlj4'
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+test -d /usr/share/groff/1.22.2/font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font
+test -d /usr/share/groff/1.22.2/font/devlj4 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlj4
+mkdir -p -- /usr/share/groff/1.22.2/font/devlj4
+if test -d ./generate; then \
+  test -d /usr/share/groff/1.22.2/font/devlj4/generate \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlj4/generate; \
+fi
+mkdir -p -- /usr/share/groff/1.22.2/font/devlj4/generate
+if test -d ./enc; then \
+  test -d /usr/share/groff/1.22.2/font/devlj4/enc \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlj4/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/share/groff/1.22.2/font/devlj4/map \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlj4/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/share/groff/1.22.2/font/devlj4/util \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlj4/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/share/groff/1.22.2/oldfont \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont; \
+  test -d /usr/share/groff/1.22.2/oldfont/devlj4 \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont/devlj4; \
+fi
+test -z "DESC AB ABI AI AR ALBB ALBR AOB AOI AOR CB CBI CI CR GB GBI GI GR LGB LGI LGR OB OBI OI OR TB TBI TI TR TNRB TNRBI TNRI TNRR UB UBI UI UR UCB UCBI UCI UCR CLARENDON CORONET MARIGOLD S SYMBOL WINGDINGS generate/Makefile generate/special.map generate/symbol.map generate/text.map generate/wingdings.map generate/special.awk" \
+  || for f in ""DESC AB ABI AI AR ALBB ALBR AOB AOI AOR CB CBI CI CR GB GBI GI GR LGB LGI LGR OB OBI OI OR TB TBI TI TR TNRB TNRBI TNRI TNRR UB UBI UI UR UCB UCBI UCI UCR CLARENDON CORONET MARIGOLD S SYMBOL WINGDINGS generate/Makefile generate/special.map generate/symbol.map generate/text.map generate/wingdings.map generate/special.awk; do \
+       rm -f /usr/share/groff/1.22.2/font/devlj4/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devlj4/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devlj4/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/oldfont/devlj4/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /usr/share/groff/1.22.2/oldfont/devlj4/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/font/devlj4/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /usr/share/groff/1.22.2/font/devlj4/$f; \
+       else \
+	 /usr/bin/install -c ./$f /usr/share/groff/1.22.2/font/devlj4/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devlj4'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devlbp'
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+test -d /usr/share/groff/1.22.2/font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font
+test -d /usr/share/groff/1.22.2/font/devlbp \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlbp
+mkdir -p -- /usr/share/groff/1.22.2/font/devlbp
+if test -d ./generate; then \
+  test -d /usr/share/groff/1.22.2/font/devlbp/generate \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlbp/generate; \
+fi
+if test -d ./enc; then \
+  test -d /usr/share/groff/1.22.2/font/devlbp/enc \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlbp/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/share/groff/1.22.2/font/devlbp/map \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlbp/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/share/groff/1.22.2/font/devlbp/util \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlbp/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/share/groff/1.22.2/oldfont \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont; \
+  test -d /usr/share/groff/1.22.2/oldfont/devlbp \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont/devlbp; \
+fi
+test -z "DESC HB HBI HI HR HNB HNBI HNI HNR TB TBI TI TR CR CB CI ER EB EI" \
+  || for f in ""DESC HB HBI HI HR HNB HNBI HNI HNR TB TBI TI TR CR CB CI ER EB EI; do \
+       rm -f /usr/share/groff/1.22.2/font/devlbp/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devlbp/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devlbp/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/oldfont/devlbp/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /usr/share/groff/1.22.2/oldfont/devlbp/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/font/devlbp/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /usr/share/groff/1.22.2/font/devlbp/$f; \
+       else \
+	 /usr/bin/install -c ./$f /usr/share/groff/1.22.2/font/devlbp/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devlbp'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devascii'
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+test -d /usr/share/groff/1.22.2/font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font
+test -d /usr/share/groff/1.22.2/font/devascii \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devascii
+mkdir -p -- /usr/share/groff/1.22.2/font/devascii
+if test -d ./generate; then \
+  test -d /usr/share/groff/1.22.2/font/devascii/generate \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devascii/generate; \
+fi
+if test -d ./enc; then \
+  test -d /usr/share/groff/1.22.2/font/devascii/enc \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devascii/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/share/groff/1.22.2/font/devascii/map \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devascii/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/share/groff/1.22.2/font/devascii/util \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devascii/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/share/groff/1.22.2/oldfont \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont; \
+  test -d /usr/share/groff/1.22.2/oldfont/devascii \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont/devascii; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /usr/share/groff/1.22.2/font/devascii/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devascii/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devascii/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/oldfont/devascii/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /usr/share/groff/1.22.2/oldfont/devascii/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/font/devascii/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /usr/share/groff/1.22.2/font/devascii/$f; \
+       else \
+	 /usr/bin/install -c ./$f /usr/share/groff/1.22.2/font/devascii/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devascii'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devlatin1'
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+test -d /usr/share/groff/1.22.2/font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font
+test -d /usr/share/groff/1.22.2/font/devlatin1 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlatin1
+mkdir -p -- /usr/share/groff/1.22.2/font/devlatin1
+if test -d ./generate; then \
+  test -d /usr/share/groff/1.22.2/font/devlatin1/generate \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlatin1/generate; \
+fi
+if test -d ./enc; then \
+  test -d /usr/share/groff/1.22.2/font/devlatin1/enc \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlatin1/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/share/groff/1.22.2/font/devlatin1/map \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlatin1/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/share/groff/1.22.2/font/devlatin1/util \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devlatin1/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/share/groff/1.22.2/oldfont \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont; \
+  test -d /usr/share/groff/1.22.2/oldfont/devlatin1 \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont/devlatin1; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /usr/share/groff/1.22.2/font/devlatin1/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devlatin1/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devlatin1/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/oldfont/devlatin1/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /usr/share/groff/1.22.2/oldfont/devlatin1/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/font/devlatin1/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /usr/share/groff/1.22.2/font/devlatin1/$f; \
+       else \
+	 /usr/bin/install -c ./$f /usr/share/groff/1.22.2/font/devlatin1/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devlatin1'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devutf8'
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff
+test -d /usr/share/groff/1.22.2 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2
+test -d /usr/share/groff/1.22.2/font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font
+test -d /usr/share/groff/1.22.2/font/devutf8 \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devutf8
+mkdir -p -- /usr/share/groff/1.22.2/font/devutf8
+if test -d ./generate; then \
+  test -d /usr/share/groff/1.22.2/font/devutf8/generate \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devutf8/generate; \
+fi
+if test -d ./enc; then \
+  test -d /usr/share/groff/1.22.2/font/devutf8/enc \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devutf8/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/share/groff/1.22.2/font/devutf8/map \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devutf8/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/share/groff/1.22.2/font/devutf8/util \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devutf8/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/share/groff/1.22.2/oldfont \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont; \
+  test -d /usr/share/groff/1.22.2/oldfont/devutf8 \
+    || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/oldfont/devutf8; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /usr/share/groff/1.22.2/font/devutf8/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devutf8/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devutf8/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/oldfont/devutf8/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /usr/share/groff/1.22.2/oldfont/devutf8/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/share/groff/1.22.2/font/devutf8/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /usr/share/groff/1.22.2/font/devutf8/$f; \
+       else \
+	 /usr/bin/install -c ./$f /usr/share/groff/1.22.2/font/devutf8/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devutf8'
+make[2]: Entering directory '/sources/groff-1.22.2/man'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+/usr/bin/install -c -m 644 groff_font.n /usr/share/man/man5/groff_font.5
+/usr/bin/install -c -m 644 groff_out.n /usr/share/man/man5/groff_out.5
+/usr/bin/install -c -m 644 groff_tmac.n /usr/share/man/man5/groff_tmac.5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+/usr/bin/install -c -m 644 ditroff.n /usr/share/man/man7/ditroff.7
+/usr/bin/install -c -m 644 groff_char.n /usr/share/man/man7/groff_char.7
+/usr/bin/install -c -m 644 groff_diff.n /usr/share/man/man7/groff_diff.7
+/usr/bin/install -c -m 644 groff.n /usr/share/man/man7/groff.7
+/usr/bin/install -c -m 644 roff.n /usr/share/man/man7/roff.7
+make[2]: Leaving directory '/sources/groff-1.22.2/man'
+make[2]: Entering directory '/sources/groff-1.22.2/tmac'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+/usr/bin/install -c -m 644 groff_ms.n /usr/share/man/man7/groff_ms.7
+/usr/bin/install -c -m 644 groff_man.n /usr/share/man/man7/groff_man.7
+/usr/bin/install -c -m 644 groff_me.n /usr/share/man/man7/groff_me.7
+/usr/bin/install -c -m 644 groff_mdoc.n /usr/share/man/man7/groff_mdoc.7
+/usr/bin/install -c -m 644 groff_trace.n /usr/share/man/man7/groff_trace.7
+/usr/bin/install -c -m 644 groff_www.n /usr/share/man/man7/groff_www.7
+test -d /usr/share/groff/1.22.2/tmac \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/tmac
+mkdir -p -- /usr/share/groff/1.22.2/tmac
+test -d /usr/lib/groff/site-tmac \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/lib/groff/site-tmac
+mkdir -p -- /usr/lib/groff/site-tmac
+test -d /usr/share/groff/site-tmac \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/site-tmac
+mkdir -p -- /usr/share/groff/site-tmac
+if test -n ""; then \
+  for m in ""; do \
+    /usr/bin/install -c -m 644 $m-wrap /usr/lib/groff/site-tmac/$m.tmac; \
+  done; \
+fi
+for f in man.tmac mandoc.tmac andoc.tmac an-old.tmac an-ext.tmac ms.tmac me.tmac mdoc.tmac pic.tmac a4.tmac papersize.tmac 62bit.tmac ec.tmac safer.tmac trace.tmac ps.tmac psold.tmac pspic.tmac psatk.tmac pdf.tmac dvi.tmac tty.tmac tty-char.tmac latin1.tmac latin2.tmac latin5.tmac latin9.tmac cp1047.tmac unicode.tmac X.tmac Xps.tmac lj4.tmac lbp.tmac html.tmac html-end.tmac devtag.tmac europs.tmac composite.tmac fallbacks.tmac eqnrc refer.tmac refer-me.tmac refer-ms.tmac troffrc troffrc-end trans.tmac hyphen.us hyphenex.us fr.tmac hyphen.fr sv.tmac hyphen.sv de.tmac den.tmac hyphen.det hyphen.den hyphenex.det cs.tmac hyphen.cs hyphenex.cs ja.tmac; do \
+  rm -f /usr/share/groff/1.22.2/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/tmac/$f; \
+done
+rm -f /usr/share/groff/1.22.2/tmac/s.tmac
+/usr/bin/install -c -m 644 ./s.tmac \
+  /usr/share/groff/1.22.2/tmac/s.tmac
+rm -f /usr/share/groff/1.22.2/tmac/an.tmac
+/usr/bin/install -c -m 644 ./an.tmac \
+  /usr/share/groff/1.22.2/tmac/an.tmac
+rm -f /usr/share/groff/1.22.2/tmac/www.tmac
+/usr/bin/install -c -m 644 www.tmac-sed /usr/share/groff/1.22.2/tmac/www.tmac
+for f in e.tmac doc.tmac doc-old.tmac; do \
+  rm -f /usr/share/groff/1.22.2/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /usr/share/groff/1.22.2/tmac/$f; \
+done
+test -d /usr/share/groff/1.22.2/tmac/mdoc || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/tmac/mdoc
+mkdir -p -- /usr/share/groff/1.22.2/tmac/mdoc
+for f in doc-common doc-ditroff doc-nroff doc-syms; do \
+  rm -f /usr/share/groff/1.22.2/tmac/mdoc/$f; \
+  /usr/bin/install -c -m 644 $f-s /usr/share/groff/1.22.2/tmac/mdoc/$f; \
+done
+test -f /usr/share/groff/site-tmac/man.local || \
+  /usr/bin/install -c -m 644 ./man.local \
+    /usr/share/groff/site-tmac/man.local
+test -f /usr/share/groff/site-tmac/mdoc.local || \
+  /usr/bin/install -c -m 644 mdoc.local-s /usr/share/groff/site-tmac/mdoc.local
+make[2]: Leaving directory '/sources/groff-1.22.2/tmac'
+make[2]: Entering directory '/sources/groff-1.22.2/src/utils/afmtodit'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 afmtodit.n /usr/share/man/man1/afmtodit.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/afmtodit
+/usr/bin/install -c afmtodit /usr/bin/afmtodit
+make[2]: Leaving directory '/sources/groff-1.22.2/src/utils/afmtodit'
+make[2]: Entering directory '/sources/groff-1.22.2/src/roff/grog'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grog.n /usr/share/man/man1/grog.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+/usr/bin/install -c grog /usr/bin/grog
+make[2]: Leaving directory '/sources/groff-1.22.2/src/roff/grog'
+make[2]: Entering directory '/sources/groff-1.22.2/src/roff/nroff'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 nroff.n /usr/share/man/man1/nroff.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/nroff
+/usr/bin/install -c nroff /usr/bin/nroff
+make[2]: Leaving directory '/sources/groff-1.22.2/src/roff/nroff'
+make[2]: Entering directory '/sources/groff-1.22.2/doc'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/share/info || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/info
+d=.; \
+  test -f "groff.info" || d=.; \
+  for p in $d/groff.info `ls $d/groff.info*`; do \
+    f=`basename $p`; \
+    rm -f /usr/share/info/$f; \
+    /usr/bin/install -c -m 644 $p /usr/share/info/$f; \
+  done
+install-info --info-dir=/usr/share/info \
+  /usr/share/info/groff.info
+test -d /usr/share/doc/groff-1.22.2 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/doc/groff-1.22.2
+mkdir -p -- /usr/share/doc/groff-1.22.2
+for f in meref.me meintro.me pic.ms; do \
+  rm -f /usr/share/doc/groff-1.22.2/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/share/doc/groff-1.22.2/$f; \
+done
+for f in meref.ps meintro.ps pic.ps; do \
+  rm -f /usr/share/doc/groff-1.22.2/$f; \
+  /usr/bin/install -c -m 644 $f /usr/share/doc/groff-1.22.2/$f; \
+done
+test -d /usr/share/doc/groff-1.22.2/examples \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/doc/groff-1.22.2/examples
+mkdir -p -- /usr/share/doc/groff-1.22.2/examples
+d=.; \
+  test -f "gnu.eps" || d=.; \
+  rm -f /usr/share/doc/groff-1.22.2/examples/gnu.eps; \
+  /usr/bin/install -c -m 644 $d/gnu.eps /usr/share/doc/groff-1.22.2/examples/gnu.eps
+for f in webpage.ms groff.css grnexmpl.g grnexmpl.me; do \
+  rm -f /usr/share/doc/groff-1.22.2/examples/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/share/doc/groff-1.22.2/examples/$f; \
+done
+for f in webpage.ps grnexmpl.ps; do \
+  rm -f /usr/share/doc/groff-1.22.2/examples/$f; \
+  /usr/bin/install -c -m 644 $f /usr/share/doc/groff-1.22.2/examples/$f; \
+done
+make[2]: Leaving directory '/sources/groff-1.22.2/doc'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/mm'
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/mmroff
+/usr/bin/install -c mmroff /usr/bin/mmroff
+test -d /usr/share/groff/1.22.2/tmac \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/tmac
+rm -f /usr/share/groff/1.22.2/tmac/tmac.m
+rm -f /usr/share/groff/1.22.2/tmac/m.tmac
+/usr/bin/install -c -m 644 ./m.tmac \
+  /usr/share/groff/1.22.2/tmac/m.tmac
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 mmroff.n /usr/share/man/man1/mmroff.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+/usr/bin/install -c -m 644 groff_mm.n /usr/share/man/man7/groff_mm.7
+/usr/bin/install -c -m 644 groff_mmse.n /usr/share/man/man7/groff_mmse.7
+test -d /usr/share/groff/1.22.2/tmac/mm \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/tmac/mm
+mkdir -p -- /usr/share/groff/1.22.2/tmac/mm
+for f in 0.MT 5.MT 4.MT ms.cov se_ms.cov ; do \
+	rm -f /usr/share/groff/1.22.2/tmac/mm/$f; \
+	/usr/bin/install -c -m 644 ./mm/$f /usr/share/groff/1.22.2/tmac/mm/$f; \
+done
+for f in locale se_locale; do \
+	test -f /usr/share/groff/1.22.2/tmac/mm/$f \
+	  || touch /usr/share/groff/1.22.2/tmac/mm/$f; \
+done
+/usr/bin/install -c -m 644 ./refer-mm.tmac /usr/share/groff/1.22.2/tmac/refer-mm.tmac
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/mm'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/chem'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 chem.n /usr/share/man/man1/chem.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/chem
+/usr/bin/install -c chem /usr/bin/chem
+test -d /usr/share/groff/1.22.2/pic \
+          || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/pic
+mkdir -p -- /usr/share/groff/1.22.2/pic
+rm -f /usr/share/groff/1.22.2/pic/chem.pic
+/usr/bin/install -c -m 644 ./chem.pic \
+          /usr/share/groff/1.22.2/pic/chem.pic
+test -d /usr/share/doc/groff-1.22.2/examples/chem \
+          || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/doc/groff-1.22.2/examples/chem
+mkdir -p -- /usr/share/doc/groff-1.22.2/examples/chem
+test -d /usr/share/doc/groff-1.22.2/examples/chem/122 \
+          || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/doc/groff-1.22.2/examples/chem/122
+mkdir -p -- /usr/share/doc/groff-1.22.2/examples/chem/122
+rm -f /usr/share/doc/groff-1.22.2/examples/chem/*
+Makefile.sub:69: recipe for target 'install_data' failed
+/usr/bin/install -c -m 644 examples/README \
+          /usr/share/doc/groff-1.22.2/examples/chem/README
+for i in ./examples/*.chem; do \
+          n=`echo $i | sed 's|./examples/||g'`; \
+          /usr/bin/install -c -m 644 $i /usr/share/doc/groff-1.22.2/examples/chem/$n; \
+        done
+rm -f /usr/share/doc/groff-1.22.2/examples/chem/122/*
+/usr/bin/install -c -m 644 examples/122/README \
+          /usr/share/doc/groff-1.22.2/examples/chem/122/README
+for i in ./examples/122/*.chem; do \
+          n=`echo $i | sed 's|./examples/122/||g'`; \
+          /usr/bin/install -c -m 644 $i /usr/share/doc/groff-1.22.2/examples/chem/122/$n; \
+        done
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/chem'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/pic2graph'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 pic2graph.n /usr/share/man/man1/pic2graph.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/pic2graph
+/usr/bin/install -c pic2graph /usr/bin/pic2graph
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/pic2graph'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/eqn2graph'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 eqn2graph.n /usr/share/man/man1/eqn2graph.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/eqn2graph
+/usr/bin/install -c eqn2graph /usr/bin/eqn2graph
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/eqn2graph'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/grap2graph'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 grap2graph.n /usr/share/man/man1/grap2graph.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/grap2graph
+/usr/bin/install -c grap2graph /usr/bin/grap2graph
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/grap2graph'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/groffer'
+Making groffer.n from groffer.man
+Making roff2dvi.n from roff2dvi.man
+Making roff2html.n from roff2html.man
+Making roff2pdf.n from roff2pdf.man
+Making roff2ps.n from roff2ps.man
+Making roff2text.n from roff2text.man
+Making roff2x.n from roff2x.man
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 groffer.n /usr/share/man/man1/groffer.1
+/usr/bin/install -c -m 644 roff2dvi.n /usr/share/man/man1/roff2dvi.1
+/usr/bin/install -c -m 644 roff2html.n /usr/share/man/man1/roff2html.1
+/usr/bin/install -c -m 644 roff2pdf.n /usr/share/man/man1/roff2pdf.1
+/usr/bin/install -c -m 644 roff2ps.n /usr/share/man/man1/roff2ps.1
+/usr/bin/install -c -m 644 roff2text.n /usr/share/man/man1/roff2text.1
+/usr/bin/install -c -m 644 roff2x.n /usr/share/man/man1/roff2x.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/groffer
+/usr/bin/install -c groffer /usr/bin/groffer
+for f in `echo dvi html pdf ps text x | sed 's/[a-z][a-z]*/roff2&/g'`; do \
+  rm -f /usr/bin/$f; \
+  /usr/bin/install -c $f /usr/bin/$f; \
+done
+test -d /usr/lib/groff/groffer \
+          || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/lib/groff/groffer
+mkdir -p -- /usr/lib/groff/groffer
+rm -f /usr/lib/groff/groffer/version.sh
+/usr/bin/install -c -m 644 ./version.sh \
+          /usr/lib/groff/groffer/version.sh
+for f in `echo ./perl/func.pl ./perl/man.pl ./perl/perl_test.pl ./perl/split_env.sh | sed 's|./perl/||g'` `echo ./shell/groffer2.sh | sed 's|./shell||g'`; do \
+          rm -f /usr/lib/groff/groffer/$f; \
+        done
+if test -f HAVE_PERL; then \
+          for f in `echo ./perl/func.pl ./perl/man.pl ./perl/perl_test.pl ./perl/split_env.sh | sed 's|./perl/||g'`; do \
+            /usr/bin/install -c ./perl/$f \
+              /usr/lib/groff/groffer/$f; \
+          done; \
+        elif test -f HAVE_SHELL; then \
+          for f in `echo ./shell/groffer2.sh | sed 's|./shell||g'`; do \
+            /usr/bin/install -c ./shell/$f \
+              /usr/lib/groff/groffer/$f; \
+          done; \
+        fi;
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/groffer'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/hdtbl'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+/usr/bin/install -c -m 644 groff_hdtbl.n /usr/share/man/man7/groff_hdtbl.7
+test -d /usr/share/groff/1.22.2/tmac || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/tmac
+for f in hdtbl.tmac hdmisc.tmac; do \
+  rm -f /usr/share/groff/1.22.2/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /usr/share/groff/1.22.2/tmac/$f; \
+done
+test -d /usr/share/doc/groff-1.22.2/examples/hdtbl \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/doc/groff-1.22.2/examples/hdtbl
+mkdir -p -- /usr/share/doc/groff-1.22.2/examples/hdtbl
+for f in `echo examples/common.roff examples/chess_board.roff examples/color_boxes.roff examples/color_nested_tables.roff examples/color_table_cells.roff examples/color_transitions.roff examples/col_rowspan_colors.roff examples/mixed_pickles.roff examples/rainbow.roff examples/short_reference.roff | sed 's|examples/||g'`; do \
+  rm -f /usr/share/doc/groff-1.22.2/examples/hdtbl/$f; \
+  /usr/bin/install -c -m 644 ./examples/$f \
+    /usr/share/doc/groff-1.22.2/examples/hdtbl/$f; \
+done
+for f in `echo examples/chess_board.ps examples/color_boxes.ps examples/color_nested_tables.ps examples/color_table_cells.ps examples/color_transitions.ps examples/col_rowspan_colors.ps examples/fonts_n.ps examples/fonts_x.ps examples/mixed_pickles.ps examples/rainbow.ps examples/short_reference.ps | sed 's|examples/||g'` `echo examples/fonts_n.roff examples/fonts_x.roff | sed 's|examples/||g'`; do \
+  rm -f /usr/share/doc/groff-1.22.2/examples/hdtbl/$f; \
+  /usr/bin/install -c -m 644 examples/$f /usr/share/doc/groff-1.22.2/examples/hdtbl/$f; \
+done
+/usr/bin/install -c -m 644 gnu.eps /usr/share/doc/groff-1.22.2/examples/hdtbl/gnu.eps
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/hdtbl'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/pdfmark'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 pdfroff.n /usr/share/man/man1/pdfroff.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+for f in pdfroff; do \
+  rm -f /usr/bin/$f; \
+  /usr/bin/install -c $f /usr/bin/$f; \
+done
+test -d /usr/share/groff/1.22.2/tmac || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/tmac
+for f in pdfmark.tmac spdf.tmac; do \
+  rm -f /usr/share/groff/1.22.2/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/tmac/$f; \
+done
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/pdfmark'
+make[2]: Entering directory '/sources/groff-1.22.2/src/devices/gropdf'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 gropdf.n /usr/share/man/man1/gropdf.1
+/usr/bin/install -c -m 644 pdfmom.n /usr/share/man/man1/pdfmom.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+for f in gropdf pdfmom; do \
+  rm -f /usr/bin/$f; \
+  /usr/bin/install -c $f /usr/bin/$f; \
+done
+make[2]: Leaving directory '/sources/groff-1.22.2/src/devices/gropdf'
+make[2]: Entering directory '/sources/groff-1.22.2/font/devpdf'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/share/groff/1.22.2/font/devpdf \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devpdf
+mkdir -p -- /usr/share/groff/1.22.2/font/devpdf
+test -d /usr/share/groff/1.22.2/font/devpdf/enc \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devpdf/enc
+mkdir -p -- /usr/share/groff/1.22.2/font/devpdf/enc
+test -d /usr/share/groff/1.22.2/font/devpdf/map \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/font/devpdf/map
+mkdir -p -- /usr/share/groff/1.22.2/font/devpdf/map
+for f in download DESC Foundry util/BuildFoundries `cd /sources/groff-1.22.2/font/devpdf && find * -maxdepth 0 -type f ! -name Makefile.sub -exec grep -l internalname {} \;` `cd /sources/groff-1.22.2/font/devpdf; ls enc/*` `cd /sources/groff-1.22.2/font/devpdf; ls map/*`; do \
+  rm -f /usr/share/groff/1.22.2/font/devpdf/$f; \
+  if test -f $f; then \
+    /usr/bin/install -c -m 644 $f /usr/share/groff/1.22.2/font/devpdf/$f; \
+  else \
+    /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/font/devpdf/$f; \
+  fi; \
+done
+rm -f install_data
+make[2]: Leaving directory '/sources/groff-1.22.2/font/devpdf'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/mom'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+/usr/bin/install -c -m 644 groff_mom.n /usr/share/man/man7/groff_mom.7
+test -d /usr/share/groff/1.22.2/tmac || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/1.22.2/tmac
+for f in mom.tmac; do \
+  rm -f /usr/share/groff/1.22.2/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/share/groff/1.22.2/tmac/$f; \
+done
+for f in om.tmac; do \
+  rm -f /usr/share/groff/1.22.2/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /usr/share/groff/1.22.2/tmac/$f; \
+done
+test -d /usr/share/doc/groff-1.22.2/html/mom \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/doc/groff-1.22.2/html/mom
+mkdir -p -- /usr/share/doc/groff-1.22.2/html/mom
+for f in `echo momdoc/stylesheet.css momdoc/appendices.html momdoc/color.html momdoc/cover.html momdoc/definitions.html momdoc/docelement.html momdoc/docprocessing.html momdoc/goodies.html momdoc/graphical.html momdoc/headfootpage.html momdoc/images.html momdoc/inlines.html momdoc/intro.html momdoc/letters.html momdoc/macrolist.html momdoc/rectoverso.html momdoc/refer.html momdoc/reserved.html momdoc/tables-of-contents.html momdoc/toc.html momdoc/typesetting.html momdoc/using.html momdoc/version-2.html | sed 's|momdoc/||g'`; do \
+  rm -f /usr/share/doc/groff-1.22.2/html/mom/$f; \
+  /usr/bin/install -c -m 644 ./momdoc/$f \
+    /usr/share/doc/groff-1.22.2/html/mom/$f; \
+done
+test -d /usr/share/doc/groff-1.22.2/examples/mom \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/doc/groff-1.22.2/examples/mom
+mkdir -p -- /usr/share/doc/groff-1.22.2/examples/mom
+for f in `echo examples/letter.mom examples/mom-pdf.mom examples/sample_docs.mom examples/typesetting.mom examples/README.txt examples/elvis_syntax examples/elvis_syntax.new examples/penguin.ps examples/penguin.pdf examples/mom.vim | sed 's|examples/||g'`; do \
+  rm -f /usr/share/doc/groff-1.22.2/examples/mom/$f; \
+  /usr/bin/install -c -m 644 ./examples/$f \
+    /usr/share/doc/groff-1.22.2/examples/mom/$f; \
+done
+for f in `echo examples/letter.pdf examples/mom-pdf.pdf examples/sample_docs.pdf examples/typesetting.pdf | sed 's|examples/||g'`; do \
+  rm -f /usr/share/doc/groff-1.22.2/examples/mom/$f; \
+  /usr/bin/install -c -m 644 examples/$f /usr/share/doc/groff-1.22.2/examples/mom/$f; \
+done
+test -d /usr/share/doc/groff-1.22.2/pdf \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/doc/groff-1.22.2/pdf
+mkdir -p -- /usr/share/doc/groff-1.22.2/pdf
+for f in mom-pdf.pdf; do \
+  rm -f /usr/share/doc/groff-1.22.2/pdf/$f; \
+  ln -s /usr/share/doc/groff-1.22.2/examples/mom/$f /usr/share/doc/groff-1.22.2/pdf/$f; \
+done
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/mom'
+make[2]: Entering directory '/sources/groff-1.22.2/contrib/gdiffmk'
+test -d /usr/share/man || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man
+test -d /usr/share/man/man1 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 gdiffmk.n /usr/share/man/man1/gdiffmk.1
+test -d /usr/share/man/man5 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man5
+test -d /usr/share/man/man7 || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/man/man7
+test -d /usr/bin  ||  /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/bin
+rm -f /usr/bin/gdiffmk
+/usr/bin/install -c gdiffmk /usr/bin/gdiffmk
+make[2]: Leaving directory '/sources/groff-1.22.2/contrib/gdiffmk'
+make[2]: Entering directory '/sources/groff-1.22.2'
+test -d /usr/share/groff/site-font \
+  || /bin/sh /sources/groff-1.22.2/mkinstalldirs /usr/share/groff/site-font
+mkdir -p -- /usr/share/groff/site-font
+make[2]: Leaving directory '/sources/groff-1.22.2'
+make[1]: Leaving directory '/sources/groff-1.22.2'
+cd /usr/share/groff; \
+rm -f current; \
+ln -s `cat /sources/groff-1.22.2/VERSION``sed -e 's/^0$//' -e 's/^[1-9].*$/.&/' /sources/groff-1.22.2/REVISION` current

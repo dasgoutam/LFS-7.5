@@ -1,0 +1,4 @@
+src/shared/hashmap.c: In function 'hashmap_new':
+src/shared/hashmap.c:187:15: warning: unused variable 'auxv' [-Wunused-variable]
+         void *auxv;
+               ^

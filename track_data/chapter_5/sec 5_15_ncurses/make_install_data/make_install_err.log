@@ -1,0 +1,23 @@
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: total time in link: 0.048000
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: data size 4562944
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+make[1]: [/tools/lib/libncursesw.so.5.9] Error 1 (ignored)
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: total time in link: 0.028000
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: data size 1904640
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: total time in link: 0.016000
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: data size 1904640
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+make[1]: [/tools/lib/libpanelw.so.5.9] Error 1 (ignored)
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: total time in link: 0.024000
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: data size 2154496
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: total time in link: 0.020000
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: data size 2154496
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+make[1]: [/tools/lib/libmenuw.so.5.9] Error 1 (ignored)
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: total time in link: 0.028000
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: data size 2383872
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: total time in link: 0.020000
+/mnt/lfs/tools/bin/../lib/gcc/i686-pc-linux-gnu/4.8.2/../../../../i686-pc-linux-gnu/bin/ld: data size 2383872
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+make[1]: [/tools/lib/libformw.so.5.9] Error 1 (ignored)
+1600 entries written to /mnt/lfs/tools/share/terminfo

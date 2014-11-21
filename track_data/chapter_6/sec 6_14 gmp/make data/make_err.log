@@ -1,0 +1,3 @@
+repl-vsnprintf.c:389:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
+ #endif /* ! HAVE_VSNPRINTF */
+ ^

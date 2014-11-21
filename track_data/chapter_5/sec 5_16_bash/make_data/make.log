@@ -1,0 +1,480 @@
+bison -y -d ./parse.y
+rm -f mksyntax
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g  -o mksyntax ./mksyntax.c 
+bison -y -d ./parse.y
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/builtins'
+rm -f mkbuiltins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g  mkbuiltins.c
+rm -f general.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c general.c
+touch parser-built
+rm -f make_cmd.o
+touch parser-built
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c make_cmd.c
+rm -f dispose_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c dispose_cmd.c
+gcc -L./lib/termcap -rdynamic -g -O2 -rdynamic -g  -o mkbuiltins mkbuiltins.o -ldl 
+./mkbuiltins -externfile builtext.h -structfile builtins.c \
+	    -noproduction -D .   ./alias.def ./bind.def ./break.def ./builtin.def ./caller.def ./cd.def ./colon.def ./command.def ./declare.def ./echo.def ./enable.def ./eval.def ./getopts.def ./exec.def ./exit.def ./fc.def ./fg_bg.def ./hash.def ./help.def ./history.def ./jobs.def ./kill.def ./let.def ./read.def ./return.def ./set.def ./setattr.def ./shift.def ./source.def ./suspend.def ./test.def ./times.def ./trap.def ./type.def ./ulimit.def ./umask.def ./wait.def ./reserved.def ./pushd.def ./shopt.def ./printf.def ./complete.def ./mapfile.def
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/builtins'
+rm -f variables.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c variables.c
+rm -f copy_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c copy_cmd.c
+rm -f error.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c error.c
+rm -f expr.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c expr.c
+rm -f flags.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c flags.c
+rm -f jobs.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c jobs.c
+rm -f subst.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c subst.c
+rm -f hashcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c hashcmd.c
+rm -f hashlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c hashlib.c
+rm -f mailcheck.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c mailcheck.c
+rm -f mksignames.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g  -DBUILDTOOL -c ./support/mksignames.c
+rm -f buildsignames.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g  -DBUILDTOOL -o buildsignames.o -c ./support/signames.c
+rm -f input.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c input.c
+rm -f unwind_prot.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c unwind_prot.c
+rm -f pathexp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pathexp.c
+rm -f sig.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c sig.c
+rm -f test.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c test.c
+rm -f alias.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c alias.c
+rm -f array.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c array.c
+rm -f arrayfunc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c arrayfunc.c
+rm -f assoc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c assoc.c
+rm -f braces.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c braces.c
+rm -f bracecomp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bracecomp.c
+rm -f bashhist.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bashhist.c
+rm -f bashline.o
+rm -f list.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bashline.c
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c list.c
+rm -f stringlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c stringlib.c
+rm -f locale.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c locale.c
+rm -f findcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c findcmd.c
+rm -f redir.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c redir.c
+rm -f pcomplete.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pcomplete.c
+rm -f pcomplib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pcomplib.c
+rm -f xmalloc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c xmalloc.c
+making lib/glob/libglob.a in ./lib/glob
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/lib/glob'
+rm -f glob.o
+making lib/sh/libsh.a in ./lib/sh
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 glob.c
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/lib/sh'
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   clktck.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   clock.c
+( cd /mnt/lfs/sources/bash-4.2 && make -w --jobserver-fds=3,4 - --jobserver-fds=3,4 -j version.h )
+make[2]: Entering directory `/mnt/lfs/sources/bash-4.2'
+rm -f syntax.c
+./mksyntax -o syntax.c
+/bin/sh ./support/mkversion.sh -b -S . -s release -d 4.2 -o newversion.h \
+		&& mv newversion.h version.h
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   setlinebuf.c
+make[2]: Leaving directory `/mnt/lfs/sources/bash-4.2'
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   strnlen.c
+making lib/readline/libreadline.a in ./lib/readline
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/lib/readline'
+rm -f readline.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 readline.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   itos.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zread.c
+rm -f strmatch.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 strmatch.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zwrite.c
+rm -f smatch.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 smatch.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shtty.c
+rm -f vi_mode.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 vi_mode.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shmatch.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   eaccess.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   netconn.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   netopen.c
+rm -f xmbsrtowcs.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 xmbsrtowcs.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   timeval.c
+rm -f gmisc.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 gmisc.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   makepath.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   pathcanon.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   pathphys.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   tmpfile.c
+rm -f -f libglob.a
+ar cr libglob.a glob.o strmatch.o smatch.o xmbsrtowcs.o gmisc.o
+test -n "ranlib" && ranlib libglob.a
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/lib/glob'
+making lib/termcap/libtermcap.a in ./lib/termcap
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/lib/termcap'
+gcc -c -g -O2 -DHAVE_CONFIG_H  -I. -I../.. -I../.. -I../../lib -I. termcap.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   stringlist.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   stringvec.c
+rm -f funmap.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 funmap.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   spell.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shquote.c
+rm -f keymaps.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 keymaps.c
+gcc -c -g -O2 -DHAVE_CONFIG_H  -I. -I../.. -I../.. -I../../lib -I. tparam.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   strtrans.c
+rm -f parens.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 parens.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   snprintf.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mailstat.c
+rm -f -f libtermcap.a
+ar cr libtermcap.a termcap.o tparam.o
+test -n "ranlib" && ranlib libtermcap.a
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/lib/termcap'
+making lib/tilde/libtilde.a in ./lib/tilde
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/lib/tilde'
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 tilde.c
+rm -f search.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 search.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtulong.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtullong.c
+rm -f libtilde.a
+ar cr libtilde.a tilde.o
+test -n "ranlib" && ranlib libtilde.a
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/lib/tilde'
+rm -f syntax.c
+./mksyntax -o syntax.c
+rm -f shell.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c shell.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtumax.c
+rm -f rltty.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 rltty.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zcatfd.c
+rm -f eval.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c eval.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zmapfd.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   winsize.c
+rm -f complete.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 complete.c
+rm -f bind.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 bind.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   wcsdup.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fpurge.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zgetline.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbscmp.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   uconvert.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   ufuncs.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   casemod.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   input_avail.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbscasecmp.c
+rm -f isearch.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 isearch.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fnxform.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   unicode.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shmbchar.c
+rm -f display.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 display.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbschr.c
+rm -f signals.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 signals.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   getenv.c
+rm -f util.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 util.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   oslib.c
+rm -f kill.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 kill.c
+rm -f libsh.a
+ar cr libsh.a clktck.o clock.o getenv.o oslib.o setlinebuf.o strnlen.o itos.o zread.o zwrite.o shtty.o shmatch.o eaccess.o netconn.o netopen.o timeval.o makepath.o pathcanon.o pathphys.o tmpfile.o stringlist.o stringvec.o spell.o shquote.o strtrans.o snprintf.o mailstat.o fmtulong.o fmtullong.o fmtumax.o zcatfd.o zmapfd.o winsize.o wcsdup.o fpurge.o zgetline.o mbscmp.o uconvert.o ufuncs.o casemod.o input_avail.o mbscasecmp.o fnxform.o unicode.o shmbchar.o mbschr.o
+test -n "ranlib" && ranlib libsh.a
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/lib/sh'
+rm -f mksignames
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g  -o mksignames mksignames.o buildsignames.o 
+rm -f syntax.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c syntax.c
+rm -f undo.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 undo.c
+/bin/sh ./support/mkversion.sh -b -S . -s release -d 4.2 -o newversion.h \
+		&& mv newversion.h version.h
+rm -f macro.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 macro.c
+rm -f input.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 input.c
+rm -f callback.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 callback.c
+rm -f terminal.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 terminal.c
+rm -f y.tab.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c y.tab.c
+rm -f text.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 text.c
+rm -f nls.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 nls.c
+rm -f misc.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 misc.c
+rm -f history.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 history.c
+rm -f histexpand.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 histexpand.c
+rm -f histfile.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 histfile.c
+rm -f histsearch.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 histsearch.c
+rm -f shell.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 shell.c
+rm -f savestring.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 savestring.c
+rm -f mbutil.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 mbutil.c
+rm -f print_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c print_cmd.c
+rm -f tilde.o
+gcc -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 -DREADLINE_LIBRARY -c ./tilde.c
+rm -f xmalloc.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 xmalloc.c
+rm -f xfree.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 xfree.c
+rm -f compat.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/mnt/lfs/sources/bash-4.2 -I../.. -I../../lib  -g -O2 compat.c
+rm -f execute_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c execute_cmd.c
+rm -f libreadline.a
+ar cr libreadline.a readline.o vi_mode.o funmap.o keymaps.o parens.o search.o rltty.o complete.o bind.o isearch.o display.o signals.o util.o kill.o undo.o macro.o input.o callback.o terminal.o text.o nls.o misc.o history.o histexpand.o histfile.o histsearch.o shell.o savestring.o mbutil.o tilde.o xmalloc.o xfree.o compat.o 
+test -n "ranlib" && ranlib libreadline.a
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/lib/readline'
+rm -f lsignames.h
+./mksignames lsignames.h
+rm -f version.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c version.c
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/builtins'
+rm -f builtins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 builtins.c
+making lib/readline/libhistory.a in ./lib/readline
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/lib/readline'
+rm -f libhistory.a
+rm -f alias.o
+ar cr libhistory.a history.o histexpand.o histfile.o histsearch.o shell.o savestring.o mbutil.o xmalloc.o xfree.o
+./mkbuiltins -D . alias.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 alias.c || ( rm -f alias.c ; exit 1 )
+test -n "ranlib" && ranlib libhistory.a
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/lib/readline'
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g  -DBUILDTOOL -c -o buildversion.o ./version.c
+if cmp -s lsignames.h signames.h ; then :; else rm -f signames.h ; cp lsignames.h signames.h ; fi
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g  -o bashversion ./support/bashversion.c buildversion.o 
+rm -f alias.c
+rm -f bind.o
+./mkbuiltins -D . bind.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 bind.c || ( rm -f bind.c ; exit 1 )
+rm -f trap.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"i686"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"i686-pc-linux-gnu"' -DCONF_VENDOR='"pc"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c trap.c
+rm -f bind.c
+rm -f break.o
+./mkbuiltins -D . break.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 break.c || ( rm -f break.c ; exit 1 )
+rm -f break.c
+rm -f builtin.o
+./mkbuiltins -D . builtin.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 builtin.c || ( rm -f builtin.c ; exit 1 )
+rm -f builtin.c
+rm -f caller.o
+./mkbuiltins -D . caller.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 caller.c || ( rm -f caller.c ; exit 1 )
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.2.45(2)-release (i686-pc-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+rm -f cd.o
+./mkbuiltins -D . cd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 cd.c || ( rm -f cd.c ; exit 1 )
+rm -f caller.c
+rm -f colon.o
+./mkbuiltins -D . colon.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 colon.c || ( rm -f colon.c ; exit 1 )
+rm -f colon.c
+rm -f command.o
+./mkbuiltins -D . command.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 command.c || ( rm -f command.c ; exit 1 )
+rm -f command.c
+rm -f common.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 common.c
+rm -f cd.c
+rm -f declare.o
+./mkbuiltins -D . declare.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 declare.c || ( rm -f declare.c ; exit 1 )
+rm -f echo.o
+rm -f declare.c
+./mkbuiltins -D . echo.def
+rm -f enable.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 echo.c || ( rm -f echo.c ; exit 1 )
+./mkbuiltins -D . enable.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 enable.c || ( rm -f enable.c ; exit 1 )
+rm -f eval.o
+./mkbuiltins -D . eval.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 eval.c || ( rm -f eval.c ; exit 1 )
+rm -f echo.c
+rm -f evalfile.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 evalfile.c
+rm -f eval.c
+rm -f evalstring.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 evalstring.c
+rm -f enable.c
+rm -f exec.o
+./mkbuiltins -D . exec.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 exec.c || ( rm -f exec.c ; exit 1 )
+rm -f exit.o
+rm -f fc.o
+./mkbuiltins -D . exit.def
+./mkbuiltins -D . fc.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 exit.c || ( rm -f exit.c ; exit 1 )
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 fc.c || ( rm -f fc.c ; exit 1 )
+rm -f exec.c
+rm -f fg_bg.o
+./mkbuiltins -D . fg_bg.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 fg_bg.c || ( rm -f fg_bg.c ; exit 1 )
+rm -f hash.o
+./mkbuiltins -D . hash.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 hash.c || ( rm -f hash.c ; exit 1 )
+rm -f exit.c
+rm -f help.o
+./mkbuiltins -D . help.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 help.c || ( rm -f help.c ; exit 1 )
+rm -f fg_bg.c
+rm -f history.o
+./mkbuiltins -D . history.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 history.c || ( rm -f history.c ; exit 1 )
+rm -f hash.c
+rm -f jobs.o
+./mkbuiltins -D . jobs.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 jobs.c || ( rm -f jobs.c ; exit 1 )
+rm -f fc.c
+rm -f kill.o
+./mkbuiltins -D . kill.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 kill.c || ( rm -f kill.c ; exit 1 )
+rm -f history.c
+rm -f jobs.c
+rm -f let.o
+rm -f mapfile.o
+./mkbuiltins -D . let.def
+./mkbuiltins -D . mapfile.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 let.c || ( rm -f let.c ; exit 1 )
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 mapfile.c || ( rm -f mapfile.c ; exit 1 )
+rm -f help.c
+rm -f pushd.o
+./mkbuiltins -D . pushd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 pushd.c || ( rm -f pushd.c ; exit 1 )
+rm -f let.c
+rm -f read.o
+./mkbuiltins -D . read.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 read.c || ( rm -f read.c ; exit 1 )
+rm -f kill.c
+rm -f return.o
+./mkbuiltins -D . return.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 return.c || ( rm -f return.c ; exit 1 )
+rm -f mapfile.c
+rm -f set.o
+./mkbuiltins -D . set.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 set.c || ( rm -f set.c ; exit 1 )
+rm -f return.c
+rm -f setattr.o
+./mkbuiltins -D . setattr.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 setattr.c || ( rm -f setattr.c ; exit 1 )
+rm -f pushd.c
+rm -f shift.o
+./mkbuiltins -D . shift.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 shift.c || ( rm -f shift.c ; exit 1 )
+rm -f setattr.c
+rm -f source.o
+./mkbuiltins -D . source.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 source.c || ( rm -f source.c ; exit 1 )
+rm -f set.c
+rm -f suspend.o
+./mkbuiltins -D . suspend.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 suspend.c || ( rm -f suspend.c ; exit 1 )
+rm -f shift.c
+rm -f test.o
+./mkbuiltins -D . test.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 test.c || ( rm -f test.c ; exit 1 )
+rm -f read.c
+rm -f times.o
+./mkbuiltins -D . times.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 times.c || ( rm -f times.c ; exit 1 )
+rm -f suspend.c
+rm -f trap.o
+./mkbuiltins -D . trap.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 trap.c || ( rm -f trap.c ; exit 1 )
+rm -f test.c
+rm -f type.o
+./mkbuiltins -D . type.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 type.c || ( rm -f type.c ; exit 1 )
+rm -f source.c
+gcc  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g  -o psize.aux ./psize.c
+rm -f times.c
+rm -f umask.o
+./mkbuiltins -D . umask.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 umask.c || ( rm -f umask.c ; exit 1 )
+rm -f wait.o
+./mkbuiltins -D . wait.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 wait.c || ( rm -f wait.c ; exit 1 )
+rm -f trap.c
+rm -f getopts.o
+./mkbuiltins -D . getopts.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 getopts.c || ( rm -f getopts.c ; exit 1 )
+rm -f umask.c
+rm -f shopt.o
+./mkbuiltins -D . shopt.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 shopt.c || ( rm -f shopt.c ; exit 1 )
+rm -f type.c
+rm -f printf.o
+./mkbuiltins -D . printf.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 printf.c || ( rm -f printf.c ; exit 1 )
+rm -f wait.c
+rm -f getopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 getopt.c
+rm -f getopts.c
+rm -f bashgetopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 bashgetopt.c
+rm -f complete.o
+./mkbuiltins -D . complete.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 complete.c || ( rm -f complete.c ; exit 1 )
+/bin/sh ./psize.sh > pipesize.h
+rm -f shopt.c
+rm -f complete.c
+rm -f printf.c
+rm -f ulimit.o
+./mkbuiltins -D . ulimit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 ulimit.c || ( rm -f ulimit.c ; exit 1 )
+rm -f ulimit.c
+rm -f libbuiltins.a
+ar cr libbuiltins.a builtins.o alias.o bind.o break.o builtin.o caller.o cd.o colon.o command.o common.o declare.o echo.o enable.o eval.o evalfile.o evalstring.o exec.o exit.o fc.o fg_bg.o hash.o help.o history.o jobs.o kill.o let.o mapfile.o pushd.o read.o return.o set.o setattr.o shift.o source.o suspend.o test.o times.o trap.o type.o ulimit.o umask.o wait.o getopts.o shopt.o printf.o getopt.o bashgetopt.o complete.o
+ranlib libbuiltins.a
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/builtins'
+rm -f bash
+gcc -L./builtins -L./lib/readline -L./lib/readline -L./lib/glob -L./lib/tilde  -L./lib/sh -L./lib/termcap  -rdynamic  -g -O2 -o bash shell.o eval.o y.tab.o general.o make_cmd.o print_cmd.o  dispose_cmd.o execute_cmd.o variables.o copy_cmd.o error.o expr.o flags.o jobs.o subst.o hashcmd.o hashlib.o mailcheck.o trap.o input.o unwind_prot.o pathexp.o sig.o test.o version.o alias.o array.o arrayfunc.o assoc.o braces.o bracecomp.o bashhist.o bashline.o  list.o stringlib.o locale.o findcmd.o redir.o pcomplete.o pcomplib.o syntax.o xmalloc.o  -lbuiltins -lglob -lsh -lreadline -lhistory ./lib/termcap/libtermcap.a -ltilde     -ldl 
+ls -l bash
+-rwxr-xr-x 1 lfs lfs 2736658 Aug 28 12:10 bash
+size bash
+   text	   data	    bss	    dec	    hex	filename
+ 872776	  18500	  20148	 911424	  de840	bash

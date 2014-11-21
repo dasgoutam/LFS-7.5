@@ -1,0 +1,113 @@
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.2.45(2)-release (i686-pc-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+( cd ./po/ ; make  DESTDIR= installdirs )
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/po'
+/bin/sh /mnt/lfs/sources/bash-4.2/./support/mkinstalldirs /tools/share
+mkdir -p -- /tools/share/locale/en@quot/LC_MESSAGES
+mkdir -p -- /tools/share/locale/en@boldquot/LC_MESSAGES
+mkdir -p -- /tools/share/locale/af/LC_MESSAGES
+mkdir -p -- /tools/share/locale/et/LC_MESSAGES
+mkdir -p -- /tools/share/locale/ga/LC_MESSAGES
+mkdir -p -- /tools/share/locale/ro/LC_MESSAGES
+if test "bash" = "gettext-tools"; then \
+	  /bin/sh /mnt/lfs/sources/bash-4.2/./support/mkinstalldirs /tools/share/gettext/po; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/po'
+/usr/bin/install -c -m 0755 bash /tools/bin/bash
+/usr/bin/install -c -m 0555 bashbug /tools/bin/bashbug
+( cd ./doc ; make  \
+		man1dir=/tools/share/man/man1 man1ext=.1 \
+		man3dir=/tools/share/man/man3 man3ext=.3 \
+		infodir=/tools/share/info htmldir= DESTDIR= install )
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/doc'
+makeinfo --no-split -I../lib/readline/doc ./bashref.texi
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/doc'
+( cd ./builtins ; make  DESTDIR= install )
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/builtins'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/builtins'
+( cd ./po/ ; make  DESTDIR= install )
+make[1]: Entering directory `/mnt/lfs/sources/bash-4.2/po'
+test -z "en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo de.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo hu.gmo id.gmo ja.gmo lt.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo" || make en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo de.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo hu.gmo id.gmo ja.gmo lt.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo
+make[2]: Entering directory `/mnt/lfs/sources/bash-4.2/po'
+make[2]: `en@quot.gmo' is up to date.
+make[2]: `en@boldquot.gmo' is up to date.
+make[2]: `af.gmo' is up to date.
+make[2]: `bg.gmo' is up to date.
+make[2]: `ca.gmo' is up to date.
+make[2]: `cs.gmo' is up to date.
+make[2]: `de.gmo' is up to date.
+make[2]: `eo.gmo' is up to date.
+make[2]: `es.gmo' is up to date.
+make[2]: `et.gmo' is up to date.
+make[2]: `fi.gmo' is up to date.
+make[2]: `fr.gmo' is up to date.
+make[2]: `ga.gmo' is up to date.
+make[2]: `hu.gmo' is up to date.
+make[2]: `id.gmo' is up to date.
+make[2]: `ja.gmo' is up to date.
+make[2]: `lt.gmo' is up to date.
+make[2]: `nl.gmo' is up to date.
+make[2]: `pl.gmo' is up to date.
+make[2]: `pt_BR.gmo' is up to date.
+make[2]: `ro.gmo' is up to date.
+make[2]: `ru.gmo' is up to date.
+make[2]: `sk.gmo' is up to date.
+make[2]: `sv.gmo' is up to date.
+make[2]: `tr.gmo' is up to date.
+make[2]: `uk.gmo' is up to date.
+make[2]: `vi.gmo' is up to date.
+make[2]: `zh_CN.gmo' is up to date.
+make[2]: `zh_TW.gmo' is up to date.
+make[2]: Leaving directory `/mnt/lfs/sources/bash-4.2/po'
+touch stamp-po
+/bin/sh /mnt/lfs/sources/bash-4.2/./support/mkinstalldirs /tools/share
+installing en@quot.gmo as /tools/share/locale/en@quot/LC_MESSAGES/bash.mo
+installing en@boldquot.gmo as /tools/share/locale/en@boldquot/LC_MESSAGES/bash.mo
+installing af.gmo as /tools/share/locale/af/LC_MESSAGES/bash.mo
+installing bg.gmo as /tools/share/locale/bg/LC_MESSAGES/bash.mo
+installing ca.gmo as /tools/share/locale/ca/LC_MESSAGES/bash.mo
+installing cs.gmo as /tools/share/locale/cs/LC_MESSAGES/bash.mo
+installing de.gmo as /tools/share/locale/de/LC_MESSAGES/bash.mo
+installing eo.gmo as /tools/share/locale/eo/LC_MESSAGES/bash.mo
+installing es.gmo as /tools/share/locale/es/LC_MESSAGES/bash.mo
+installing et.gmo as /tools/share/locale/et/LC_MESSAGES/bash.mo
+installing fi.gmo as /tools/share/locale/fi/LC_MESSAGES/bash.mo
+installing fr.gmo as /tools/share/locale/fr/LC_MESSAGES/bash.mo
+installing ga.gmo as /tools/share/locale/ga/LC_MESSAGES/bash.mo
+installing hu.gmo as /tools/share/locale/hu/LC_MESSAGES/bash.mo
+installing id.gmo as /tools/share/locale/id/LC_MESSAGES/bash.mo
+installing ja.gmo as /tools/share/locale/ja/LC_MESSAGES/bash.mo
+installing lt.gmo as /tools/share/locale/lt/LC_MESSAGES/bash.mo
+installing nl.gmo as /tools/share/locale/nl/LC_MESSAGES/bash.mo
+installing pl.gmo as /tools/share/locale/pl/LC_MESSAGES/bash.mo
+installing pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/bash.mo
+installing ro.gmo as /tools/share/locale/ro/LC_MESSAGES/bash.mo
+installing ru.gmo as /tools/share/locale/ru/LC_MESSAGES/bash.mo
+installing sk.gmo as /tools/share/locale/sk/LC_MESSAGES/bash.mo
+installing sv.gmo as /tools/share/locale/sv/LC_MESSAGES/bash.mo
+installing tr.gmo as /tools/share/locale/tr/LC_MESSAGES/bash.mo
+installing uk.gmo as /tools/share/locale/uk/LC_MESSAGES/bash.mo
+installing vi.gmo as /tools/share/locale/vi/LC_MESSAGES/bash.mo
+installing zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/bash.mo
+installing zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/bash.mo
+if test "bash" = "gettext-tools"; then \
+	  /bin/sh /mnt/lfs/sources/bash-4.2/./support/mkinstalldirs /tools/share/gettext/po; \
+	  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+	    /usr/bin/install -c -m 644 ./$file \
+			    /tools/share/gettext/po/$file; \
+	  done; \
+	  for file in Makevars; do \
+	    rm -f /tools/share/gettext/po/$file; \
+	  done; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/mnt/lfs/sources/bash-4.2/po'

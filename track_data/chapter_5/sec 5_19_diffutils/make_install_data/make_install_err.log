@@ -1,0 +1,35 @@
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/tools/bin/install: cannot create regular file '/tools/share/locale/he/LC_MESSAGES/diffutils.mo': No such file or directory
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/tools/bin/install: cannot create regular file '/tools/share/locale/lv/LC_MESSAGES/diffutils.mo': No such file or directory
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found
+/bin/sh: line 5: @mkdir_p@: command not found

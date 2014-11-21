@@ -1,0 +1,37 @@
+*** errlist.c count 134 inflated to GLIBC_2.12 count 135 (old errno.h?)
+In file included from fnmatch_loop.c:390:0,
+                 from fnmatch.c:321:
+fnmatch_loop.c: In function 'internal_fnwmatch':
+../locale/weightwc.h:88:7: warning: '*((void *)&str+4)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if (cp[nhere - 1] > usrc[nhere -1])
+       ^
+In file included from fnmatch.c:321:0:
+fnmatch_loop.c:346:13: note: '*((void *)&str+4)' was declared here
+       UCHAR str[1];
+             ^
+In file included from fnmatch_loop.c:390:0,
+                 from fnmatch.c:321:
+fnmatch_loop.c: In function 'internal_fnwmatch':
+../locale/weightwc.h:88:7: warning: '*((void *)&str+4)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if (cp[nhere - 1] > usrc[nhere -1])
+       ^
+In file included from fnmatch.c:321:0:
+fnmatch_loop.c:346:13: note: '*((void *)&str+4)' was declared here
+       UCHAR str[1];
+             ^
+connections.c: In function 'restart':
+connections.c:1487:11: warning: ignoring return value of 'setuid', declared with attribute warn_unused_result [-Wunused-result]
+    setuid (server_uid);
+           ^
+connections.c:1502:11: warning: ignoring return value of 'setuid', declared with attribute warn_unused_result [-Wunused-result]
+    setuid (server_uid);
+           ^
+connections.c:1503:11: warning: ignoring return value of 'setgid', declared with attribute warn_unused_result [-Wunused-result]
+    setgid (server_gid);
+           ^
+connections.c:1547:14: warning: ignoring return value of 'setuid', declared with attribute warn_unused_result [-Wunused-result]
+       setuid (server_uid);
+              ^
+connections.c:1548:14: warning: ignoring return value of 'setgid', declared with attribute warn_unused_result [-Wunused-result]
+       setgid (server_gid);
+              ^

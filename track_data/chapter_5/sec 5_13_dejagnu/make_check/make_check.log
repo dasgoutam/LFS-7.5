@@ -1,0 +1,38 @@
+make  unit
+make[1]: Entering directory `/mnt/lfs/sources/dejagnu-1.5.1'
+make[1]: `unit' is up to date.
+make[1]: Leaving directory `/mnt/lfs/sources/dejagnu-1.5.1'
+make  check-DEJAGNU
+make[1]: Entering directory `/mnt/lfs/sources/dejagnu-1.5.1'
+srcdir='.'; export srcdir; \
+	EXPECT=/tools/bin/expect; export EXPECT; \
+	if /bin/sh -c "./runtest --version" > /dev/null 2>&1; then \
+	  exit_status=0; l='dejagnu'; for tool in $l; do \
+	    if ./runtest  --srcdir ./testsuite RUNTEST=./runtest ; \
+	    then :; else exit_status=1; fi; \
+	  done; \
+	else echo "WARNING: could not find './runtest'" 1>&2; :;\
+	fi; \
+	exit $exit_status
+Test Run By lfs on Wed Aug 27 14:29:33 2014
+Native configuration is i686-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using ./testsuite/../config/base-config.exp as tool-and-target-specific interface file.
+Using ./config/unix.exp as generic interface file for target.
+Using ./testsuite/config/default.exp as tool-and-target-specific interface file.
+Running ./testsuite/libdejagnu/tunit.exp ...
+Running ./testsuite/runtest.all/libs.exp ...
+Running ./testsuite/runtest.all/options.exp ...
+Running ./testsuite/runtest.all/stats-sub.exp ...
+Running ./testsuite/runtest.all/stats.exp ...
+
+		===  Summary ===
+
+# of expected passes		66
+make[1]: Leaving directory `/mnt/lfs/sources/dejagnu-1.5.1'

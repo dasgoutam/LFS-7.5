@@ -1,0 +1,72 @@
+make check TESTS='tests/chown/basic.sh tests/cp/cp-a-selinux.sh tests/cp/preserve-gid.sh tests/cp/special-bits.sh tests/cp/cp-mv-enotsup-xattr.sh tests/cp/capability.sh tests/cp/sparse-fiemap.sh tests/dd/skip-seek-past-dev.sh tests/df/problematic-chars.sh tests/du/bind-mount-dir-cycle.sh tests/id/setgid.sh tests/install/install-C-root.sh tests/ls/capability.sh tests/ls/nameless-uid.sh tests/misc/chcon.sh tests/misc/chroot-credentials.sh tests/misc/selinux.sh tests/misc/sort-mb-tests.sh tests/misc/truncate-owned-by-other.sh tests/mkdir/writable-under-readonly.sh tests/mv/sticky-to-xpart.sh tests/rm/fail-2eperm.sh tests/rm/no-give-up.sh tests/rm/one-file-system.sh tests/rm/read-only.sh tests/tail-2/append-only.sh tests/touch/now-owned-by-other.sh' SUBDIRS=.
+make[1]: Entering directory '/sources/coreutils-8.22'
+  GEN      public-submodule-commit
+make  check-recursive
+make[2]: Entering directory '/sources/coreutils-8.22'
+Making check in .
+make[3]: Entering directory '/sources/coreutils-8.22'
+make  check-TESTS check-local
+make[4]: Entering directory '/sources/coreutils-8.22'
+make[5]: Entering directory '/sources/coreutils-8.22'
+PASS: tests/chown/basic.sh
+SKIP: tests/cp/cp-a-selinux.sh
+PASS: tests/cp/preserve-gid.sh
+PASS: tests/cp/special-bits.sh
+SKIP: tests/cp/cp-mv-enotsup-xattr.sh
+SKIP: tests/cp/capability.sh
+SKIP: tests/cp/sparse-fiemap.sh
+SKIP: tests/dd/skip-seek-past-dev.sh
+SKIP: tests/df/problematic-chars.sh
+SKIP: tests/du/bind-mount-dir-cycle.sh
+PASS: tests/id/setgid.sh
+PASS: tests/install/install-C-root.sh
+SKIP: tests/ls/capability.sh
+PASS: tests/ls/nameless-uid.sh
+SKIP: tests/misc/chcon.sh
+PASS: tests/misc/chroot-credentials.sh
+SKIP: tests/misc/selinux.sh
+PASS: tests/misc/sort-mb-tests.sh
+PASS: tests/misc/truncate-owned-by-other.sh
+SKIP: tests/mkdir/writable-under-readonly.sh
+PASS: tests/mv/sticky-to-xpart.sh
+PASS: tests/rm/fail-2eperm.sh
+PASS: tests/rm/no-give-up.sh
+SKIP: tests/rm/one-file-system.sh
+SKIP: tests/rm/read-only.sh
+PASS: tests/tail-2/append-only.sh
+PASS: tests/touch/now-owned-by-other.sh
+make[6]: Entering directory '/sources/coreutils-8.22'
+make  all-recursive
+make[7]: Entering directory '/sources/coreutils-8.22'
+Making all in .
+make[8]: Entering directory '/sources/coreutils-8.22'
+make[8]: Leaving directory '/sources/coreutils-8.22'
+make[7]: Leaving directory '/sources/coreutils-8.22'
+make[6]: Leaving directory '/sources/coreutils-8.22'
+============================================================================
+Testsuite summary for GNU coreutils 8.22
+============================================================================
+# TOTAL: 27
+# PASS:  14
+# SKIP:  13
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/coreutils-8.22'
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+make[4]: Leaving directory '/sources/coreutils-8.22'
+make[3]: Leaving directory '/sources/coreutils-8.22'
+make[2]: Leaving directory '/sources/coreutils-8.22'
+make[1]: Leaving directory '/sources/coreutils-8.22'

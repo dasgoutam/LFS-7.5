@@ -1,0 +1,9 @@
+make: Entering directory '/sources/kmod-16/man'
+make[1]: Entering directory '/sources/kmod-16/man'
+make[1]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 depmod.d.5 modprobe.d.5 modules.dep.5 modules.dep.bin.5 '/usr/share/man/man5'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 depmod.8 insmod.8 lsmod.8 rmmod.8 modprobe.8 modinfo.8 '/usr/share/man/man8'
+make[1]: Leaving directory '/sources/kmod-16/man'
+make: Leaving directory '/sources/kmod-16/man'

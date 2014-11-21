@@ -1,0 +1,2953 @@
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ./gmessages.h:35,
+                 from deprecated/gthread-deprecated.c:29:
+deprecated/gthread-deprecated.c: In function 'g_static_mutex_get_mutex_impl':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+deprecated/gthread-deprecated.c:520:12: note: in expansion of macro 'g_atomic_pointer_get'
+   result = g_atomic_pointer_get (&mutex->mutex);
+            ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:142:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+deprecated/gthread-deprecated.c:530:11: note: in expansion of macro 'g_atomic_pointer_set'
+           g_atomic_pointer_set (&mutex->mutex, result);
+           ^
+deprecated/gthread-deprecated.c: In function 'g_static_rec_mutex_get_rec_mutex_impl':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+deprecated/gthread-deprecated.c:676:12: note: in expansion of macro 'g_atomic_pointer_get'
+   result = g_atomic_pointer_get (&mutex->mutex.mutex);
+            ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:142:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+deprecated/gthread-deprecated.c:687:11: note: in expansion of macro 'g_atomic_pointer_set'
+           g_atomic_pointer_set (&mutex->mutex.mutex, result);
+           ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from garray.h:34,
+                 from garray.c:36:
+garray.c: In function 'g_array_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+garray.c:260:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&rarray->ref_count);
+   ^
+garray.c: In function 'g_array_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+garray.c:290:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&rarray->ref_count))
+       ^
+garray.c: In function 'g_array_free':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+garray.c:344:8: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (!g_atomic_int_dec_and_test (&array->ref_count))
+        ^
+garray.c: In function 'g_ptr_array_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+garray.c:989:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&rarray->ref_count);
+   ^
+garray.c: In function 'g_ptr_array_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+garray.c:1013:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&rarray->ref_count))
+       ^
+garray.c: In function 'g_ptr_array_free':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+garray.c:1047:8: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (!g_atomic_int_dec_and_test (&array->ref_count))
+        ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gatomic.h:29,
+                 from ../glib/gthread.h:34,
+                 from gasyncqueue.h:34,
+                 from gasyncqueue.c:29:
+gasyncqueue.c: In function 'g_async_queue_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gasyncqueue.c:168:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&queue->ref_count);
+   ^
+gasyncqueue.c: In function 'g_async_queue_ref_unlocked':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gasyncqueue.c:188:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&queue->ref_count);
+   ^
+gasyncqueue.c: In function 'g_async_queue_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gasyncqueue.c:229:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&queue->ref_count))
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from gatomic.h:29,
+                 from gatomic.c:24:
+gatomic.c: In function 'g_atomic_int_get':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:116:10: note: in expansion of macro 'g_atomic_int_get'
+   return g_atomic_int_get (atomic);
+          ^
+gatomic.c: In function 'g_atomic_int_set':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:86:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:135:3: note: in expansion of macro 'g_atomic_int_set'
+   g_atomic_int_set (atomic, newval);
+   ^
+gatomic.c: In function 'g_atomic_int_inc':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:154:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (atomic);
+   ^
+gatomic.c: In function 'g_atomic_int_dec_and_test':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:175:10: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   return g_atomic_int_dec_and_test (atomic);
+          ^
+gatomic.c: In function 'g_atomic_int_compare_and_exchange':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:105:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:203:10: note: in expansion of macro 'g_atomic_int_compare_and_exchange'
+   return g_atomic_int_compare_and_exchange (atomic, oldval, newval);
+          ^
+gatomic.c: In function 'g_atomic_int_add':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:111:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:229:10: note: in expansion of macro 'g_atomic_int_add'
+   return g_atomic_int_add (atomic, val);
+          ^
+gatomic.c: In function 'g_atomic_int_and':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:117:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:253:10: note: in expansion of macro 'g_atomic_int_and'
+   return g_atomic_int_and (atomic, val);
+          ^
+gatomic.c: In function 'g_atomic_int_or':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:123:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:277:10: note: in expansion of macro 'g_atomic_int_or'
+   return g_atomic_int_or (atomic, val);
+          ^
+gatomic.c: In function 'g_atomic_int_xor':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:129:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gatomic.c:301:10: note: in expansion of macro 'g_atomic_int_xor'
+   return g_atomic_int_xor (atomic, val);
+          ^
+gatomic.c: In function 'g_atomic_pointer_get':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gatomic.c:321:10: note: in expansion of macro 'g_atomic_pointer_get'
+   return g_atomic_pointer_get ((volatile gpointer *) atomic);
+          ^
+gatomic.c: In function 'g_atomic_pointer_set':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:142:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gatomic.c:340:3: note: in expansion of macro 'g_atomic_pointer_set'
+   g_atomic_pointer_set ((volatile gpointer *) atomic, newval);
+   ^
+gatomic.c: In function 'g_atomic_pointer_compare_and_exchange':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gatomic.c:368:10: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+   return g_atomic_pointer_compare_and_exchange ((volatile gpointer *) atomic,
+          ^
+gatomic.c: In function 'g_atomic_pointer_add':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:155:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gatomic.c:392:10: note: in expansion of macro 'g_atomic_pointer_add'
+   return g_atomic_pointer_add ((volatile gpointer *) atomic, val);
+          ^
+gatomic.c: In function 'g_atomic_pointer_and':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:162:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gatomic.c:416:10: note: in expansion of macro 'g_atomic_pointer_and'
+   return g_atomic_pointer_and ((volatile gpointer *) atomic, val);
+          ^
+gatomic.c: In function 'g_atomic_pointer_or':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:169:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gatomic.c:440:10: note: in expansion of macro 'g_atomic_pointer_or'
+   return g_atomic_pointer_or ((volatile gpointer *) atomic, val);
+          ^
+gatomic.c: In function 'g_atomic_pointer_xor':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:176:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gatomic.c:464:10: note: in expansion of macro 'g_atomic_pointer_xor'
+   return g_atomic_pointer_xor ((volatile gpointer *) atomic, val);
+          ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from gbitlock.h:26,
+                 from gbitlock.c:23:
+gbitlock.c: In function 'g_futex_wait':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+gbitlock.c:128:6: note: in expansion of macro 'G_LIKELY'
+   if G_LIKELY (g_atomic_int_get (address) == value)
+      ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbitlock.c:128:16: note: in expansion of macro 'g_atomic_int_get'
+   if G_LIKELY (g_atomic_int_get (address) == value)
+                ^
+gbitlock.c: In function 'g_bit_lock':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbitlock.c:223:9: note: in expansion of macro 'g_atomic_int_get'
+     v = g_atomic_int_get (address);
+         ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:111:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbitlock.c:228:9: note: in expansion of macro 'g_atomic_int_add'
+         g_atomic_int_add (&g_bit_lock_contended[class], +1);
+         ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:111:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbitlock.c:230:9: note: in expansion of macro 'g_atomic_int_add'
+         g_atomic_int_add (&g_bit_lock_contended[class], -1);
+         ^
+gbitlock.c: In function 'g_bit_unlock':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbitlock.c:334:9: note: in expansion of macro 'g_atomic_int_get'
+     if (g_atomic_int_get (&g_bit_lock_contended[class]))
+         ^
+gbitlock.c: In function 'g_futex_int_address':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gbitlock.c:370:3: note: in expansion of macro 'G_STATIC_ASSERT'
+   G_STATIC_ASSERT (G_BYTE_ORDER == G_LITTLE_ENDIAN ||
+   ^
+gbitlock.c: In function 'g_pointer_bit_lock':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gbitlock.c:418:19: note: in expansion of macro 'g_atomic_pointer_get'
+       v = (gsize) g_atomic_pointer_get (pointer_address);
+                   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:111:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbitlock.c:423:11: note: in expansion of macro 'g_atomic_int_add'
+           g_atomic_int_add (&g_bit_lock_contended[class], +1);
+           ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:111:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbitlock.c:425:11: note: in expansion of macro 'g_atomic_int_add'
+           g_atomic_int_add (&g_bit_lock_contended[class], -1);
+           ^
+gbitlock.c: In function 'g_pointer_bit_unlock':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbitlock.c:532:11: note: in expansion of macro 'g_atomic_int_get'
+       if (g_atomic_int_get (&g_bit_lock_contended[class]))
+           ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from gbytes.h:31,
+                 from gbytes.c:26:
+gbytes.c: In function 'g_bytes_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbytes.c:270:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&bytes->ref_count);
+   ^
+gbytes.c: In function 'g_bytes_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbytes.c:290:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&bytes->ref_count))
+       ^
+gbytes.c: In function 'try_steal_and_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gbytes.c:397:7: note: in expansion of macro 'g_atomic_int_get'
+   if (g_atomic_int_get (&bytes->ref_count) == 1)
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gquark.h:34,
+                 from gdataset.h:34,
+                 from gdataset.c:37:
+gdataset.c: In function 'g_datalist_lock':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gbitlock.h:52:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(address) == sizeof (gpointer));                \
+     ^
+gdataset.c:219:3: note: in expansion of macro 'g_pointer_bit_lock'
+   g_pointer_bit_lock ((void **)datalist, DATALIST_LOCK_BIT);
+   ^
+gdataset.c: In function 'g_datalist_unlock':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gbitlock.h:64:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(address) == sizeof (gpointer));                \
+     ^
+gdataset.c:225:3: note: in expansion of macro 'g_pointer_bit_unlock'
+   g_pointer_bit_unlock ((void **)datalist, DATALIST_LOCK_BIT);
+   ^
+gdataset.c: In function 'g_datalist_clear_i':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:146:22: note: in expansion of macro 'g_atomic_pointer_get'
+   ((GData*) ((gsize) g_atomic_pointer_get (datalist) & ~(gsize) G_DATALIST_FLAGS_MASK_INTERNAL))
+                      ^
+gdataset.c:237:10: note: in expansion of macro 'G_DATALIST_GET_POINTER'
+   data = G_DATALIST_GET_POINTER (datalist);
+          ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:151:13: note: in expansion of macro 'g_atomic_pointer_get'
+     _oldv = g_atomic_pointer_get (datalist);                                            \
+             ^
+gdataset.c:238:3: note: in expansion of macro 'G_DATALIST_SET_POINTER'
+   G_DATALIST_SET_POINTER (datalist, NULL);
+   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:153:13: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+   } while (!g_atomic_pointer_compare_and_exchange ((void**) datalist, _oldv, _newv));   \
+             ^
+gdataset.c:238:3: note: in expansion of macro 'G_DATALIST_SET_POINTER'
+   G_DATALIST_SET_POINTER (datalist, NULL);
+   ^
+gdataset.c: In function 'g_datalist_clear':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:146:22: note: in expansion of macro 'g_atomic_pointer_get'
+   ((GData*) ((gsize) g_atomic_pointer_get (datalist) & ~(gsize) G_DATALIST_FLAGS_MASK_INTERNAL))
+                      ^
+gdataset.c:273:10: note: in expansion of macro 'G_DATALIST_GET_POINTER'
+   data = G_DATALIST_GET_POINTER (datalist);
+          ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:151:13: note: in expansion of macro 'g_atomic_pointer_get'
+     _oldv = g_atomic_pointer_get (datalist);                                            \
+             ^
+gdataset.c:274:3: note: in expansion of macro 'G_DATALIST_SET_POINTER'
+   G_DATALIST_SET_POINTER (datalist, NULL);
+   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:153:13: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+   } while (!g_atomic_pointer_compare_and_exchange ((void**) datalist, _oldv, _newv));   \
+             ^
+gdataset.c:274:3: note: in expansion of macro 'G_DATALIST_SET_POINTER'
+   G_DATALIST_SET_POINTER (datalist, NULL);
+   ^
+gdataset.c: In function 'g_dataset_destroy_internal':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:146:22: note: in expansion of macro 'g_atomic_pointer_get'
+   ((GData*) ((gsize) g_atomic_pointer_get (datalist) & ~(gsize) G_DATALIST_FLAGS_MASK_INTERNAL))
+                      ^
+gdataset.c:315:11: note: in expansion of macro 'G_DATALIST_GET_POINTER'
+       if (G_DATALIST_GET_POINTER(&dataset->datalist) == NULL)
+           ^
+gdataset.c: In function 'g_data_set_internal':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:146:22: note: in expansion of macro 'g_atomic_pointer_get'
+   ((GData*) ((gsize) g_atomic_pointer_get (datalist) & ~(gsize) G_DATALIST_FLAGS_MASK_INTERNAL))
+                      ^
+gdataset.c:366:7: note: in expansion of macro 'G_DATALIST_GET_POINTER'
+   d = G_DATALIST_GET_POINTER (datalist);
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:151:13: note: in expansion of macro 'g_atomic_pointer_get'
+     _oldv = g_atomic_pointer_get (datalist);                                            \
+             ^
+gdataset.c:388:9: note: in expansion of macro 'G_DATALIST_SET_POINTER'
+         G_DATALIST_SET_POINTER (datalist, NULL);
+         ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:153:13: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+   } while (!g_atomic_pointer_compare_and_exchange ((void**) datalist, _oldv, _newv));   \
+             ^
+gdataset.c:388:9: note: in expansion of macro 'G_DATALIST_SET_POINTER'
+         G_DATALIST_SET_POINTER (datalist, NULL);
+         ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:151:13: note: in expansion of macro 'g_atomic_pointer_get'
+     _oldv = g_atomic_pointer_get (datalist);                                            \
+             ^
+gdataset.c:484:2: note: in expansion of macro 'G_DATALIST_SET_POINTER'
+  G_DATALIST_SET_POINTER (datalist, d);
+  ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:153:13: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+   } while (!g_atomic_pointer_compare_and_exchange ((void**) datalist, _oldv, _newv));   \
+             ^
+gdataset.c:484:2: note: in expansion of macro 'G_DATALIST_SET_POINTER'
+  G_DATALIST_SET_POINTER (datalist, d);
+  ^
+gdataset.c: In function 'g_datalist_id_get_data':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:146:22: note: in expansion of macro 'g_atomic_pointer_get'
+   ((GData*) ((gsize) g_atomic_pointer_get (datalist) & ~(gsize) G_DATALIST_FLAGS_MASK_INTERNAL))
+                      ^
+gdataset.c:813:11: note: in expansion of macro 'G_DATALIST_GET_POINTER'
+       d = G_DATALIST_GET_POINTER (datalist);
+           ^
+gdataset.c: In function 'g_datalist_get_data':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:146:22: note: in expansion of macro 'g_atomic_pointer_get'
+   ((GData*) ((gsize) g_atomic_pointer_get (datalist) & ~(gsize) G_DATALIST_FLAGS_MASK_INTERNAL))
+                      ^
+gdataset.c:856:7: note: in expansion of macro 'G_DATALIST_GET_POINTER'
+   d = G_DATALIST_GET_POINTER (datalist);
+       ^
+gdataset.c: In function 'g_datalist_foreach':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:146:22: note: in expansion of macro 'g_atomic_pointer_get'
+   ((GData*) ((gsize) g_atomic_pointer_get (datalist) & ~(gsize) G_DATALIST_FLAGS_MASK_INTERNAL))
+                      ^
+gdataset.c:948:7: note: in expansion of macro 'G_DATALIST_GET_POINTER'
+   d = G_DATALIST_GET_POINTER (datalist);
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:146:22: note: in expansion of macro 'g_atomic_pointer_get'
+   ((GData*) ((gsize) g_atomic_pointer_get (datalist) & ~(gsize) G_DATALIST_FLAGS_MASK_INTERNAL))
+                      ^
+gdataset.c:963:11: note: in expansion of macro 'G_DATALIST_GET_POINTER'
+       d = G_DATALIST_GET_POINTER (datalist);
+           ^
+gdataset.c: In function 'g_datalist_init':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:142:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:990:3: note: in expansion of macro 'g_atomic_pointer_set'
+   g_atomic_pointer_set (datalist, NULL);
+   ^
+gdataset.c: In function 'g_datalist_set_flags':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:169:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:1018:3: note: in expansion of macro 'g_atomic_pointer_or'
+   g_atomic_pointer_or (datalist, (gsize)flags);
+   ^
+gdataset.c: In function 'g_datalist_unset_flags':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_20' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:162:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:1041:3: note: in expansion of macro 'g_atomic_pointer_and'
+   g_atomic_pointer_and (datalist, ~(gsize)flags);
+   ^
+gdataset.c: In function 'g_datalist_get_flags':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_21' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdatasetprivate.h:39:12: note: in expansion of macro 'g_atomic_pointer_get'
+   ((gsize) g_atomic_pointer_get (datalist) & G_DATALIST_FLAGS_MASK)
+            ^
+gdataset.c:1060:10: note: in expansion of macro 'G_DATALIST_GET_FLAGS'
+   return G_DATALIST_GET_FLAGS (datalist); /* atomic macro */
+          ^
+gdataset.c: In function 'g_quark_to_string':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_22' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gdataset.c:1263:18: note: in expansion of macro 'g_atomic_int_get'
+   quark_seq_id = g_atomic_int_get (&g_quark_seq_id);
+                  ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_23' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:1264:12: note: in expansion of macro 'g_atomic_pointer_get'
+   quarks = g_atomic_pointer_get (&g_quarks);
+            ^
+gdataset.c: In function 'g_quark_new':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_24' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:142:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:1288:7: note: in expansion of macro 'g_atomic_pointer_set'
+       g_atomic_pointer_set (&g_quarks, g_quarks_new);
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_25' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gdataset.c:1295:7: note: in expansion of macro 'g_atomic_int_inc'
+       g_atomic_int_inc (&g_quark_seq_id);
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_26' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:142:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gdataset.c:1299:3: note: in expansion of macro 'g_atomic_pointer_set'
+   g_atomic_pointer_set (&g_quarks[quark], string);
+   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_27' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+./gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gdataset.c:1301:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&g_quark_seq_id);
+   ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gtimezone.h:29,
+                 from gdatetime.h:33,
+                 from gdatetime.c:61:
+gdatetime.c: In function 'g_date_time_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gdatetime.c:455:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&datetime->ref_count);
+   ^
+gdatetime.c: In function 'g_date_time_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gdatetime.c:477:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&datetime->ref_count))
+       ^
+gdatetime.c: In function 'format_number':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+gdatetime.c:2108:10: note: in expansion of macro 'G_UNLIKELY'
+       if G_UNLIKELY (g_once_init_enter (&initialised))
+          ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:211:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gdatetime.c:2108:22: note: in expansion of macro 'g_once_init_enter'
+       if G_UNLIKELY (g_once_init_enter (&initialised))
+                      ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+gdatetime.c:2108:10: note: in expansion of macro 'G_UNLIKELY'
+       if G_UNLIKELY (g_once_init_enter (&initialised))
+          ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+../glib/gthread.h:213:7: note: in expansion of macro 'g_atomic_pointer_get'
+     (!g_atomic_pointer_get (location) &&                             \
+       ^
+gdatetime.c:2108:22: note: in expansion of macro 'g_once_init_enter'
+       if G_UNLIKELY (g_once_init_enter (&initialised))
+                      ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:218:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gdatetime.c:2115:11: note: in expansion of macro 'g_once_init_leave'
+           g_once_init_leave (&initialised, TRUE);
+           ^
+In file included from ggettext.c:43:0:
+ggettext.c: In function 'ensure_gettext_initialized':
+glibintl.h:35:42: warning: statement with no effect [-Wunused-value]
+ #define bindtextdomain(Domain,Directory) (Domain) 
+                                          ^
+ggettext.c:107:7: note: in expansion of macro 'bindtextdomain'
+       bindtextdomain (GETTEXT_PACKAGE, GLIB_LOCALE_DIR);
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ggettext.h:34,
+                 from ggettext.c:29:
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gthread.h:211:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+ggettext.c:100:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialised))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread.h:213:7: note: in expansion of macro 'g_atomic_pointer_get'
+     (!g_atomic_pointer_get (location) &&                             \
+       ^
+ggettext.c:100:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialised))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gthread.h:218:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+ggettext.c:112:7: note: in expansion of macro 'g_once_init_leave'
+       g_once_init_leave (&initialised, TRUE);
+       ^
+ggettext.c: In function '_g_dgettext_should_translate':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+ggettext.c:311:7: note: in expansion of macro 'G_UNLIKELY'
+   if (G_UNLIKELY (g_once_init_enter (&translate)))
+       ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gthread.h:211:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+ggettext.c:311:19: note: in expansion of macro 'g_once_init_enter'
+   if (G_UNLIKELY (g_once_init_enter (&translate)))
+                   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+ggettext.c:311:7: note: in expansion of macro 'G_UNLIKELY'
+   if (G_UNLIKELY (g_once_init_enter (&translate)))
+       ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread.h:213:7: note: in expansion of macro 'g_atomic_pointer_get'
+     (!g_atomic_pointer_get (location) &&                             \
+       ^
+ggettext.c:311:19: note: in expansion of macro 'g_once_init_enter'
+   if (G_UNLIKELY (g_once_init_enter (&translate)))
+                   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gthread.h:218:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+ggettext.c:342:7: note: in expansion of macro 'g_once_init_leave'
+       g_once_init_leave (&translate,
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ghash.h:34,
+                 from ghash.c:35:
+ghash.c: In function 'g_hash_table_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+ghash.c:1001:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&hash_table->ref_count);
+   ^
+ghash.c: In function 'g_hash_table_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+ghash.c:1022:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&hash_table->ref_count))
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ghmac.h:28,
+                 from ghmac.c:27:
+ghmac.c: In function 'g_hmac_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+ghmac.c:202:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&hmac->ref_count);
+   ^
+ghmac.c: In function 'g_hmac_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+ghmac.c:225:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&hmac->ref_count))
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gquark.h:34,
+                 from ../glib/gerror.h:30,
+                 from ../glib/gconvert.h:34,
+                 from giochannel.h:34,
+                 from giochannel.c:43:
+giochannel.c: In function 'g_io_channel_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+giochannel.c:230:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&channel->ref_count);
+   ^
+giochannel.c: In function 'g_io_channel_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+giochannel.c:248:13: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   is_zero = g_atomic_int_dec_and_test (&channel->ref_count);
+             ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gquark.h:34,
+                 from ../glib/gerror.h:30,
+                 from gkeyfile.h:30,
+                 from gkeyfile.c:28:
+gkeyfile.c: In function 'g_key_file_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gkeyfile.c:1064:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&key_file->ref_count);
+   ^
+gkeyfile.c: In function 'g_key_file_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gkeyfile.c:1102:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&key_file->ref_count))
+       ^
+In file included from glibconfig.h:9:0,
+                 from gmain.c:35:
+gmain.c: In function 'g_main_context_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:330:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:451:25: note: in expansion of macro 'g_atomic_int_get'
+   g_return_val_if_fail (g_atomic_int_get (&context->ref_count) > 0, NULL); 
+                         ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:453:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&context->ref_count);
+   ^
+gmain.c: In function 'g_main_context_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:477:21: note: in expansion of macro 'g_atomic_int_get'
+   g_return_if_fail (g_atomic_int_get (&context->ref_count) > 0); 
+                     ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:479:8: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (!g_atomic_int_dec_and_test (&context->ref_count))
+        ^
+gmain.c: In function 'g_main_context_new':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:211:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gmain.c:520:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialised))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+../glib/gthread.h:213:7: note: in expansion of macro 'g_atomic_pointer_get'
+     (!g_atomic_pointer_get (location) &&                             \
+       ^
+gmain.c:520:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialised))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:218:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gmain.c:527:7: note: in expansion of macro 'g_once_init_leave'
+       g_once_init_leave (&initialised, TRUE);
+       ^
+gmain.c: In function 'g_main_loop_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:330:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3255:25: note: in expansion of macro 'g_atomic_int_get'
+   g_return_val_if_fail (g_atomic_int_get (&loop->ref_count) > 0, NULL);
+                         ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3257:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&loop->ref_count);
+   ^
+gmain.c: In function 'g_main_loop_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3273:21: note: in expansion of macro 'g_atomic_int_get'
+   g_return_if_fail (g_atomic_int_get (&loop->ref_count) > 0);
+                     ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3275:8: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (!g_atomic_int_dec_and_test (&loop->ref_count))
+        ^
+gmain.c: In function 'g_main_loop_run':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3297:21: note: in expansion of macro 'g_atomic_int_get'
+   g_return_if_fail (g_atomic_int_get (&loop->ref_count) > 0);
+                     ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3306:7: note: in expansion of macro 'g_atomic_int_inc'
+       g_atomic_int_inc (&loop->ref_count);
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3337:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&loop->ref_count);
+   ^
+gmain.c: In function 'g_main_loop_quit':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3363:21: note: in expansion of macro 'g_atomic_int_get'
+   g_return_if_fail (g_atomic_int_get (&loop->ref_count) > 0);
+                     ^
+gmain.c: In function 'g_main_loop_is_running':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:330:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3386:25: note: in expansion of macro 'g_atomic_int_get'
+   g_return_val_if_fail (g_atomic_int_get (&loop->ref_count) > 0, FALSE);
+                         ^
+gmain.c: In function 'g_main_loop_get_context':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:330:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3403:25: note: in expansion of macro 'g_atomic_int_get'
+   g_return_val_if_fail (g_atomic_int_get (&loop->ref_count) > 0, NULL);
+                         ^
+gmain.c: In function 'g_main_context_add_poll':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3519:21: note: in expansion of macro 'g_atomic_int_get'
+   g_return_if_fail (g_atomic_int_get (&context->ref_count) > 0);
+                     ^
+gmain.c: In function 'g_main_context_remove_poll':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3585:21: note: in expansion of macro 'g_atomic_int_get'
+   g_return_if_fail (g_atomic_int_get (&context->ref_count) > 0);
+                     ^
+gmain.c: In function 'g_main_context_set_poll_func':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3710:21: note: in expansion of macro 'g_atomic_int_get'
+   g_return_if_fail (g_atomic_int_get (&context->ref_count) > 0);
+                     ^
+gmain.c: In function 'g_main_context_get_poll_func':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_20' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:330:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3738:25: note: in expansion of macro 'g_atomic_int_get'
+   g_return_val_if_fail (g_atomic_int_get (&context->ref_count) > 0, NULL);
+                         ^
+gmain.c: In function 'g_main_context_wakeup':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_21' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmain.c:3760:21: note: in expansion of macro 'g_atomic_int_get'
+   g_return_if_fail (g_atomic_int_get (&context->ref_count) > 0);
+                     ^
+gmain.c: In function 'g_get_worker_context':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_22' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:211:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gmain.c:4895:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialised))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_23' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+../glib/gthread.h:213:7: note: in expansion of macro 'g_atomic_pointer_get'
+     (!g_atomic_pointer_get (location) &&                             \
+       ^
+gmain.c:4895:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialised))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_24' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:218:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gmain.c:4910:7: note: in expansion of macro 'g_once_init_leave'
+       g_once_init_leave (&initialised, TRUE);
+       ^
+In file included from glibconfig.h:9:0,
+                 from gmappedfile.c:35:
+gmappedfile.c: In function 'g_mapped_file_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmappedfile.c:379:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&file->ref_count);
+   ^
+gmappedfile.c: In function 'g_mapped_file_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gmappedfile.c:400:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&file->ref_count))
+       ^
+goption.c: In function '_g_utf8_strwidth':
+goption.c:264:16: warning: unused variable 'start' [-Wunused-variable]
+   const gchar *start = p;
+                ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from grand.h:34,
+                 from grand.c:50:
+grand.c: In function 'get_random_version':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:211:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+grand.c:136:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialized))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+../glib/gthread.h:213:7: note: in expansion of macro 'g_atomic_pointer_get'
+     (!g_atomic_pointer_get (location) &&                             \
+       ^
+grand.c:136:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialized))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:218:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+grand.c:150:7: note: in expansion of macro 'g_once_init_leave'
+       g_once_init_leave (&initialized, TRUE);
+       ^
+In file included from gstrfuncs.h:35:0,
+                 from gstrfuncs.c:53:
+gstrfuncs.c: In function 'get_C_locale':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:211:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gstrfuncs.c:327:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialized))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+../glib/gthread.h:213:7: note: in expansion of macro 'g_atomic_pointer_get'
+     (!g_atomic_pointer_get (location) &&                             \
+       ^
+gstrfuncs.c:327:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialized))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gthread.h:218:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gstrfuncs.c:330:7: note: in expansion of macro 'g_once_init_leave'
+       g_once_init_leave (&initialized, TRUE);
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gatomic.h:29,
+                 from gthread.h:34,
+                 from gthread.c:43:
+gthread.c: In function 'g_once_init_enter':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread.c:677:7: note: in expansion of macro 'g_atomic_pointer_get'
+   if (g_atomic_pointer_get (value_location) == NULL)
+       ^
+gthread.c: In function 'g_once_init_leave':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+../glib/gmessages.h:321:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else            \
+         ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread.c:712:21: note: in expansion of macro 'g_atomic_pointer_get'
+   g_return_if_fail (g_atomic_pointer_get (value_location) == NULL);
+                     ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:142:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread.c:716:3: note: in expansion of macro 'g_atomic_pointer_set'
+   g_atomic_pointer_set (value_location, result);
+   ^
+gthread.c: In function 'g_thread_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthread.c:740:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&real->ref_count);
+   ^
+gthread.c: In function 'g_thread_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthread.c:763:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&real->ref_count))
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gatomic.h:29,
+                 from ../glib/gthread.h:34,
+                 from gthreadpool.h:34,
+                 from gthreadpool.c:29:
+gthreadpool.c: In function 'g_thread_pool_wait_for_new_pool':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:150:30: note: in expansion of macro 'g_atomic_int_get'
+   local_max_unused_threads = g_atomic_int_get (&max_unused_threads);
+                              ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:151:25: note: in expansion of macro 'g_atomic_int_get'
+   local_max_idle_time = g_atomic_int_get (&max_idle_time);
+                         ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:152:31: note: in expansion of macro 'g_atomic_int_get'
+   last_wakeup_thread_serial = g_atomic_int_get (&wakeup_thread_serial);
+                               ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:154:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&unused_threads);
+   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:158:11: note: in expansion of macro 'g_atomic_int_get'
+       if (g_atomic_int_get (&unused_threads) >= local_max_unused_threads)
+           ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_5' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:181:40: note: in expansion of macro 'g_atomic_int_get'
+           local_wakeup_thread_serial = g_atomic_int_get (&wakeup_thread_serial);
+                                        ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_6' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:111:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:205:19: note: in expansion of macro 'g_atomic_int_add'
+               if (g_atomic_int_add (&kill_unused_threads, -1) > 0)
+                   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_7' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:214:42: note: in expansion of macro 'g_atomic_int_get'
+               local_max_unused_threads = g_atomic_int_get (&max_unused_threads);
+                                          ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_8' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:215:37: note: in expansion of macro 'g_atomic_int_get'
+               local_max_idle_time = g_atomic_int_get (&max_idle_time);
+                                     ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_9' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:111:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:224:3: note: in expansion of macro 'g_atomic_int_add'
+   g_atomic_int_add (&unused_threads, -1);
+   ^
+gthreadpool.c: In function 'g_thread_pool_set_max_unused_threads':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_10' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:86:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:838:3: note: in expansion of macro 'g_atomic_int_set'
+   g_atomic_int_set (&max_unused_threads, max_threads);
+   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_11' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:842:22: note: in expansion of macro 'g_atomic_int_get'
+       max_threads -= g_atomic_int_get (&unused_threads);
+                      ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_12' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:86:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:845:11: note: in expansion of macro 'g_atomic_int_set'
+           g_atomic_int_set (&kill_unused_threads, -max_threads);
+           ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_13' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:846:11: note: in expansion of macro 'g_atomic_int_inc'
+           g_atomic_int_inc (&wakeup_thread_serial);
+           ^
+gthreadpool.c: In function 'g_thread_pool_get_max_unused_threads':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_14' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:872:10: note: in expansion of macro 'g_atomic_int_get'
+   return g_atomic_int_get (&max_unused_threads);
+          ^
+gthreadpool.c: In function 'g_thread_pool_get_num_unused_threads':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_15' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:885:10: note: in expansion of macro 'g_atomic_int_get'
+   return g_atomic_int_get (&unused_threads);
+          ^
+gthreadpool.c: In function 'g_thread_pool_set_max_idle_time':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_16' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:86:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:977:3: note: in expansion of macro 'g_atomic_int_set'
+   g_atomic_int_set (&max_idle_time, interval);
+   ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_17' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:979:7: note: in expansion of macro 'g_atomic_int_get'
+   i = g_atomic_int_get (&unused_threads);
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_18' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:982:7: note: in expansion of macro 'g_atomic_int_inc'
+       g_atomic_int_inc (&wakeup_thread_serial);
+       ^
+gthreadpool.c: In function 'g_thread_pool_get_max_idle_time':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_19' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gthreadpool.c:1015:10: note: in expansion of macro 'g_atomic_int_get'
+   return g_atomic_int_get (&max_idle_time);
+          ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from gtimezone.h:29,
+                 from gtimezone.c:24:
+gtimezone.c: In function 'g_time_zone_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gtimezone.c:150:15: note: in expansion of macro 'g_atomic_int_get'
+   ref_count = g_atomic_int_get (&tz->ref_count);
+               ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+gtimezone.c:161:14: note: in expansion of macro 'G_UNLIKELY'
+           if G_UNLIKELY (g_atomic_int_get (&tz->ref_count) != 1)
+              ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gtimezone.c:161:26: note: in expansion of macro 'g_atomic_int_get'
+           if G_UNLIKELY (g_atomic_int_get (&tz->ref_count) != 1)
+                          ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+gtimezone.c:179:11: note: in expansion of macro 'G_UNLIKELY'
+   else if G_UNLIKELY (!g_atomic_int_compare_and_exchange (&tz->ref_count,
+           ^
+../glib/gmacros.h:160:47: note: in expansion of macro 'G_PASTE_ARGS'
+ #define G_PASTE(identifier1,identifier2)      G_PASTE_ARGS (identifier1, identifier2)
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:105:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gtimezone.c:179:24: note: in expansion of macro 'g_atomic_int_compare_and_exchange'
+   else if G_UNLIKELY (!g_atomic_int_compare_and_exchange (&tz->ref_count,
+                        ^
+gtimezone.c: In function 'g_time_zone_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gtimezone.c:200:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&tz->ref_count);
+   ^
+gtimezone.c: In function 'g_time_zone_new':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gtimezone.c:443:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&tz->ref_count);
+   ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gmem.h:34,
+                 from ../glib/gnode.h:34,
+                 from gtree.h:34,
+                 from gtree.c:33:
+gtree.c: In function 'g_tree_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gtree.c:319:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&tree->ref_count);
+   ^
+gtree.c: In function 'g_tree_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gtree.c:342:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&tree->ref_count))
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from gutils.h:34,
+                 from gutils.c:60:
+gutils.c: In function 'g_get_user_runtime_dir':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gthread.h:211:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gutils.c:1397:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialised))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:136:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread.h:213:7: note: in expansion of macro 'g_atomic_pointer_get'
+     (!g_atomic_pointer_get (location) &&                             \
+       ^
+gutils.c:1397:7: note: in expansion of macro 'g_once_init_enter'
+   if (g_once_init_enter (&initialised))
+       ^
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+gthread.h:218:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(location) == sizeof (gpointer));       \
+     ^
+gutils.c:1401:7: note: in expansion of macro 'g_once_init_leave'
+       g_once_init_leave (&initialised, 1);
+       ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gmessages.h:35,
+                 from ../glib/gvarianttype.h:30,
+                 from ../glib/gvarianttypeinfo.h:26,
+                 from ../glib/gvariant-core.h:24,
+                 from gvariant-core.c:21:
+gvariant-core.c: In function 'g_variant_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gvariant-core.c:624:7: note: in expansion of macro 'g_atomic_int_dec_and_test'
+   if (g_atomic_int_dec_and_test (&value->ref_count))
+       ^
+gvariant-core.c: In function 'g_variant_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gvariant-core.c:660:3: note: in expansion of macro 'g_atomic_int_inc'
+   g_atomic_int_inc (&value->ref_count);
+   ^
+gvariant-core.c: In function 'g_variant_take_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:117:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gvariant-core.c:759:3: note: in expansion of macro 'g_atomic_int_and'
+   g_atomic_int_and (&value->state, ~STATE_FLOATING);
+   ^
+gvariant-core.c: In function 'g_variant_get_child_value':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:79:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gvariant-core.c:937:8: note: in expansion of macro 'g_atomic_int_get'
+   if (~g_atomic_int_get (&value->state) & STATE_SERIALISED)
+        ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gmessages.h:35,
+                 from ../glib/gvarianttype.h:30,
+                 from gvarianttypeinfo.h:26,
+                 from gvarianttypeinfo.c:25:
+gvarianttypeinfo.c: In function 'g_variant_type_info_ref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:93:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gvarianttypeinfo.c:815:7: note: in expansion of macro 'g_atomic_int_inc'
+       g_atomic_int_inc (&container->ref_count);
+       ^
+gvarianttypeinfo.c: In function 'g_variant_type_info_unref':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:99:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gint));                     \
+     ^
+gvarianttypeinfo.c:838:11: note: in expansion of macro 'g_atomic_int_dec_and_test'
+       if (g_atomic_int_dec_and_test (&container->ref_count))
+           ^
+In file included from ./glibconfig.h:9:0,
+                 from ../glib/gtypes.h:34,
+                 from ../glib/gatomic.h:29,
+                 from gthread.h:34,
+                 from gthread-posix.c:44:
+gthread-posix.c: In function 'g_mutex_get_impl':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_0' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread-posix.c:124:12: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+       if (!g_atomic_pointer_compare_and_exchange (&mutex->p, NULL, impl))
+            ^
+gthread-posix.c: In function 'g_rec_mutex_get_impl':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_1' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread-posix.c:293:12: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+       if (!g_atomic_pointer_compare_and_exchange (&rec_mutex->p, NULL, impl))
+            ^
+gthread-posix.c: In function 'g_rw_lock_get_impl':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_2' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread-posix.c:453:12: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+       if (!g_atomic_pointer_compare_and_exchange (&lock->p, NULL, impl))
+            ^
+gthread-posix.c: In function 'g_cond_get_impl':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_3' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread-posix.c:670:12: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+       if (!g_atomic_pointer_compare_and_exchange (&cond->p, NULL, impl))
+            ^
+gthread-posix.c: In function 'g_private_get_impl':
+../glib/gmacros.h:162:53: warning: typedef '_GStaticAssertCompileTimeAssertion_4' locally defined but not used [-Wunused-local-typedefs]
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                                     ^
+../glib/gmacros.h:159:47: note: in definition of macro 'G_PASTE_ARGS'
+ #define G_PASTE_ARGS(identifier1,identifier2) identifier1 ## identifier2
+                                               ^
+../glib/gmacros.h:162:44: note: in expansion of macro 'G_PASTE'
+ #define G_STATIC_ASSERT(expr) typedef char G_PASTE (_GStaticAssertCompileTimeAssertion_, __COUNTER__)[(expr) ? 1 : -1]
+                                            ^
+../glib/gatomic.h:149:5: note: in expansion of macro 'G_STATIC_ASSERT'
+     G_STATIC_ASSERT (sizeof *(atomic) == sizeof (gpointer));                 \
+     ^
+gthread-posix.c:977:12: note: in expansion of macro 'g_atomic_pointer_compare_and_exchange'
+       if (!g_atomic_pointer_compare_and_exchange (&key->p, NULL, impl))
+            ^

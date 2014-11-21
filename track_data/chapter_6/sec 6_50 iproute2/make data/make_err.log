@@ -1,0 +1,16 @@
+Package xtables was not found in the pkg-config search path.
+Perhaps you should add the directory containing `xtables.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'xtables' found
+Package xtables was not found in the pkg-config search path.
+Perhaps you should add the directory containing `xtables.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'xtables' found
+emp_ematch.y:12.1-13: warning: deprecated directive, use '%name-prefix' [-Wdeprecated]
+ %name-prefix="ematch_"
+ ^^^^^^^^^^^^^
+m_simple.c: In function 'parse_simple':
+m_simple.c:142:4: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'size_t' [-Wformat=]
+    strlen(simpdata), simpdata);
+    ^
+ssfilter.y: warning: 27 shift/reduce conflicts [-Wconflicts-sr]

@@ -1,0 +1,137 @@
+Making install in .
+make[1]: Entering directory `/mnt/lfs/sources/gawk-4.1.0'
+make[2]: Entering directory `/mnt/lfs/sources/gawk-4.1.0'
+ /tools/bin/mkdir -p '/tools/bin'
+  ./install-sh -c gawk '/tools/bin'
+make 'CFLAGS=-g -O2 -DNDEBUG' 'LDFLAGS=-export-dynamic' install-exec-hook
+make[3]: Entering directory `/mnt/lfs/sources/gawk-4.1.0'
+(cd /tools/bin; \
+	ln gawk gawk-4.1.0 2>/dev/null ; \
+	if [ ! -f awk ]; \
+	then	ln -s gawk awk; \
+	fi; exit 0)
+make[3]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0'
+ /tools/bin/mkdir -p '/tools/include'
+ ./install-sh -c -m 644 gawkapi.h '/tools/include'
+make[2]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0'
+make[1]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0'
+Making install in awklib
+make[1]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/awklib'
+make[2]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/awklib'
+ /tools/bin/mkdir -p '/tools/bin'
+ .././install-sh -c igawk '/tools/bin'
+ /tools/bin/mkdir -p '/tools/libexec/awk'
+  .././install-sh -c pwcat grcat '/tools/libexec/awk'
+make  install-exec-hook
+make[3]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/awklib'
+/bin/sh ../mkinstalldirs /tools/share/awk
+mkdir -p -- /tools/share/awk
+for i in passwd.awk group.awk ./eg/lib/*.awk ; do \
+		progname=`echo $i | sed 's;.*/;;'` ; \
+		.././install-sh -c -m 644 $i /tools/share/awk/$progname ; \
+	done
+make[3]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/awklib'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/awklib'
+make[1]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/awklib'
+Making install in doc
+make[1]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/doc'
+make[2]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/info'
+ .././install-sh -c -m 644 ./gawk.info ./gawkinet.info '/tools/share/info'
+ install-info --info-dir='/tools/share/info' '/tools/share/info/gawk.info'
+ install-info --info-dir='/tools/share/info' '/tools/share/info/gawkinet.info'
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ .././install-sh -c -m 644 gawk.1 igawk.1 '/tools/share/man/man1'
+make[2]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/doc'
+make[1]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/doc'
+Making install in po
+make[1]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/po'
+installing da.gmo as /tools/share/locale/da/LC_MESSAGES/gawk.mo
+installing de.gmo as /tools/share/locale/de/LC_MESSAGES/gawk.mo
+installing es.gmo as /tools/share/locale/es/LC_MESSAGES/gawk.mo
+installing fi.gmo as /tools/share/locale/fi/LC_MESSAGES/gawk.mo
+installing fr.gmo as /tools/share/locale/fr/LC_MESSAGES/gawk.mo
+installing it.gmo as /tools/share/locale/it/LC_MESSAGES/gawk.mo
+installing ja.gmo as /tools/share/locale/ja/LC_MESSAGES/gawk.mo
+installing ms.gmo as /tools/share/locale/ms/LC_MESSAGES/gawk.mo
+installing nl.gmo as /tools/share/locale/nl/LC_MESSAGES/gawk.mo
+installing pl.gmo as /tools/share/locale/pl/LC_MESSAGES/gawk.mo
+installing sv.gmo as /tools/share/locale/sv/LC_MESSAGES/gawk.mo
+installing vi.gmo as /tools/share/locale/vi/LC_MESSAGES/gawk.mo
+if test "gawk" = "gettext-tools"; then \
+	  /tools/bin/mkdir -p /tools/share/gettext/po; \
+	  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+	    .././install-sh -c -m 644 ./$file \
+			    /tools/share/gettext/po/$file; \
+	  done; \
+	  for file in Makevars; do \
+	    rm -f /tools/share/gettext/po/$file; \
+	  done; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/po'
+Making install in extension
+make[1]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/extension'
+make[2]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/extension'
+make[3]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/extension'
+make[3]: Nothing to be done for `install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/man/man3'
+ build-aux/install-sh -c -m 644 filefuncs.3am fnmatch.3am fork.3am ordchr.3am readdir.3am readfile.3am revoutput.3am revtwoway.3am rwarray.3am time.3am '/tools/share/man/man3'
+ /tools/bin/mkdir -p '/tools/lib/gawk'
+ /bin/sh ./libtool   --mode=install build-aux/install-sh -c   filefuncs.la fnmatch.la fork.la inplace.la ordchr.la readdir.la readfile.la revoutput.la revtwoway.la rwarray.la testext.la time.la '/tools/lib/gawk'
+libtool: install: build-aux/install-sh -c .libs/filefuncs.so /tools/lib/gawk/filefuncs.so
+libtool: install: build-aux/install-sh -c .libs/filefuncs.lai /tools/lib/gawk/filefuncs.la
+libtool: install: build-aux/install-sh -c .libs/fnmatch.so /tools/lib/gawk/fnmatch.so
+libtool: install: build-aux/install-sh -c .libs/fnmatch.lai /tools/lib/gawk/fnmatch.la
+libtool: install: build-aux/install-sh -c .libs/fork.so /tools/lib/gawk/fork.so
+libtool: install: build-aux/install-sh -c .libs/fork.lai /tools/lib/gawk/fork.la
+libtool: install: build-aux/install-sh -c .libs/inplace.so /tools/lib/gawk/inplace.so
+libtool: install: build-aux/install-sh -c .libs/inplace.lai /tools/lib/gawk/inplace.la
+libtool: install: build-aux/install-sh -c .libs/ordchr.so /tools/lib/gawk/ordchr.so
+libtool: install: build-aux/install-sh -c .libs/ordchr.lai /tools/lib/gawk/ordchr.la
+libtool: install: build-aux/install-sh -c .libs/readdir.so /tools/lib/gawk/readdir.so
+libtool: install: build-aux/install-sh -c .libs/readdir.lai /tools/lib/gawk/readdir.la
+libtool: install: build-aux/install-sh -c .libs/readfile.so /tools/lib/gawk/readfile.so
+libtool: install: build-aux/install-sh -c .libs/readfile.lai /tools/lib/gawk/readfile.la
+libtool: install: build-aux/install-sh -c .libs/revoutput.so /tools/lib/gawk/revoutput.so
+libtool: install: build-aux/install-sh -c .libs/revoutput.lai /tools/lib/gawk/revoutput.la
+libtool: install: build-aux/install-sh -c .libs/revtwoway.so /tools/lib/gawk/revtwoway.so
+libtool: install: build-aux/install-sh -c .libs/revtwoway.lai /tools/lib/gawk/revtwoway.la
+libtool: install: build-aux/install-sh -c .libs/rwarray.so /tools/lib/gawk/rwarray.so
+libtool: install: build-aux/install-sh -c .libs/rwarray.lai /tools/lib/gawk/rwarray.la
+libtool: install: build-aux/install-sh -c .libs/testext.so /tools/lib/gawk/testext.so
+libtool: install: build-aux/install-sh -c .libs/testext.lai /tools/lib/gawk/testext.la
+libtool: install: build-aux/install-sh -c .libs/time.so /tools/lib/gawk/time.so
+libtool: install: build-aux/install-sh -c .libs/time.lai /tools/lib/gawk/time.la
+libtool: finish: PATH="/tools/bin:/bin:/usr/bin:/sbin" ldconfig -n /tools/lib/gawk
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tools/lib/gawk
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/extension'
+make[2]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/extension'
+make[1]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/extension'
+Making install in test
+make[1]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/test'
+make[2]: Entering directory `/mnt/lfs/sources/gawk-4.1.0/test'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/test'
+make[1]: Leaving directory `/mnt/lfs/sources/gawk-4.1.0/test'

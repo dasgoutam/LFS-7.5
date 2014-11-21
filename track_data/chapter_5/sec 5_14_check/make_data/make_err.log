@@ -1,0 +1,40 @@
+.libs/check_msg.o: In function `open_tmp_file':
+/mnt/lfs/sources/check-0.9.12/src/check_msg.c:221: warning: the use of `tempnam' is dangerous, better use `mkstemp'
+check_mem_leaks.c: In function 'main':
+check_mem_leaks.c:27:5: warning: passing argument 1 of 'srunner_create' makes pointer from integer without a cast [enabled by default]
+     sr = srunner_create(make_sub_suite());
+     ^
+In file included from check_mem_leaks.c:11:0:
+../src/check.h:417:32: note: expected 'struct Suite *' but argument is of type 'int'
+ CK_DLL_EXP SRunner * CK_EXPORT srunner_create (Suite *s);
+                                ^
+check_mem_leaks.c:43:5: warning: passing argument 1 of 'srunner_create' makes pointer from integer without a cast [enabled by default]
+     sr = srunner_create (make_log_suite());
+     ^
+In file included from check_mem_leaks.c:11:0:
+../src/check.h:417:32: note: expected 'struct Suite *' but argument is of type 'int'
+ CK_DLL_EXP SRunner * CK_EXPORT srunner_create (Suite *s);
+                                ^
+check_mem_leaks.c:44:5: warning: passing argument 2 of 'srunner_add_suite' makes pointer from integer without a cast [enabled by default]
+     srunner_add_suite(sr, make_fork_suite());
+     ^
+In file included from check_mem_leaks.c:11:0:
+../src/check.h:420:27: note: expected 'struct Suite *' but argument is of type 'int'
+ CK_DLL_EXP void CK_EXPORT srunner_add_suite (SRunner *sr, Suite *s);
+                           ^
+check_mem_leaks.c:47:5: warning: passing argument 2 of 'srunner_add_suite' makes pointer from integer without a cast [enabled by default]
+     srunner_add_suite(sr, make_exit_suite());
+     ^
+In file included from check_mem_leaks.c:11:0:
+../src/check.h:420:27: note: expected 'struct Suite *' but argument is of type 'int'
+ CK_DLL_EXP void CK_EXPORT srunner_add_suite (SRunner *sr, Suite *s);
+                           ^
+check_mem_leaks.c:50:5: warning: passing argument 2 of 'srunner_add_suite' makes pointer from integer without a cast [enabled by default]
+     srunner_add_suite(sr, make_selective_suite());
+     ^
+In file included from check_mem_leaks.c:11:0:
+../src/check.h:420:27: note: expected 'struct Suite *' but argument is of type 'int'
+ CK_DLL_EXP void CK_EXPORT srunner_add_suite (SRunner *sr, Suite *s);
+                           ^
+../src/.libs/libcheckinternal.a(check_msg.o): In function `open_tmp_file':
+/mnt/lfs/sources/check-0.9.12/src/check_msg.c:221: warning: the use of `tempnam' is dangerous, better use `mkstemp'

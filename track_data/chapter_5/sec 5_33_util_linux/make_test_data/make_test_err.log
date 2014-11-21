@@ -1,0 +1,19 @@
+tests/helpers/test_sysinfo.c: In function 'hlp_wordsize':
+tests/helpers/test_sysinfo.c:30:2: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+  printf("%lu\n", CHAR_BIT * sizeof(void*));
+  ^
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+cal: illegal year value: '1234567890123456789': Numerical result out of range
+make[3]: *** [check-local-tests] Error 1
+make[2]: *** [check-am] Error 2
+make[1]: *** [check-recursive] Error 1
+make: *** [check] Error 2

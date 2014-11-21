@@ -1,0 +1,17 @@
+In function 'mainSort':
+blocksort.c:347:6: warning: inlining failed in call to 'mainGtU.part.0': call is unlikely and code size would grow [-Winline]
+ Bool mainGtU ( UInt32  i1, 
+      ^
+cc1: warning: called from here [-Winline]
+blocksort.c:347:6: warning: inlining failed in call to 'mainGtU.part.0': call is unlikely and code size would grow [-Winline]
+ Bool mainGtU ( UInt32  i1, 
+      ^
+cc1: warning: called from here [-Winline]
+blocksort.c:347:6: warning: inlining failed in call to 'mainGtU.part.0': call is unlikely and code size would grow [-Winline]
+ Bool mainGtU ( UInt32  i1, 
+      ^
+cc1: warning: called from here [-Winline]
+bzip2.c: In function 'testStream':
+bzip2.c:557:37: warning: variable 'nread' set but not used [-Wunused-but-set-variable]
+    Int32   bzerr, bzerr_dummy, ret, nread, streamNo, i;
+                                     ^

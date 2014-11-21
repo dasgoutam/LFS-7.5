@@ -1,0 +1,15 @@
+gunzip:	 50.3%
+gzexe:	 60.5%
+zcat:	 49.1%
+zcmp:	 48.5%
+zdiff:	 66.6%
+zegrep:	 26.0%
+zfgrep:	 26.0%
+zforce:	 48.2%
+zgrep:	 60.0%
+zless:	 46.8%
+zmore:	 49.1%
+znew:	 59.2%
+./ChangeLog:	 67.7%
+./configure:	 81.6%
+./gzip.c:	 71.8%

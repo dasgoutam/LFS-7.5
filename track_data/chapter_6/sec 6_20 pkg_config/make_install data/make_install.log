@@ -1,0 +1,62 @@
+Making install in glib
+make[1]: Entering directory '/sources/pkg-config-0.28/glib'
+Making install in .
+make[2]: Entering directory '/sources/pkg-config-0.28/glib'
+make[3]: Entering directory '/sources/pkg-config-0.28/glib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/pkg-config-0.28/glib'
+make[2]: Leaving directory '/sources/pkg-config-0.28/glib'
+Making install in m4macros
+make[2]: Entering directory '/sources/pkg-config-0.28/glib/m4macros'
+make[3]: Entering directory '/sources/pkg-config-0.28/glib/m4macros'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/pkg-config-0.28/glib/m4macros'
+make[2]: Leaving directory '/sources/pkg-config-0.28/glib/m4macros'
+Making install in glib
+make[2]: Entering directory '/sources/pkg-config-0.28/glib/glib'
+make  install-recursive
+make[3]: Entering directory '/sources/pkg-config-0.28/glib/glib'
+Making install in libcharset
+make[4]: Entering directory '/sources/pkg-config-0.28/glib/glib/libcharset'
+make[5]: Entering directory '/sources/pkg-config-0.28/glib/glib/libcharset'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/pkg-config-0.28/glib/glib/libcharset'
+make[4]: Leaving directory '/sources/pkg-config-0.28/glib/glib/libcharset'
+Making install in .
+make[4]: Entering directory '/sources/pkg-config-0.28/glib/glib'
+make[5]: Entering directory '/sources/pkg-config-0.28/glib/glib'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/pkg-config-0.28/glib/glib'
+make[4]: Leaving directory '/sources/pkg-config-0.28/glib/glib'
+make[3]: Leaving directory '/sources/pkg-config-0.28/glib/glib'
+make[2]: Leaving directory '/sources/pkg-config-0.28/glib/glib'
+make[1]: Leaving directory '/sources/pkg-config-0.28/glib'
+Making install in .
+make[1]: Entering directory '/sources/pkg-config-0.28'
+make[2]: Entering directory '/sources/pkg-config-0.28'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /tools/bin/install -c pkg-config '/usr/bin'
+libtool: install: /tools/bin/install -c pkg-config /usr/bin/pkg-config
+make  install-exec-hook
+make[3]: Entering directory '/sources/pkg-config-0.28'
+make[3]: Nothing to be done for 'install-exec-hook'.
+make[3]: Leaving directory '/sources/pkg-config-0.28'
+ /tools/bin/mkdir -p '/usr/share/doc/pkg-config-0.28'
+ /tools/bin/install -c -m 644 pkg-config-guide.html '/usr/share/doc/pkg-config-0.28'
+ /tools/bin/mkdir -p '/usr/share/aclocal'
+ /tools/bin/install -c -m 644 pkg.m4 '/usr/share/aclocal'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /tools/bin/install -c -m 644 pkg-config.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/pkg-config-0.28'
+make[1]: Leaving directory '/sources/pkg-config-0.28'
+Making install in check
+make[1]: Entering directory '/sources/pkg-config-0.28/check'
+make[2]: Entering directory '/sources/pkg-config-0.28/check'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/pkg-config-0.28/check'
+make[1]: Leaving directory '/sources/pkg-config-0.28/check'

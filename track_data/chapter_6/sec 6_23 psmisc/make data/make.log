@@ -1,0 +1,52 @@
+make  all-recursive
+make[1]: Entering directory '/sources/psmisc-22.20'
+Making all in doc
+make[2]: Entering directory '/sources/psmisc-22.20/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-22.20/doc'
+Making all in src
+make[2]: Entering directory '/sources/psmisc-22.20/src'
+export LC_ALL=C ; \
+	gcc -E -dM signames.c |\
+	tr -s '\t ' ' ' | sort -n -k 3 | sed \
+'s:#define SIG\([A-Z][A-Z]*[0-9]*\) \([0-9][0-9]*\).*:{\ \2,"\1" },:p;d' | \
+	  grep -v '[0-9][0-9][0-9]' >signames.h || \
+	  { rm -f signames.h; exit 1; }
+grep '^{ 1,"HUP" },$' signames.h >/dev/null || \
+	  { rm -f signames.h; exit 1; }
+make  all-am
+make[3]: Entering directory '/sources/psmisc-22.20/src'
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2 -MT killall.o -MD -MP -MF .deps/killall.Tpo -c -o killall.o killall.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2 -MT signals.o -MD -MP -MF .deps/signals.Tpo -c -o signals.o signals.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2 -MT pstree.o -MD -MP -MF .deps/pstree.Tpo -c -o pstree.o pstree.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2 -MT prtstat.o -MD -MP -MF .deps/prtstat.Tpo -c -o prtstat.o prtstat.c
+mv -f .deps/signals.Tpo .deps/signals.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2 -MT fuser.o -MD -MP -MF .deps/fuser.Tpo -c -o fuser.o fuser.c
+mv -f .deps/prtstat.Tpo .deps/prtstat.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2 -MT peekfd.o -MD -MP -MF .deps/peekfd.Tpo -c -o peekfd.o peekfd.c
+mv -f .deps/peekfd.Tpo .deps/peekfd.Po
+gcc -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2   -o prtstat prtstat.o  
+mv -f .deps/killall.Tpo .deps/killall.Po
+gcc -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2   -o peekfd peekfd.o  
+gcc -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2   -o killall killall.o signals.o  
+mv -f .deps/pstree.Tpo .deps/pstree.Po
+gcc -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2   -o pstree pstree.o -lncurses  
+mv -f .deps/fuser.Tpo .deps/fuser.Po
+gcc -Wall -DLOCALEDIR=\"/usr/share/locale\" -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -DI386     -g -O2   -o fuser fuser.o signals.o   
+make[3]: Leaving directory '/sources/psmisc-22.20/src'
+make[2]: Leaving directory '/sources/psmisc-22.20/src'
+Making all in po
+make[2]: Entering directory '/sources/psmisc-22.20/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-22.20/po'
+Making all in icons
+make[2]: Entering directory '/sources/psmisc-22.20/icons'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-22.20/icons'
+Making all in testsuite
+make[2]: Entering directory '/sources/psmisc-22.20/testsuite'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-22.20/testsuite'
+make[2]: Entering directory '/sources/psmisc-22.20'
+make[2]: Leaving directory '/sources/psmisc-22.20'
+make[1]: Leaving directory '/sources/psmisc-22.20'

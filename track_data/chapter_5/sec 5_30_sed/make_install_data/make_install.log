@@ -1,0 +1,123 @@
+Making install in lib
+make[1]: Entering directory '/mnt/lfs/sources/sed-4.2.2/lib'
+make  install-recursive
+make[2]: Entering directory '/mnt/lfs/sources/sed-4.2.2/lib'
+make[3]: Entering directory '/mnt/lfs/sources/sed-4.2.2/lib'
+make[4]: Entering directory '/mnt/lfs/sources/sed-4.2.2/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /mnt/lfs/sources/sed-4.2.2/build-aux/install-sh -d /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /tools/lib/charset.tmp ; \
+    /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/lib'
+make[3]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/lib'
+make[2]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/lib'
+make[1]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/lib'
+Making install in po
+make[1]: Entering directory '/mnt/lfs/sources/sed-4.2.2/po'
+/tools/bin/mkdir -p /tools/share
+installing af.gmo as /tools/share/locale/af/LC_MESSAGES/sed.mo
+installing ast.gmo as /tools/share/locale/ast/LC_MESSAGES/sed.mo
+installing ca.gmo as /tools/share/locale/ca/LC_MESSAGES/sed.mo
+installing cs.gmo as /tools/share/locale/cs/LC_MESSAGES/sed.mo
+installing da.gmo as /tools/share/locale/da/LC_MESSAGES/sed.mo
+installing de.gmo as /tools/share/locale/de/LC_MESSAGES/sed.mo
+installing el.gmo as /tools/share/locale/el/LC_MESSAGES/sed.mo
+installing eo.gmo as /tools/share/locale/eo/LC_MESSAGES/sed.mo
+installing es.gmo as /tools/share/locale/es/LC_MESSAGES/sed.mo
+installing et.gmo as /tools/share/locale/et/LC_MESSAGES/sed.mo
+installing eu.gmo as /tools/share/locale/eu/LC_MESSAGES/sed.mo
+installing fi.gmo as /tools/share/locale/fi/LC_MESSAGES/sed.mo
+installing fr.gmo as /tools/share/locale/fr/LC_MESSAGES/sed.mo
+installing ga.gmo as /tools/share/locale/ga/LC_MESSAGES/sed.mo
+installing gl.gmo as /tools/share/locale/gl/LC_MESSAGES/sed.mo
+installing he.gmo as /tools/share/locale/he/LC_MESSAGES/sed.mo
+installing hr.gmo as /tools/share/locale/hr/LC_MESSAGES/sed.mo
+installing hu.gmo as /tools/share/locale/hu/LC_MESSAGES/sed.mo
+installing id.gmo as /tools/share/locale/id/LC_MESSAGES/sed.mo
+installing it.gmo as /tools/share/locale/it/LC_MESSAGES/sed.mo
+installing ja.gmo as /tools/share/locale/ja/LC_MESSAGES/sed.mo
+installing ko.gmo as /tools/share/locale/ko/LC_MESSAGES/sed.mo
+installing nb.gmo as /tools/share/locale/nb/LC_MESSAGES/sed.mo
+installing nl.gmo as /tools/share/locale/nl/LC_MESSAGES/sed.mo
+installing pl.gmo as /tools/share/locale/pl/LC_MESSAGES/sed.mo
+installing pt.gmo as /tools/share/locale/pt/LC_MESSAGES/sed.mo
+installing pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/sed.mo
+installing ro.gmo as /tools/share/locale/ro/LC_MESSAGES/sed.mo
+installing ru.gmo as /tools/share/locale/ru/LC_MESSAGES/sed.mo
+installing sk.gmo as /tools/share/locale/sk/LC_MESSAGES/sed.mo
+installing sl.gmo as /tools/share/locale/sl/LC_MESSAGES/sed.mo
+installing sr.gmo as /tools/share/locale/sr/LC_MESSAGES/sed.mo
+installing sv.gmo as /tools/share/locale/sv/LC_MESSAGES/sed.mo
+installing tr.gmo as /tools/share/locale/tr/LC_MESSAGES/sed.mo
+installing uk.gmo as /tools/share/locale/uk/LC_MESSAGES/sed.mo
+installing vi.gmo as /tools/share/locale/vi/LC_MESSAGES/sed.mo
+installing zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/sed.mo
+installing zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/sed.mo
+if test "sed" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ./$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/po'
+Making install in sed
+make[1]: Entering directory '/mnt/lfs/sources/sed-4.2.2/sed'
+make[2]: Entering directory '/mnt/lfs/sources/sed-4.2.2/sed'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c sed '/tools/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/sed'
+make[1]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/sed'
+Making install in doc
+make[1]: Entering directory '/mnt/lfs/sources/sed-4.2.2/doc'
+make[2]: Entering directory '/mnt/lfs/sources/sed-4.2.2/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/info'
+ /tools/bin/install -c -m 644 ./sed.info '/tools/share/info'
+ install-info --info-dir='/tools/share/info' '/tools/share/info/sed.info'
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 sed.1 '/tools/share/man/man1'
+make[2]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/doc'
+make[1]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/doc'
+Making install in testsuite
+make[1]: Entering directory '/mnt/lfs/sources/sed-4.2.2/testsuite'
+make[2]: Entering directory '/mnt/lfs/sources/sed-4.2.2/testsuite'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/testsuite'
+make[1]: Leaving directory '/mnt/lfs/sources/sed-4.2.2/testsuite'
+make[1]: Entering directory '/mnt/lfs/sources/sed-4.2.2'
+make[2]: Entering directory '/mnt/lfs/sources/sed-4.2.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/sed-4.2.2'
+make[1]: Leaving directory '/mnt/lfs/sources/sed-4.2.2'

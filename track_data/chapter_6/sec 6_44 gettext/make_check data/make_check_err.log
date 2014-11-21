@@ -1,0 +1,8 @@
+In file included from test-strtol.c:28:0:
+test-strtol.c: In function 'main':
+test-strtol.c:175:32: warning: integer overflow in expression [-Woverflow]
+       ASSERT (result == 65535L * 65537L);
+                                ^
+macros.h:49:13: note: in definition of macro 'ASSERT'
+       if (!(expr))                                                           \
+             ^
